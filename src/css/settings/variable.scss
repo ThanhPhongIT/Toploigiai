@@ -1,6 +1,6 @@
 html {
     font-family: 'Livvic', sans-serif;
-    background-color: #E5E5E5;
+    background-color: #E5E5E5 !important;
 }
 
 a {
@@ -27,4 +27,8 @@ button {
 .p-20 {
     padding-top: 20px;
     ;
+}
+
+.bt__grey {
+    border-top: 3px solid #E5E5E5;
 }

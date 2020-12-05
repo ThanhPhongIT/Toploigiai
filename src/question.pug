@@ -1,2 +1,18 @@
 extends master.pug
 block content
+    .container-fluid.bt__grey.pt-2
+        .row
+            .col-2
+                include ./pages/question/sidebar.pug
+            .col-8
+                #v-pills-tabContent.tab-content
+                    #v-pills-all.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='v-pills-home-tab')
+                        include ./pages/question/question-content.pug
+                    #v-pills-toan.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-profile-tab')
+                        include ./pages/question/question-content.pug
+                    #v-pills-ly.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-messages-tab')
+                        include ./pages/question/question-content.pug
+                    #v-pills-hoa.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-settings-tab')
+                        include ./pages/question/question-content.pug
+            .col-2
+                include ./pages/question/top-user.pug

@@ -1,0 +1,48 @@
+.top-user {
+    .user-title {
+        p {
+            font-family: Livvic;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            color: #0C0B0B;
+            padding-bottom: 20px;
+        }
+    }
+    .list-users {
+        .user {
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .infor {
+                display: flex;
+                align-items: center;
+                a {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    color: #000000;
+                    padding-left: 10px;
+                }
+            }
+            .point {
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
