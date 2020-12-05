@@ -120,6 +120,9 @@ button {
 .bt__grey {
   border-top: 3px solid #E5E5E5; }
 
+.container-fluid {
+  width: 80% !important; }
+
 .hot__news h3 {
   padding-top: 70px;
   padding-bottom: 68px; }
