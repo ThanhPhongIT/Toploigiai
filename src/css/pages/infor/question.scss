@@ -1,0 +1,109 @@
+.user-question {
+    min-height: 120vh;
+    .question-heading {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 38px;
+        /* identical to box height */
+        color: #32312F;
+        padding: 50px 0 50px 20px;
+    }
+    .question-content {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 13px;
+        padding: 20px;
+        .cauhoi {
+            border-bottom: 0.5px solid #A7A7A7;
+            padding-bottom: 40px;
+            .stt {
+                display: flex;
+                align-items: center;
+                span {
+                    padding-right: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 30px;
+                    /* or 167% */
+                    display: flex;
+                    align-items: center;
+                    color: #0C0B0B;
+                }
+                p {
+                    font-style: italic;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 30px;
+                    /* or 167% */
+                    display: flex;
+                    align-items: center;
+                    color: #1972C5;
+                }
+            }
+            .debai {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 30px;
+                color: #0C0B0B;
+            }
+        }
+        .traloi {
+            .title {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 30px;
+                /* or 167% */
+                display: flex;
+                align-items: center;
+                color: #0C0B0B;
+            }
+            .infor-answer {
+                display: flex;
+                align-items: center;
+                img {
+                    margin-right: 20px;
+                }
+                span {
+                    font-style: italic;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 30px;
+                    /* or 167% */
+                    display: flex;
+                    align-items: center;
+                    color: #151515;
+                }
+            }
+            .answer-detail {
+                p {
+                    font-family: Arial;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 30px;
+                    /* or 200% */
+                    display: flex;
+                    align-items: center;
+                    color: #151515;
+                }
+            }
+            .rate {
+                font-family: Arial;
+                font-style: italic;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 30px;
+                /* or 200% */
+                display: flex;
+                align-items: center;
+                color: #151515;
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+        }
+    }
+}

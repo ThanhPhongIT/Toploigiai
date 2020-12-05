@@ -1,0 +1,45 @@
+.noti {
+    min-height: 120vh;
+    .noti-heading {
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 38px;
+        /* identical to box height */
+        color: #32312F;
+        padding: 50px 20px;
+    }
+    .noti-list {
+        .noti-item {
+            padding: 20px 0;
+            .center {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 !important;
+            }
+            .noti-content {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 30px;
+                /* or 200% */
+                display: flex;
+                align-items: center;
+                color: #0C0B0B;
+            }
+            .noti-date {
+                font-style: italic;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 30px;
+                /* or 167% */
+                display: flex;
+                align-items: center;
+                color: #0C0B0B;
+            }
+        }
+        .active {
+            background: #E7E7E7;
+        }
+    }
+}
