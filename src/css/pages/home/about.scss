@@ -21,13 +21,14 @@
                 background: #0094AE;
                 border-radius: 7px;
                 font-weight: 400;
-                padding: 5px 20px;
+                padding: 10px 25px;
             }
         }
         .about-item-content {
-            paddi img {}
+            img {}
             ul.list-hoidap {
                 li {
+                    margin-bottom: 30px;
                     p {
                         font-size: 16px;
                         font-weight: 500;
@@ -41,8 +42,15 @@
                     }
                     div {
                         a {}
+                        img {
+                            margin-left: 5px;
+                        }
                     }
                 }
+            }
+            .see-more {
+                float: right;
+                color: #E29000;
             }
         }
     }

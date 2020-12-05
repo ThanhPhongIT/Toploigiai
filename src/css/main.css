@@ -120,6 +120,9 @@ button {
 .bt__grey {
   border-top: 3px solid #E5E5E5; }
 
+.w-90 {
+  width: 90% !important; }
+
 .hot__news h3 {
   padding-top: 70px;
   padding-bottom: 68px; }
@@ -233,17 +236,24 @@ button {
       background: #0094AE;
       border-radius: 7px;
       font-weight: 400;
-      padding: 5px 20px; }
-  .about .about-item .about-item-content ul.list-hoidap li p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    -webkit-line-clamp: 3;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 10px; }
+      padding: 10px 25px; }
+  .about .about-item .about-item-content ul.list-hoidap li {
+    margin-bottom: 30px; }
+    .about .about-item .about-item-content ul.list-hoidap li p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      -webkit-line-clamp: 3;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 10px; }
+    .about .about-item .about-item-content ul.list-hoidap li div img {
+      margin-left: 5px; }
+  .about .about-item .about-item-content .see-more {
+    float: right;
+    color: #E29000; }
 
 .title-category {
   font-family: Livvic;
