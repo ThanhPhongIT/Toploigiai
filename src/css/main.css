@@ -121,6 +121,53 @@ button {
   padding-top: 70px;
   padding-bottom: 68px; }
 
+.class-select {
+  background-color: #1972C5;
+  padding-bottom: 70px;
+  position: relative; }
+  .class-select::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    width: 70px;
+    height: 70px;
+    background-color: #1972C5;
+    transform: rotate(45deg) translateX(-50%);
+    clear: both; }
+  .class-select h3 {
+    padding-top: 70px;
+    padding-bottom: 70px; }
+  .class-select .list-class {
+    padding-left: 27px;
+    padding-right: 27px; }
+    .class-select .list-class .class-item {
+      font-family: Livvic;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      text-align: center;
+      letter-spacing: 0em;
+      background: #1972C5; }
+      .class-select .list-class .class-item:nth-child(-n+5) {
+        margin-bottom: 20px; }
+      .class-select .list-class .class-item div {
+        border-radius: 17px;
+        padding: 10px 15px;
+        background-color: #1972C5;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.3s ease; }
+        .class-select .list-class .class-item div:hover {
+          background-color: #fff;
+          color: #000; }
+      .class-select .list-class .class-item .active {
+        background-color: #fff !important;
+        color: #000 !important; }
+
+.category {
+  padding-top: 70px; }
+
 .title-category {
   font-family: Livvic;
   font-size: 30px;

@@ -1,0 +1,52 @@
+.class-select {
+    background-color: #1972C5;
+    padding-bottom: 70px;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -60px;
+        width: 70px;
+        height: 70px;
+        background-color: #1972C5;
+        transform: rotate(45deg) translateX(-50%);
+        clear: both;
+    }
+    h3 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .list-class {
+        padding-left: 27px;
+        padding-right: 27px;
+        .class-item {
+            font-family: Livvic;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            text-align: center;
+            letter-spacing: 0em;
+            background: #1972C5;
+            &:nth-child(-n+5) {
+                margin-bottom: 20px;
+            }
+            div {
+                border-radius: 17px;
+                padding: 10px 15px;
+                background-color: #1972C5;
+                color: #fff;
+                cursor: pointer;
+                transition: 0.3s ease;
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+            .active {
+                background-color: #fff !important;
+                color: #000!important;
+            }
+        }
+    }
+}
