@@ -1,6 +1,8 @@
 extends master.pug
+block header
+   include ./layouts/header.pug
 block content
-    .container-fluid.bt__grey.pt-2
+    .container-fluid.bt__grey.pt-2.w-90
         .row
             .col-2
                 include ./pages/question/sidebar.pug
@@ -16,3 +18,5 @@ block content
                         include ./pages/question/question-content.pug
             .col-2
                 include ./pages/question/top-user.pug
+block footer
+      include ./layouts/footer.pug
