@@ -173,6 +173,87 @@ button {
 
 .category {
   padding-top: 70px; }
+  .category h3 {
+    margin-bottom: 70px; }
+  .category .subjects {
+    padding: 0 25px; }
+    .category .subjects .subjects-item {
+      margin-bottom: 40px; }
+      .category .subjects .subjects-item .title-subject {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        margin-bottom: 30px; }
+        .category .subjects .subjects-item .title-subject::after {
+          display: block;
+          content: "";
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          height: 2px;
+          background: #E29000;
+          border-radius: 2.5px;
+          width: 193px; }
+        .category .subjects .subjects-item .title-subject img {
+          display: block;
+          margin-right: 20px; }
+        .category .subjects .subjects-item .title-subject h4 {
+          color: #E29000;
+          font-size: 20px;
+          text-transform: capitalize;
+          font-weight: 500; }
+      .category .subjects .subjects-item ul.list-book li {
+        display: flex;
+        margin-bottom: 20px; }
+        .category .subjects .subjects-item ul.list-book li img {
+          display: block;
+          margin-right: 2px; }
+        .category .subjects .subjects-item ul.list-book li h5 {
+          font-size: 18px;
+          color: #000;
+          font-weight: 500; }
+          .category .subjects .subjects-item ul.list-book li h5::first-letter {
+            text-transform: uppercase; }
+
+.about {
+  padding: 80px 0; }
+  .about .about-item .about-item-tittle {
+    position: relative;
+    margin-bottom: 15px; }
+    .about .about-item .about-item-tittle::after {
+      display: block;
+      content: '';
+      width: 100%;
+      height: 0.5px;
+      background-color: #0094AE;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+    .about .about-item .about-item-tittle h5 {
+      display: inline-block;
+      color: #fff;
+      background: #0094AE;
+      border-radius: 7px;
+      font-weight: 400;
+      padding: 10px 25px; }
+  .about .about-item .about-item-content ul.list-hoidap li {
+    margin-bottom: 30px; }
+    .about .about-item .about-item-content ul.list-hoidap li p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      -webkit-line-clamp: 3;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 10px; }
+    .about .about-item .about-item-content ul.list-hoidap li div img {
+      margin-left: 5px; }
+  .about .about-item .about-item-content .see-more {
+    float: right;
+    color: #E29000; }
 
 .title-category {
   font-family: Livvic;
