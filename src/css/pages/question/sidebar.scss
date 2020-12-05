@@ -1,0 +1,22 @@
+.nav-question {
+    .nav-link {
+        font-family: Livvic;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 31px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .active {
+        background: #EE6217 !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 31px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+}

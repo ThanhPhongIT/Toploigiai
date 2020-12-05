@@ -1,0 +1,41 @@
+//- ****************************  MODAL TẠO CÂU HỎI
+
+
+#create-question.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalCenterTitle' aria-hidden='true')
+  .modal-dialog.modal-dialog-centered(role='document').modal-lg.modal_create
+    .modal-content
+      .modal-body
+        .heading Đặt câu hỏi
+        .modal-q-content
+            .select
+                select#class(name='class')
+                    option(value="" disabled selected) -- Chọn lớp --
+                    option(value='1') Lớp 1
+                    option(value='2') Lớp 2
+                    option(value='3') Lớp 3
+                    option(value='4') Lớp 4
+                    option(value='5') Lớp 5
+                    option(value='6') Lớp 6
+                    option(value='7') Lớp 7
+                    option(value='8') Lớp 8
+                    option(value='9') Lớp 9
+                    option(value='10') Lớp 10
+                    option(value='11') Lớp 11
+                    option(value='12') Lớp 12
+                select#class(name='class')
+                    option(value="" disabled selected) -- Chọn môn --
+                    option(value='1') Toán
+                    option(value='2') Vật lý
+                    option(value='3') Hóa Học
+                    option(value='4') Ngữ văn
+            .enter-q
+                input(type="text" placeholder="Nhập câu hỏi")
+            .icons
+                a(href="")
+                    img(src="../images/icons/pi.svg", alt="")
+                a(href="")
+                    img(src="../images/icons/om.svg", alt="")
+                a(href="")
+                    img(src="../images/icons/ghim.svg", alt="")
+            .send
+                button Gửi câu hỏi

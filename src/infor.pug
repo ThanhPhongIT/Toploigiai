@@ -1,2 +1,11 @@
 extends master.pug
+block header
+   include ./layouts/header-login.pug
 block content
+    .container-fluid.w-80.d-flex.justify-content-center
+        .row
+            .col-3
+            .col-6
+            .col-3
+block footer
+      include ./layouts/footer.pug

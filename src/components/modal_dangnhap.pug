@@ -1,0 +1,62 @@
+#dangnhap.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalCenterTitle' aria-hidden='true')
+  .modal-dialog.modal-dialog-centered(role='document').modal-lg.modal_dangnhap
+    .modal-content
+      .modal-body
+        .row
+            .col-5
+                img(src="../images/components/dangnhap.png", alt="")
+            .col-7
+                .content
+                    ul#pills-tab.nav.nav-pills.mb-3(role='tablist')
+                        li.nav-item
+                            a#pills-home-tab.nav-link.active(data-toggle='tab' href='#pills-home' role='tab' aria-controls='pills-home' aria-selected='true') Đăng nhập
+                        li.nav-item
+                            a#pills-profile-tab.nav-link(data-toggle='tab' href='#pills-profile' role='tab' aria-controls='pills-profile' aria-selected='false') Đăng kí
+                    #pills-tabContent.tab-content
+                        #pills-home.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='pills-home-tab')
+                            .dangnhap-content
+                                .email
+                                    span Email
+                                    input(type="text" placeholder="Nhập email")
+                                .pass
+                                    span Mật khẩu
+                                    input(type="text" placeholder="Nhập mật khẩu")
+                                .dn-bottom
+                                    .remember
+                                        input#remember(type='checkbox' name='remember' value='1')
+                                        label(for='remember')  Ghi nhớ đăng nhập
+                                    a(href="../infor.html").btn-dangnhap Đăng nhập
+                                    a(href="#").forgot  Quên mật khẩu?
+                                    p Hoặc
+                                    button.btn-face Đăng nhập bằng Facebook
+                                        i.fa.fa-facebook
+                        #pills-profile.tab-pane.fade(role='tabpanel' aria-labelledby='pills-profile-tab')
+                            .dangki-content
+                                .fullname
+                                    span Họ và tên
+                                    input(type="text" placeholder="Nhập họ và tên")
+                                .email
+                                    span Email
+                                    input(type="text" placeholder="Nhập email")
+                                .pass
+                                    span Mật khẩu
+                                    input(type="text" placeholder="Nhập mật khẩu")
+                                .pass
+                                    span 
+                                    input(type="text" placeholder="Nhập lại mật khẩu")
+                                .email
+                                    span Phone
+                                    input(type="text" placeholder="Nhập số điện thoại")
+                                .pass
+                                    span Lớp
+                                    input(type="text" placeholder="Nhập lớp")
+                                .dn-bottom
+                                    .remember
+                                        input#remember(type='checkbox' name='remember' value='1')
+                                        label(for='remember')  Đồng ý với các Điều khoản sử dụng và Chính sách bảo mật của website Toploigiai.com
+                                    button.btn-dangnhap Tạo tài khoản
+                                    p Hoặc
+                                    button.btn-face Đăng nhập bằng Facebook
+                                        i.fa.fa-facebook
+
+            
