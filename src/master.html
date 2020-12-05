@@ -23,8 +23,8 @@
             </div>
           </div>
           <div class="login d-flex align-items-center">
-            <button>Đăng nhập</button>
-            <button>Đăng kí</button>
+            <button data-toggle="modal" data-target="#dangnhap">Đăng nhập</button>
+            <button data-toggle="modal" data-target="#dangnhap">Đăng kí</button>
           </div>
         </div>
       </div>
@@ -169,6 +169,77 @@
             </div></a><a href="../question.html">
             <div class="header__question">Hỏi đáp</div></a><a href="../library.html">
             <div class="header__library">Thư viện</div></a></div>
+      </div>
+    </div>
+    <div class="modal fade" id="dangnhap" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg modal_dangnhap" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-5"><img src="../images/components/dangnhap.png" alt=""></div>
+              <div class="col-7">
+                <div class="content">
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item"><a class="nav-link active" id="pills-home-tab" data-toggle="tab" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Đăng nhập</a></li>
+                    <li class="nav-item"><a class="nav-link" id="pills-profile-tab" data-toggle="tab" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Đăng kí</a></li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                      <div class="dangnhap-content">
+                        <div class="email"><span>Email</span>
+                          <input type="text" placeholder="Nhập email">
+                        </div>
+                        <div class="pass"><span>Mật khẩu</span>
+                          <input type="text" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="dn-bottom">
+                          <div class="remember">
+                            <input id="remember" type="checkbox" name="remember" value="1">
+                            <label for="remember"> Ghi nhớ đăng nhập</label>
+                          </div>
+                          <button class="btn-dangnhap">Đăng nhập</button><a class="forgot" href="#"> Quên mật khẩu?</a>
+                          <p>Hoặc</p>
+                          <button class="btn-face">Đăng nhập bằng Facebook<i class="fa fa-facebook"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                      <div class="dangki-content">
+                        <div class="fullname"><span>Họ và tên</span>
+                          <input type="text" placeholder="Nhập họ và tên">
+                        </div>
+                        <div class="email"><span>Email</span>
+                          <input type="text" placeholder="Nhập email">
+                        </div>
+                        <div class="pass"><span>Mật khẩu</span>
+                          <input type="text" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="pass"><span> </span>
+                          <input type="text" placeholder="Nhập lại mật khẩu">
+                        </div>
+                        <div class="email"><span>Phone</span>
+                          <input type="text" placeholder="Nhập số điện thoại">
+                        </div>
+                        <div class="pass"><span>Lớp</span>
+                          <input type="text" placeholder="Nhập lớp">
+                        </div>
+                        <div class="dn-bottom">
+                          <div class="remember">
+                            <input id="remember" type="checkbox" name="remember" value="1">
+                            <label for="remember"> Đồng ý với các Điều khoản sử dụng và Chính sách bảo mật của website Toploigiai.com</label>
+                          </div>
+                          <button class="btn-dangnhap">Tạo tài khoản</button>
+                          <p>Hoặc</p>
+                          <button class="btn-face">Đăng nhập bằng Facebook<i class="fa fa-facebook"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="footer">

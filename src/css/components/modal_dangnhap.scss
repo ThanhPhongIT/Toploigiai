@@ -1,0 +1,248 @@
+.modal_dangnhap {
+    .modal-content {
+        background: #FFFFFF;
+        border-radius: 42px !important;
+    }
+    .modal-body {
+        padding: 0 !important;
+    }
+    .col-5 {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .col-7 {
+        .content {
+            padding-left: 0;
+            padding-right: 30px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            .nav {
+                .nav-item {
+                    .nav-link {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 30px;
+                        line-height: 40px;
+                        /* or 133% */
+                        display: flex;
+                        align-items: center;
+                        color: #7B7B7B;
+                        border-radius: 0;
+                        border-bottom: 1px solid #ccc;
+                    }
+                    .active {
+                        background-color: transparent;
+                        border-bottom: 3px solid #000;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 30px;
+                        line-height: 40px;
+                        /* or 133% */
+                        display: flex;
+                        align-items: center;
+                        color: #0C0B0B;
+                    }
+                }
+            }
+            .tab-content {
+                .dangnhap-content {
+                    padding-top: 50px;
+                    .email,
+                    .pass {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding-bottom: 25px;
+                        span {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 22px;
+                            line-height: 40px;
+                            color: #0C0B0B;
+                        }
+                        input {
+                            border: 0.5px solid #000000;
+                            box-sizing: border-box;
+                            border-radius: 6px;
+                            font-style: italic;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 40px;
+                            /* or 222% */
+                            display: flex;
+                            align-items: center;
+                            color: #7B7B7B;
+                            width: 320px;
+                            height: 42px;
+                            padding-left: 15px;
+                        }
+                    }
+                    .dn-bottom {
+                        padding-left: 100px;
+                        .remember {
+                            font-style: italic;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 40px;
+                            /* or 222% */
+                            display: flex;
+                            align-items: center;
+                            color: #7B7B7B;
+                        }
+                        .btn-dangnhap {
+                            width: 320px;
+                            height: 42px;
+                            background: #0C0B0B;
+                            border-radius: 9px;
+                            font-family: Livvic;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 22px;
+                            line-height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #FFFFFF;
+                            margin: 10px 0;
+                        }
+                        .forgot {
+                            font-family: Livvic;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 40px;
+                            /* or 222% */
+                            display: flex;
+                            align-items: center;
+                            text-decoration-line: underline;
+                            color: #0C0C0C;
+                        }
+                        p {
+                            font-family: Livvic;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 22px;
+                            line-height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #4C4C4C;
+                            text-align: center;
+                            width: 100%;
+                            margin-bottom: 15px;
+                        }
+                    }
+                    .btn-face {
+                        width: 320px;
+                        height: 42px;
+                        background: #6081C4;
+                        border-radius: 9px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 20px;
+                        line-height: 40px;
+                        /* or 200% */
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #FFFFFF;
+                    }
+                }
+                .dangki-content {
+                    .fullname,
+                    .email,
+                    .pass {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding-bottom: 25px;
+                        span {
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 22px;
+                            line-height: 40px;
+                            color: #0C0B0B;
+                        }
+                        input {
+                            border: 0.5px solid #000000;
+                            box-sizing: border-box;
+                            border-radius: 6px;
+                            font-style: italic;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 40px;
+                            /* or 222% */
+                            display: flex;
+                            align-items: center;
+                            color: #7B7B7B;
+                            width: 320px;
+                            height: 42px;
+                            padding-left: 15px;
+                        }
+                    }
+                    .dn-bottom {
+                        padding-left: 100px;
+                        .remember {
+                            font-family: Arial;
+                            font-style: italic;
+                            font-weight: normal;
+                            font-size: 15px;
+                            line-height: 20px;
+                            /* or 133% */
+                            display: flex;
+                            align-items: center;
+                            color: #7B7B7B;
+                        }
+                        .btn-dangnhap {
+                            width: 320px;
+                            height: 42px;
+                            background: #0C0B0B;
+                            border-radius: 9px;
+                            font-family: Livvic;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 22px;
+                            line-height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #FFFFFF;
+                            margin: 10px 0;
+                        }
+                        p {
+                            font-family: Livvic;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 22px;
+                            line-height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #4C4C4C;
+                            text-align: center;
+                            width: 100%;
+                            margin-bottom: 15px;
+                        }
+                        .btn-face {
+                            width: 320px;
+                            height: 42px;
+                            background: #6081C4;
+                            border-radius: 9px;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 20px;
+                            line-height: 40px;
+                            /* or 200% */
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

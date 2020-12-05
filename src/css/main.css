@@ -108,6 +108,9 @@ input:focus,
 button:focus {
   outline: none; }
 
+button {
+  border: none; }
+
 .back__grey {
   background-color: #E5E5E5 !important; }
 
@@ -290,3 +293,223 @@ button:focus {
 
 .advertise__img {
   width: 100%; }
+
+.modal_dangnhap .modal-content {
+  background: #FFFFFF;
+  border-radius: 42px !important; }
+
+.modal_dangnhap .modal-body {
+  padding: 0 !important; }
+
+.modal_dangnhap .col-5 img {
+  width: 100%;
+  height: 100%; }
+
+.modal_dangnhap .col-7 .content {
+  padding-left: 0;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+  .modal_dangnhap .col-7 .content .nav .nav-item .nav-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+    color: #7B7B7B;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc; }
+  .modal_dangnhap .col-7 .content .nav .nav-item .active {
+    background-color: transparent;
+    border-bottom: 3px solid #000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+    color: #0C0B0B; }
+  .modal_dangnhap .col-7 .content .tab-content .dangnhap-content {
+    padding-top: 50px; }
+    .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .email,
+    .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .pass {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 25px; }
+      .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .email span,
+      .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .pass span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 40px;
+        color: #0C0B0B; }
+      .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .email input,
+      .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .pass input {
+        border: 0.5px solid #000000;
+        box-sizing: border-box;
+        border-radius: 6px;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 40px;
+        /* or 222% */
+        display: flex;
+        align-items: center;
+        color: #7B7B7B;
+        width: 320px;
+        height: 42px;
+        padding-left: 15px; }
+    .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .dn-bottom {
+      padding-left: 100px; }
+      .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .dn-bottom .remember {
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 40px;
+        /* or 222% */
+        display: flex;
+        align-items: center;
+        color: #7B7B7B; }
+      .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .dn-bottom .btn-dangnhap {
+        width: 320px;
+        height: 42px;
+        background: #0C0B0B;
+        border-radius: 9px;
+        font-family: Livvic;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        margin: 10px 0; }
+      .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .dn-bottom .forgot {
+        font-family: Livvic;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 40px;
+        /* or 222% */
+        display: flex;
+        align-items: center;
+        text-decoration-line: underline;
+        color: #0C0C0C; }
+      .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .dn-bottom p {
+        font-family: Livvic;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #4C4C4C;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px; }
+    .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .btn-face {
+      width: 320px;
+      height: 42px;
+      background: #6081C4;
+      border-radius: 9px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 40px;
+      /* or 200% */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF; }
+  .modal_dangnhap .col-7 .content .tab-content .dangki-content .fullname,
+  .modal_dangnhap .col-7 .content .tab-content .dangki-content .email,
+  .modal_dangnhap .col-7 .content .tab-content .dangki-content .pass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px; }
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .fullname span,
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .email span,
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .pass span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 40px;
+      color: #0C0B0B; }
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .fullname input,
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .email input,
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .pass input {
+      border: 0.5px solid #000000;
+      box-sizing: border-box;
+      border-radius: 6px;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 40px;
+      /* or 222% */
+      display: flex;
+      align-items: center;
+      color: #7B7B7B;
+      width: 320px;
+      height: 42px;
+      padding-left: 15px; }
+  .modal_dangnhap .col-7 .content .tab-content .dangki-content .dn-bottom {
+    padding-left: 100px; }
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .dn-bottom .remember {
+      font-family: Arial;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 20px;
+      /* or 133% */
+      display: flex;
+      align-items: center;
+      color: #7B7B7B; }
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .dn-bottom .btn-dangnhap {
+      width: 320px;
+      height: 42px;
+      background: #0C0B0B;
+      border-radius: 9px;
+      font-family: Livvic;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      margin: 10px 0; }
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .dn-bottom p {
+      font-family: Livvic;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #4C4C4C;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 15px; }
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .dn-bottom .btn-face {
+      width: 320px;
+      height: 42px;
+      background: #6081C4;
+      border-radius: 9px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 40px;
+      /* or 200% */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF; }

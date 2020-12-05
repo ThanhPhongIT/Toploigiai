@@ -10,8 +10,8 @@
                     button
                         img(src="../images/icons/search.svg", alt="")
             .login.d-flex.align-items-center
-                button Đăng nhập
-                button Đăng kí
+                button(data-toggle="modal" data-target="#dangnhap") Đăng nhập
+                button(data-toggle="modal" data-target="#dangnhap") Đăng kí
 .header__class
     .container-fluid.back__white
     .container
@@ -119,4 +119,7 @@
                 .header__question Hỏi đáp
             a(href="../library.html")
                 .header__library Thư viện
-            
+
+//- Modal đăng nhập
+include ../components/modal_dangnhap.pug
+
