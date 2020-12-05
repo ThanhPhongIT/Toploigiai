@@ -583,27 +583,6 @@ button {
       font-size: 20px;
       line-height: 25px;
       color: #FFFFFF; }
-    .header__class .menu a .menu__second {
-      z-index: 100000;
-      width: 100%;
-      display: none;
-      position: absolute;
-      top: 35px;
-      left: 0;
-      padding: 50px 0px; }
-      .header__class .menu a .menu__second .second__content {
-        background: #FFFFFF;
-        box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25);
-        border-radius: 20px;
-        padding: 50px 56px; }
-        .header__class .menu a .menu__second .second__content .chuyenmuc li {
-          font-style: normal;
-          font-weight: 600;
-          font-size: 25px;
-          line-height: 40px;
-          display: flex;
-          align-items: center;
-          color: #000000; }
     .header__class .menu a:hover .menu__second {
       display: block; }
     .header__class .menu .header__question,
@@ -1073,3 +1052,25 @@ button {
         color: #FFFFFF;
         justify-content: center;
         text-transform: uppercase; }
+
+.menu__second {
+  z-index: 100000;
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  padding: 50px 0px; }
+  .menu__second .second__content {
+    background: #FFFFFF;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 50px 56px; }
+    .menu__second .second__content .chuyenmuc li {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      color: #000000; }
