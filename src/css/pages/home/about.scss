@@ -1,6 +1,7 @@
 .about {
-    padding: 80px 0;
+    padding: 80px 25px 0 25px;
     .about-item {
+        margin-bottom: 100px;
         .about-item-tittle {
             position: relative;
             margin-bottom: 15px;
@@ -15,23 +16,60 @@
                 left: 0;
                 right: 0;
             }
+            &.question::after {
+                background-color: #0094AE;
+            }
+            &.literature::after {
+                background-color: #E29000;
+            }
+            &.exam::after {
+                background-color: #1DBB90;
+            }
+            &.you-know::after {
+                background-color: #C73042;
+            }
+            &.news::after {
+                background-color: #E29000;
+            }
+            &.rank::after {
+                background-color: #0094AE;
+            }
             h5 {
+                &.question {
+                    background: #0094AE
+                }
+                &.literature {
+                    background: #E29000;
+                }
+                &.exam {
+                    background: #1DBB90;
+                }
+                &.you-know {
+                    background: #C73042;
+                }
+                &.news {
+                    background: #E29000;
+                }
+                &.rank {
+                    background: #0094AE;
+                }
                 display: inline-block;
                 color: #fff;
                 background: #0094AE;
                 border-radius: 7px;
                 font-weight: 400;
                 padding: 10px 25px;
+                font-size: 23px;
             }
         }
         .about-item-content {
             img {}
-            ul.list-hoidap {
+            ul.list-detail {
                 li {
                     margin-bottom: 30px;
+                    font-weight: 500;
                     p {
                         font-size: 16px;
-                        font-weight: 500;
                         line-height: 20px;
                         -webkit-line-clamp: 3;
                         display: -webkit-box;
@@ -39,6 +77,9 @@
                         overflow: hidden;
                         text-overflow: ellipsis;
                         margin-bottom: 10px;
+                        &::first-letter {
+                            text-transform: uppercase;
+                        }
                     }
                     div {
                         a {}
@@ -51,6 +92,104 @@
             .see-more {
                 float: right;
                 color: #E29000;
+                text-decoration: underline;
+                transition: 0.3s ease;
+                font-weight: 500;
+                &:hover {
+                    color: blue;
+                }
+            }
+        }
+        .about-item-content-rank {
+            padding-left: 50px;
+            ul.list-rank {
+                li {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 50px;
+                    .rank-avatar {
+                        position: relative;
+                        margin-right: 35px;
+                        &::after {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #fff;
+                            font-size: 16px;
+                            font-weight: 500;
+                            position: absolute;
+                            content: '1';
+                            width: 20px;
+                            height: 20px;
+                            background-color: #DA0F1A;
+                            border-radius: 50%;
+                            bottom: 0;
+                            right: 0;
+                        }
+                        img {
+                            display: block;
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 50%;
+                        }
+                    }
+                    h5.rank-name {
+                        position: relative;
+                        font-size: 20px;
+                        font-weight: 500;
+                        text-transform: capitalize;
+                        &::after {
+                            position: absolute;
+                            display: block;
+                            content: '';
+                            right: 0;
+                            top: 0;
+                            bottom: 0;
+                            height: 120%;
+                            width: 1px;
+                            background: #000;
+                        }
+                    }
+                    .rank-point {
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+                li:nth-child(1) {
+                    .rank-avatar {
+                        &::after {
+                            background: #DA0F1A;
+                            content: '1';
+                        }
+                    }
+                }
+                li:nth-child(2) {
+                    .rank-avatar {
+                        &::after {
+                            background: #E29000;
+                            content: '2';
+                        }
+                    }
+                }
+                li:nth-child(3) {
+                    .rank-avatar {
+                        &::after {
+                            background: #1972C5;
+                            content: '3';
+                        }
+                    }
+                }
+            }
+            .see-more {
+                float: right;
+                color: #E29000;
+                text-decoration: underline;
+                transition: 0.3s ease;
+                font-weight: 500;
+                margin-top: 5px;
+                &:hover {
+                    color: blue;
+                }
             }
         }
     }

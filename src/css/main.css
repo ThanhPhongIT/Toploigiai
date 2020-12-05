@@ -123,9 +123,33 @@ button {
 .w-90 {
   width: 90% !important; }
 
-.hot__news h3 {
-  padding-top: 70px;
-  padding-bottom: 68px; }
+.hot__news {
+  padding-bottom: 80px; }
+  .hot__news h3 {
+    padding-top: 70px;
+    padding-bottom: 68px; }
+  .hot__news .carousel-hot-news {
+    padding: 0 25px; }
+    .hot__news .carousel-hot-news .owl-hot-news .owl-item .active:nth-child(2) {
+      background-color: #1DBB90; }
+    .hot__news .carousel-hot-news .owl-hot-news .hot-news-item {
+      border-radius: 20px;
+      overflow: hidden; }
+      .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-top img {
+        width: 100%; }
+      .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom {
+        padding-top: 20px;
+        padding-left: 15px;
+        height: 70px; }
+        .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom p {
+          font-family: Livvic;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 18px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #fff; }
 
 .class-select {
   background-color: #1972C5;
@@ -207,7 +231,7 @@ button {
         margin-bottom: 20px; }
         .category .subjects .subjects-item ul.list-book li img {
           display: block;
-          margin-right: 2px; }
+          margin-right: 5px; }
         .category .subjects .subjects-item ul.list-book li h5 {
           font-size: 18px;
           color: #000;
@@ -216,44 +240,211 @@ button {
             text-transform: uppercase; }
 
 .about {
-  padding: 80px 0; }
-  .about .about-item .about-item-tittle {
-    position: relative;
-    margin-bottom: 15px; }
-    .about .about-item .about-item-tittle::after {
-      display: block;
-      content: '';
-      width: 100%;
-      height: 0.5px;
-      background-color: #0094AE;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0; }
-    .about .about-item .about-item-tittle h5 {
-      display: inline-block;
-      color: #fff;
-      background: #0094AE;
-      border-radius: 7px;
-      font-weight: 400;
-      padding: 10px 25px; }
-  .about .about-item .about-item-content ul.list-hoidap li {
-    margin-bottom: 30px; }
-    .about .about-item .about-item-content ul.list-hoidap li p {
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 20px;
-      -webkit-line-clamp: 3;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      margin-bottom: 10px; }
-    .about .about-item .about-item-content ul.list-hoidap li div img {
-      margin-left: 5px; }
-  .about .about-item .about-item-content .see-more {
-    float: right;
-    color: #E29000; }
+  padding: 80px 25px 0 25px; }
+  .about .about-item {
+    margin-bottom: 100px; }
+    .about .about-item .about-item-tittle {
+      position: relative;
+      margin-bottom: 15px; }
+      .about .about-item .about-item-tittle::after {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 0.5px;
+        background-color: #0094AE;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+      .about .about-item .about-item-tittle.question::after {
+        background-color: #0094AE; }
+      .about .about-item .about-item-tittle.literature::after {
+        background-color: #E29000; }
+      .about .about-item .about-item-tittle.exam::after {
+        background-color: #1DBB90; }
+      .about .about-item .about-item-tittle.you-know::after {
+        background-color: #C73042; }
+      .about .about-item .about-item-tittle.news::after {
+        background-color: #E29000; }
+      .about .about-item .about-item-tittle.rank::after {
+        background-color: #0094AE; }
+      .about .about-item .about-item-tittle h5 {
+        display: inline-block;
+        color: #fff;
+        background: #0094AE;
+        border-radius: 7px;
+        font-weight: 400;
+        padding: 10px 25px;
+        font-size: 23px; }
+        .about .about-item .about-item-tittle h5.question {
+          background: #0094AE; }
+        .about .about-item .about-item-tittle h5.literature {
+          background: #E29000; }
+        .about .about-item .about-item-tittle h5.exam {
+          background: #1DBB90; }
+        .about .about-item .about-item-tittle h5.you-know {
+          background: #C73042; }
+        .about .about-item .about-item-tittle h5.news {
+          background: #E29000; }
+        .about .about-item .about-item-tittle h5.rank {
+          background: #0094AE; }
+    .about .about-item .about-item-content ul.list-detail li {
+      margin-bottom: 30px;
+      font-weight: 500; }
+      .about .about-item .about-item-content ul.list-detail li p {
+        font-size: 16px;
+        line-height: 20px;
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 10px; }
+        .about .about-item .about-item-content ul.list-detail li p::first-letter {
+          text-transform: uppercase; }
+      .about .about-item .about-item-content ul.list-detail li div img {
+        margin-left: 5px; }
+    .about .about-item .about-item-content .see-more {
+      float: right;
+      color: #E29000;
+      text-decoration: underline;
+      transition: 0.3s ease;
+      font-weight: 500; }
+      .about .about-item .about-item-content .see-more:hover {
+        color: blue; }
+    .about .about-item .about-item-content-rank {
+      padding-left: 50px; }
+      .about .about-item .about-item-content-rank ul.list-rank li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px; }
+        .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar {
+          position: relative;
+          margin-right: 35px; }
+          .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar::after {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            position: absolute;
+            content: '1';
+            width: 20px;
+            height: 20px;
+            background-color: #DA0F1A;
+            border-radius: 50%;
+            bottom: 0;
+            right: 0; }
+          .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar img {
+            display: block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%; }
+        .about .about-item .about-item-content-rank ul.list-rank li h5.rank-name {
+          position: relative;
+          font-size: 20px;
+          font-weight: 500;
+          text-transform: capitalize; }
+          .about .about-item .about-item-content-rank ul.list-rank li h5.rank-name::after {
+            position: absolute;
+            display: block;
+            content: '';
+            right: 0;
+            top: 0;
+            bottom: 0;
+            height: 120%;
+            width: 1px;
+            background: #000; }
+        .about .about-item .about-item-content-rank ul.list-rank li .rank-point {
+          font-size: 20px;
+          font-weight: 500; }
+      .about .about-item .about-item-content-rank ul.list-rank li:nth-child(1) .rank-avatar::after {
+        background: #DA0F1A;
+        content: '1'; }
+      .about .about-item .about-item-content-rank ul.list-rank li:nth-child(2) .rank-avatar::after {
+        background: #E29000;
+        content: '2'; }
+      .about .about-item .about-item-content-rank ul.list-rank li:nth-child(3) .rank-avatar::after {
+        background: #1972C5;
+        content: '3'; }
+      .about .about-item .about-item-content-rank .see-more {
+        float: right;
+        color: #E29000;
+        text-decoration: underline;
+        transition: 0.3s ease;
+        font-weight: 500;
+        margin-top: 5px; }
+        .about .about-item .about-item-content-rank .see-more:hover {
+          color: blue; }
+
+.comment {
+  padding-top: 80px; }
+  .comment h3 {
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center; }
+  .comment .owl-comment {
+    padding: 0 25px; }
+    .comment .owl-comment .comment-item {
+      padding: 25px;
+      border: 0.5px solid #A7A7A7;
+      border-radius: 20px; }
+      .comment .owl-comment .comment-item .comment-item-top {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px; }
+        .comment .owl-comment .comment-item .comment-item-top img {
+          display: block;
+          width: 100%;
+          height: 100px;
+          width: 100px;
+          border-radius: 50px;
+          margin-right: 25px; }
+        .comment .owl-comment .comment-item .comment-item-top div h4 {
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 10px; }
+        .comment .owl-comment .comment-item .comment-item-top div h5 {
+          font-size: 15px;
+          font-weight: 400; }
+      .comment .owl-comment .comment-item .comment-item-bottom p {
+        font-family: Livvic;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        -webkit-line-clamp: 5;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+
+.owl-prev {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin-left: -20px;
+  display: block !important;
+  border: 0px solid black; }
+
+.owl-next {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  right: -25px;
+  display: block !important;
+  border: 0px solid black; }
+
+.owl-prev i,
+.owl-next i {
+  transform: scale(1, 6);
+  color: #ccc; }
 
 .title-category {
   font-family: Livvic;
@@ -263,6 +454,9 @@ button {
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left; }
+
+.home-left {
+  border-right: 0.5px solid #A7A7A7; }
 
 .nav-question .nav-link {
   font-family: Livvic;
