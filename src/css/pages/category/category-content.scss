@@ -16,9 +16,18 @@
             .dropdown-title {
                 display: flex;
                 padding-left: 20px;
+                border-bottom: 1px solid #E5E5E5;
+                &.active {
+                    color: #EE6217;
+                    img {
+                        transform: rotate(90deg);
+                        fill: #EE6217;
+                    }
+                }
                 img {
                     display: block;
                     margin-right: 15px;
+                    transition: 0.3s ease;
                 }
                 h4 {
                     display: flex;
@@ -26,6 +35,24 @@
                     align-items: center;
                     font-size: 17px;
                     font-weight: 700;
+                }
+            }
+            .sub-menu {
+                .dropdown-title {
+                    padding-left: 30px;
+                    h4 {
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .sub-menu-2 {
+                .dropdown-title {
+                    padding-left: 40px;
+                    h4 {
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
                 }
             }
         }
