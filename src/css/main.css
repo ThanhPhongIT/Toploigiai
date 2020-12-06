@@ -160,7 +160,7 @@ button {
     content: '';
     position: absolute;
     left: 50%;
-    bottom: -60px;
+    bottom: -55px;
     width: 70px;
     height: 70px;
     background-color: #1972C5;
@@ -978,6 +978,51 @@ button {
   .active span {
     color: #EE6217; }
 
+.class-page {
+  padding-top: 20px; }
+  .class-page .subjects {
+    padding: 0 10px;
+    background: #fff;
+    padding-top: 70px; }
+    .class-page .subjects .subjects-item {
+      margin-bottom: 40px; }
+      .class-page .subjects .subjects-item .title-subject {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        margin-bottom: 50px; }
+        .class-page .subjects .subjects-item .title-subject::after {
+          display: block;
+          content: "";
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          height: 2px;
+          background: #E29000;
+          border-radius: 2.5px;
+          width: 193px; }
+        .class-page .subjects .subjects-item .title-subject img {
+          display: block;
+          margin-right: 20px; }
+        .class-page .subjects .subjects-item .title-subject h4 {
+          color: #E29000;
+          font-size: 30px;
+          text-transform: capitalize;
+          font-weight: 500; }
+      .class-page .subjects .subjects-item ul.list-book li {
+        display: flex;
+        margin-bottom: 20px; }
+        .class-page .subjects .subjects-item ul.list-book li img {
+          display: block;
+          margin-right: 5px; }
+        .class-page .subjects .subjects-item ul.list-book li h5 {
+          cursor: pointer;
+          font-size: 23px;
+          color: #000;
+          font-weight: 500; }
+          .class-page .subjects .subjects-item ul.list-book li h5::first-letter {
+            text-transform: uppercase; }
+
 .library-category .bread-crum {
   display: flex;
   padding: 20px; }
@@ -1238,6 +1283,102 @@ button {
     color: #EE6217;
     padding: 20px 10px; }
 
+.category-page {
+  padding-top: 20px; }
+  .category-page .category-left h3 {
+    font-size: 17px;
+    font-weight: 700;
+    height: 70px;
+    align-self: center;
+    background: #EE6217;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; }
+  .category-page .category-left .dropdown .dropdown-title {
+    display: flex;
+    padding-left: 20px; }
+    .category-page .category-left .dropdown .dropdown-title img {
+      display: block;
+      margin-right: 15px; }
+    .category-page .category-left .dropdown .dropdown-title h4 {
+      display: flex;
+      height: 70px;
+      align-items: center;
+      font-size: 17px;
+      font-weight: 700; }
+  .category-page .border-category {
+    border: 1px solid #E5E5E5; }
+  .category-page .category-centter .breadcrumb-category .breadcrumb {
+    background: unset;
+    padding-top: 45px;
+    margin-bottom: 45px; }
+    .category-page .category-centter .breadcrumb-category .breadcrumb .breadcrumb-item {
+      color: #000;
+      font-size: 15px;
+      font-weight: 600; }
+      .category-page .category-centter .breadcrumb-category .breadcrumb .breadcrumb-item:first-child {
+        font-weight: 700; }
+        .category-page .category-centter .breadcrumb-category .breadcrumb .breadcrumb-item:first-child a {
+          color: #000; }
+  .category-page .category-centter .breadcrumb-category .breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    color: #000; }
+  .category-page .category-centter .category-centter-content {
+    border-radius: 20px;
+    border: 1px solid #E5E5E5;
+    padding: 30px; }
+    .category-page .category-centter .category-centter-content h4.title-book {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 23px;
+      margin-bottom: 35px;
+      color: #1972C5; }
+    .category-page .category-centter .category-centter-content .secction-book h5 {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 23px;
+      margin-bottom: 30px; }
+    .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li {
+      margin-bottom: 35px; }
+      .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div {
+        display: flex;
+        align-items: center; }
+        .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div img {
+          display: block;
+          margin-right: 15px; }
+        .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div h6 {
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 28px; }
+  .category-page .category-right {
+    padding-left: 15px;
+    padding-top: 30px;
+    background: #fff; }
+    .category-page .category-right h4 {
+      font-family: Livvic;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0em;
+      margin-bottom: 15px; }
+    .category-page .category-right ul.list-category-right li {
+      margin-bottom: 20px; }
+      .category-page .category-right ul.list-category-right li:last-child {
+        margin-bottom: 50px; }
+      .category-page .category-right ul.list-category-right li div img {
+        display: block;
+        margin-right: 15px; }
+      .category-page .category-right ul.list-category-right li div h5 {
+        font-family: Livvic;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em; }
+
 .header {
   padding: 20px 0;
   background-color: #E5E5E5 !important; }
@@ -1377,6 +1518,59 @@ button {
         align-items: center;
         color: #0C0B0B;
         margin-bottom: 30px; }
+
+.footer-category {
+  background: #F3FAF3; }
+  .footer-category .title-footer {
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px; }
+  .footer-category .subjects {
+    padding: 0 10px; }
+    .footer-category .subjects .subjects-item {
+      margin-bottom: 40px; }
+      .footer-category .subjects .subjects-item .title-subject {
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        margin-bottom: 50px; }
+        .footer-category .subjects .subjects-item .title-subject::after {
+          display: block;
+          content: "";
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          height: 2px;
+          background: #E29000;
+          border-radius: 2.5px;
+          width: 193px; }
+        .footer-category .subjects .subjects-item .title-subject img {
+          display: block;
+          margin-right: 20px; }
+        .footer-category .subjects .subjects-item .title-subject h4 {
+          color: #E29000;
+          font-size: 30px;
+          text-transform: capitalize;
+          font-weight: 500; }
+      .footer-category .subjects .subjects-item ul.list-book li {
+        display: flex;
+        margin-bottom: 20px; }
+        .footer-category .subjects .subjects-item ul.list-book li img {
+          display: block;
+          margin-right: 5px; }
+        .footer-category .subjects .subjects-item ul.list-book li h5 {
+          cursor: pointer;
+          font-size: 23px;
+          color: #000;
+          font-weight: 500; }
+          .footer-category .subjects .subjects-item ul.list-book li h5::first-letter {
+            text-transform: uppercase; }
 
 .advertise__img {
   width: 100%; }
