@@ -1,12 +1,13 @@
 extends master.pug
 block header
-   include ./layouts/header.pug
+   include ./layouts/header-full.pug
 block content
-    .container-fluid.bt__grey.pt-2.w-90
+    .back__grey.mainbody.p-20
+      .container-fluid.back-white.w-90.p-0
         .row
-            .col-2
+            .col-2.br
                 include ./pages/question/sidebar.pug
-            .col-8
+            .col-7.br
                 #v-pills-tabContent.tab-content
                     #v-pills-all.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='v-pills-home-tab')
                         include ./pages/question/question-content.pug
@@ -16,7 +17,7 @@ block content
                         include ./pages/question/question-content.pug
                     #v-pills-hoa.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-settings-tab')
                         include ./pages/question/question-content.pug
-            .col-2
+            .col-3
                 include ./pages/question/top-user.pug
 block footer
       include ./layouts/footer.pug

@@ -1,7 +1,13 @@
 extends master.pug
 block header
-   include ./layouts/header.pug
+    include ./layouts/header-full.pug
 block content
-    include ./pages/home/category.pug
+    .back__grey.mainbody.p-20
+      .container-fluid.w-90
+        .row
+            .col-10
+                include ./pages/home/category.pug
+            .col-2
+                include ./components/advertise.pug
 block footer
     include ./layouts/footer.pug
