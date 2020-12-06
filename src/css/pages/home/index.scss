@@ -3,6 +3,7 @@
 @import './select-class.scss';
 @import './category.scss';
 @import './about.scss';
+@import './comment.scss';
 .title-category {
     font-family: Livvic;
     font-size: 30px;
@@ -11,4 +12,8 @@
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.home-left {
+    border-right: 0.5px solid #A7A7A7;
 }
