@@ -1,9 +1,18 @@
-.class-page {
-    padding-top: 20px;
+.footer-category {
+    background: #F3FAF3;
+    .title-footer {
+        font-family: Livvic;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 31px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
     .subjects {
         padding: 0 10px;
-        background: #fff;
-        padding-top: 70px;
         .subjects-item {
             margin-bottom: 40px;
             .title-subject {
