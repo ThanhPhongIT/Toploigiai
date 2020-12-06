@@ -20,7 +20,8 @@
                                     input(type="text" placeholder="Nhập email")
                                 .pass
                                     span Mật khẩu
-                                    input(type="text" placeholder="Nhập mật khẩu")
+                                    input#passdn(type="password" placeholder="Nhập mật khẩu")
+                                    img(src="../images/icons/eye.svg", alt="" onclick="hide()")
                                 .dn-bottom
                                     .remember
                                         input#remember(type='checkbox' name='remember' value='1')
@@ -29,7 +30,7 @@
                                     a(href="#").forgot  Quên mật khẩu?
                                     p Hoặc
                                     button.btn-face Đăng nhập bằng Facebook
-                                        i.fa.fa-facebook
+                                        img(src="../images/icons/facebook.svg", alt="")
                         #pills-profile.tab-pane.fade(role='tabpanel' aria-labelledby='pills-profile-tab')
                             .dangki-content
                                 .fullname
@@ -40,10 +41,12 @@
                                     input(type="text" placeholder="Nhập email")
                                 .pass
                                     span Mật khẩu
-                                    input(type="text" placeholder="Nhập mật khẩu")
+                                    input#passdk(type="password" placeholder="Nhập mật khẩu")
+                                    img(src="../images/icons/eye.svg", alt="" onclick="hidedk()")
                                 .pass
                                     span 
-                                    input(type="text" placeholder="Nhập lại mật khẩu")
+                                    input#passdkag(type="password" placeholder="Nhập lại mật khẩu" )
+                                    img(src="../images/icons/eye.svg", alt="" onclick="hidedkag()" )
                                 .email
                                     span Phone
                                     input(type="text" placeholder="Nhập số điện thoại")
@@ -52,11 +55,18 @@
                                     input(type="text" placeholder="Nhập lớp")
                                 .dn-bottom
                                     .remember
-                                        input#remember(type='checkbox' name='remember' value='1')
-                                        label(for='remember')  Đồng ý với các Điều khoản sử dụng và Chính sách bảo mật của website Toploigiai.com
+                                        input#accept(type='checkbox' name='remember' value='2')
+                                        label(for='accept')  
+                                            span Đồng ý với các 
+                                            span(style='font-weight: 600; cursor: pointer') Điều khoản sử dụng 
+                                            span và 
+                                            span(style='font-weight: 600; cursor: pointer') Chính sách bảo mật 
+                                            span của website 
+                                            span(style='color: #EE6217') Top
+                                            span(style='color: #1972C5') loigiai.com
                                     button.btn-dangnhap Tạo tài khoản
                                     p Hoặc
                                     button.btn-face Đăng nhập bằng Facebook
-                                        i.fa.fa-facebook
+                                        img(src="../images/icons/facebook.svg", alt="")
 
             

@@ -73,6 +73,16 @@
         justify-content: flex-start;
         align-items: center;
         position: relative;
+        .header__logo {
+            width: 241px;
+            height: 44px;
+            a {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
         a {
             &:hover .each__class {
                 background: #EE6217;

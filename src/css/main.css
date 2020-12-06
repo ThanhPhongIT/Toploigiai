@@ -111,6 +111,9 @@ button:focus {
 button {
   border: none; }
 
+input[type=checkbox] {
+  -webkit-appearance: checkbox; }
+
 .back__grey {
   background-color: #E5E5E5 !important; }
 
@@ -125,6 +128,9 @@ button {
 
 .w-90 {
   width: 90% !important; }
+
+.w-85 {
+  width: 85% !important; }
 
 .br {
   border-right: 2px solid #E5E5E5; }
@@ -546,7 +552,8 @@ button {
         color: #FFFFFF;
         text-transform: uppercase; }
   .question-content .content-top .care-most {
-    width: 100%; }
+    width: 100%;
+    border-radius: 0px 0px 34px 34px; }
     .question-content .content-top .care-most .title {
       font-style: normal;
       font-weight: 500;
@@ -987,6 +994,36 @@ button {
   .active span {
     color: #EE6217; }
 
+.side-bar-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .side-bar-head .profile-avatar {
+    position: relative; }
+  .side-bar-head .add-photo {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    cursor: pointer; }
+  .side-bar-head p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #0C0B0B;
+    padding: 20px 0; }
+    .side-bar-head p span {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 31px;
+      display: flex;
+      align-items: center;
+      color: #0C0B0B; }
+
 .class-page {
   padding-top: 20px; }
   .class-page .subjects {
@@ -1396,6 +1433,13 @@ button {
 .header {
   padding: 20px 0;
   background-color: #E5E5E5 !important; }
+  .header .header__logo {
+    width: 241px;
+    height: 44px; }
+    .header .header__logo a {
+      width: 100%; }
+      .header .header__logo a img {
+        width: 100%; }
   .header .search__input {
     position: relative;
     margin-right: 22px; }
@@ -1505,6 +1549,26 @@ button {
       font-weight: bold; }
     .footer .footer__left p:nth-last-child(1) {
       font-weight: bold; }
+    .footer .footer__left p .email {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 40px;
+      /* identical to box height, or 200% */
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #21243D; }
+    .footer .footer__left p .sdt {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 40px;
+      /* identical to box height, or 200% */
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #000000; }
   .footer .footer__left .social__icons {
     padding-bottom: 25px; }
     .footer .footer__left .social__icons img {
@@ -1597,6 +1661,13 @@ button {
     justify-content: flex-start;
     align-items: center;
     position: relative; }
+    .header__class .menu .header__logo {
+      width: 241px;
+      height: 44px; }
+      .header__class .menu .header__logo a {
+        width: 100%; }
+        .header__class .menu .header__logo a img {
+          width: 100%; }
     .header__class .menu a:hover .each__class {
       background: #EE6217; }
     .header__class .menu a .each__class {
@@ -1731,7 +1802,12 @@ button {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding-bottom: 25px; }
+      padding-bottom: 25px;
+      position: relative; }
+      .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .email img,
+      .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .pass img {
+        position: absolute;
+        right: 10px; }
       .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .email span,
       .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .pass span {
         font-style: normal;
@@ -1766,6 +1842,8 @@ button {
         display: flex;
         align-items: center;
         color: #7B7B7B; }
+        .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .dn-bottom .remember input {
+          margin-right: 10px; }
       .modal_dangnhap .col-7 .content .tab-content .dangnhap-content .dn-bottom .btn-dangnhap {
         width: 320px;
         height: 42px;
@@ -1851,6 +1929,11 @@ button {
       width: 320px;
       height: 42px;
       padding-left: 15px; }
+  .modal_dangnhap .col-7 .content .tab-content .dangki-content .pass {
+    position: relative; }
+    .modal_dangnhap .col-7 .content .tab-content .dangki-content .pass img {
+      position: absolute;
+      right: 10px; }
   .modal_dangnhap .col-7 .content .tab-content .dangki-content .dn-bottom {
     padding-left: 100px; }
     .modal_dangnhap .col-7 .content .tab-content .dangki-content .dn-bottom .remember {
@@ -1863,6 +1946,10 @@ button {
       display: flex;
       align-items: center;
       color: #7B7B7B; }
+      .modal_dangnhap .col-7 .content .tab-content .dangki-content .dn-bottom .remember input {
+        margin-right: 10px; }
+      .modal_dangnhap .col-7 .content .tab-content .dangki-content .dn-bottom .remember label span {
+        color: #000; }
     .modal_dangnhap .col-7 .content .tab-content .dangki-content .dn-bottom .btn-dangnhap {
       width: 320px;
       height: 42px;

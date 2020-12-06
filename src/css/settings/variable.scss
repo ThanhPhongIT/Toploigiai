@@ -20,6 +20,10 @@ button {
     border: none;
 }
 
+input[type=checkbox] {
+    -webkit-appearance: checkbox;
+}
+
 .back__grey {
     background-color: #E5E5E5 !important;
 }
@@ -38,6 +42,10 @@ button {
 
 .w-90 {
     width: 90% !important;
+}
+
+.w-85 {
+    width: 85% !important;
 }
 
 .br {
