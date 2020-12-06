@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title></title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -10,449 +11,493 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css" attr>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="header">
-      <div class="container-fluid d-flex justify-content-end align-items-center w-90">
-        <div class="header__search d-flex align-items-center">
-          <div class="search__input">
-            <input type="text">
-            <div class="icon_search">
-              <button><img src="../images/icons/search.svg" alt=""></button>
+        <div class="container-fluid d-flex justify-content-end align-items-center w-90">
+            <div class="header__search d-flex align-items-center">
+                <div class="search__input">
+                    <input type="text">
+                    <div class="icon_search">
+                        <button><img src="../images/icons/search.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="login d-flex align-items-center">
+                    <button data-toggle="modal" data-target="#dangnhap">Đăng nhập</button>
+                    <button data-toggle="modal" data-target="#dangnhap">Đăng kí</button>
+                </div>
             </div>
-          </div>
-          <div class="login d-flex align-items-center">
-            <button data-toggle="modal" data-target="#dangnhap">Đăng nhập</button>
-            <button data-toggle="modal" data-target="#dangnhap">Đăng kí</button>
-          </div>
         </div>
-      </div>
     </div>
     <div class="header__class">
-      <div class="container-fluid back__white w-90"></div>
-      <div class="container-fluid w-90">
-        <div class="menu d-flex">
-          <div class="header__logo pr-3"><a href="../index.html"><img src="../images/home/header-logo.svg" alt="logo"></a></div><a href="../class.html">
-            <div class="each__class">Lớp 1 - 2 - 3</div>
-            <div class="menu__second">
-              <div class="container">
-                <div class="second__content">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
-                    </div>
-                    <div class="col-7 chuyenmuc__con">
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-                      </div>
-                    </div>
-                  </div>
+        <div class="container-fluid back__white w-90"></div>
+        <div class="container-fluid w-90">
+            <div class="menu d-flex">
+                <div class="header__logo pr-3">
+                    <a href="../index.html"><img src="../images/home/header-logo.svg" alt="logo"></a>
                 </div>
-              </div>
-            </div></a><a href="../class.html">
-            <div class="each__class">Lớp 4</div>
-            <div class="menu__second">
-              <div class="container">
-                <div class="second__content">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                <a href="../class.html">
+                    <div class="each__class">Lớp 1 - 2 - 3</div>
+                    <div class="menu__second">
+                        <div class="container">
+                            <div class="second__content">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                                    </div>
+                                    <div class="col-7 chuyenmuc__con">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-7 chuyenmuc__con">
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-                      </div>
+                </a>
+                <a href="../class.html">
+                    <div class="each__class">Lớp 4</div>
+                    <div class="menu__second">
+                        <div class="container">
+                            <div class="second__content">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                                    </div>
+                                    <div class="col-7 chuyenmuc__con">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div></a><a href="../class.html">
-            <div class="each__class">Lớp 5</div>
-            <div class="menu__second">
-              <div class="container">
-                <div class="second__content">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                </a>
+                <a href="../class.html">
+                    <div class="each__class">Lớp 5</div>
+                    <div class="menu__second">
+                        <div class="container">
+                            <div class="second__content">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                                    </div>
+                                    <div class="col-7 chuyenmuc__con">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-7 chuyenmuc__con">
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-                      </div>
+                </a>
+                <a href="../class.html">
+                    <div class="each__class">Lớp 6</div>
+                    <div class="menu__second">
+                        <div class="container">
+                            <div class="second__content">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                                    </div>
+                                    <div class="col-7 chuyenmuc__con">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div></a><a href="../class.html">
-            <div class="each__class">Lớp 6</div>
-            <div class="menu__second">
-              <div class="container">
-                <div class="second__content">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                </a>
+                <a href="../class.html">
+                    <div class="each__class">Lớp 7</div>
+                    <div class="menu__second">
+                        <div class="container">
+                            <div class="second__content">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                                    </div>
+                                    <div class="col-7 chuyenmuc__con">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-7 chuyenmuc__con">
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-                      </div>
+                </a>
+                <a href="../class.html">
+                    <div class="each__class">Lớp 8</div>
+                    <div class="menu__second">
+                        <div class="container">
+                            <div class="second__content">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                                    </div>
+                                    <div class="col-7 chuyenmuc__con">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div></a><a href="../class.html">
-            <div class="each__class">Lớp 7</div>
-            <div class="menu__second">
-              <div class="container">
-                <div class="second__content">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                </a>
+                <a href="../class.html">
+                    <div class="each__class">Lớp 9</div>
+                    <div class="menu__second">
+                        <div class="container">
+                            <div class="second__content">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                                    </div>
+                                    <div class="col-7 chuyenmuc__con">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-7 chuyenmuc__con">
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-                      </div>
+                </a>
+                <a href="../class.html">
+                    <div class="each__class">Lớp 10</div>
+                    <div class="menu__second">
+                        <div class="container">
+                            <div class="second__content">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                                    </div>
+                                    <div class="col-7 chuyenmuc__con">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div></a><a href="../class.html">
-            <div class="each__class">Lớp 8</div>
-            <div class="menu__second">
-              <div class="container">
-                <div class="second__content">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                </a>
+                <a href="../class.html">
+                    <div class="each__class">Lớp 11</div>
+                    <div class="menu__second">
+                        <div class="container">
+                            <div class="second__content">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                                    </div>
+                                    <div class="col-7 chuyenmuc__con">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-7 chuyenmuc__con">
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-                      </div>
+                </a>
+                <a href="../class.html">
+                    <div class="each__class">Lớp 12</div>
+                    <div class="menu__second">
+                        <div class="container">
+                            <div class="second__content">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
+                                    </div>
+                                    <div class="col-7 chuyenmuc__con">
+                                        <div class="tab-content" id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div></a><a href="../class.html">
-            <div class="each__class">Lớp 9</div>
-            <div class="menu__second">
-              <div class="container">
-                <div class="second__content">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
-                    </div>
-                    <div class="col-7 chuyenmuc__con">
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div></a><a href="../class.html">
-            <div class="each__class">Lớp 10</div>
-            <div class="menu__second">
-              <div class="container">
-                <div class="second__content">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
-                    </div>
-                    <div class="col-7 chuyenmuc__con">
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div></a><a href="../class.html">
-            <div class="each__class">Lớp 11</div>
-            <div class="menu__second">
-              <div class="container">
-                <div class="second__content">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
-                    </div>
-                    <div class="col-7 chuyenmuc__con">
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div></a><a href="../class.html">
-            <div class="each__class">Lớp 12</div>
-            <div class="menu__second">
-              <div class="container">
-                <div class="second__content">
-                  <div class="row">
-                    <div class="col-5">
-                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a></div>
-                    </div>
-                    <div class="col-7 chuyenmuc__con">
-                      <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div></a><a href="../question.html">
-            <div class="header__question">Hỏi đáp</div></a><a href="../library.html">
-            <div class="header__library">Thư viện</div></a>
+                </a>
+                <a href="../question.html">
+                    <div class="header__question">Hỏi đáp</div>
+                </a>
+                <a href="../library.html">
+                    <div class="header__library">Thư viện</div>
+                </a>
+            </div>
         </div>
-      </div>
     </div>
     <div class="modal fade" id="dangnhap" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg modal_dangnhap" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-5"><img src="../images/components/dangnhap.png" alt=""></div>
-              <div class="col-7">
-                <div class="content">
-                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item"><a class="nav-link active" id="pills-home-tab" data-toggle="tab" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Đăng nhập</a></li>
-                    <li class="nav-item"><a class="nav-link" id="pills-profile-tab" data-toggle="tab" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Đăng kí</a></li>
-                  </ul>
-                  <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                      <div class="dangnhap-content">
-                        <div class="email"><span>Email</span>
-                          <input type="text" placeholder="Nhập email">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal_dangnhap" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-5"><img src="../images/components/dangnhap.png" alt=""></div>
+                        <div class="col-7">
+                            <div class="content">
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item"><a class="nav-link active" id="pills-home-tab" data-toggle="tab" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Đăng nhập</a></li>
+                                    <li class="nav-item"><a class="nav-link" id="pills-profile-tab" data-toggle="tab" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Đăng kí</a></li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                        <div class="dangnhap-content">
+                                            <div class="email"><span>Email</span>
+                                                <input type="text" placeholder="Nhập email">
+                                            </div>
+                                            <div class="pass"><span>Mật khẩu</span>
+                                                <input id="passdn" type="password" placeholder="Nhập mật khẩu"><img src="../images/icons/eye.svg" alt="" onclick="hide()">
+                                            </div>
+                                            <div class="dn-bottom">
+                                                <div class="remember">
+                                                    <input id="remember" type="checkbox" name="remember" value="1">
+                                                    <label for="remember"> Ghi nhớ đăng nhập</label>
+                                                </div><a class="btn-dangnhap" href="../infor.html">Đăng nhập</a><a class="forgot" href="#"> Quên mật khẩu?</a>
+                                                <p>Hoặc</p>
+                                                <button class="btn-face">Đăng nhập bằng Facebook<img src="../images/icons/facebook.svg" alt=""></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                        <div class="dangki-content">
+                                            <div class="fullname"><span>Họ và tên</span>
+                                                <input type="text" placeholder="Nhập họ và tên">
+                                            </div>
+                                            <div class="email"><span>Email</span>
+                                                <input type="text" placeholder="Nhập email">
+                                            </div>
+                                            <div class="pass"><span>Mật khẩu</span>
+                                                <input id="passdk" type="password" placeholder="Nhập mật khẩu"><img src="../images/icons/eye.svg" alt="" onclick="hidedk()">
+                                            </div>
+                                            <div class="pass"><span> </span>
+                                                <input id="passdkag" type="password" placeholder="Nhập lại mật khẩu"><img src="../images/icons/eye.svg" alt="" onclick="hidedkag()">
+                                            </div>
+                                            <div class="email"><span>Phone</span>
+                                                <input type="text" placeholder="Nhập số điện thoại">
+                                            </div>
+                                            <div class="pass"><span>Lớp</span>
+                                                <input type="text" placeholder="Nhập lớp">
+                                            </div>
+                                            <div class="dn-bottom">
+                                                <div class="remember">
+                                                    <input id="accept" type="checkbox" name="remember" value="2">
+                                                    <label for="accept"> <span>Đồng ý với các </span><span style="font-weight: 600; cursor: pointer">Điều khoản sử dụng </span><span>và </span><span style="font-weight: 600; cursor: pointer">Chính sách bảo mật </span><span>của website </span><span style="color: #EE6217">Top</span><span style="color: #1972C5">loigiai.com</span></label>
+                                                </div>
+                                                <button class="btn-dangnhap">Tạo tài khoản</button>
+                                                <p>Hoặc</p>
+                                                <button class="btn-face">Đăng nhập bằng Facebook<img src="../images/icons/facebook.svg" alt=""></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="pass"><span>Mật khẩu</span>
-                          <input id="passdn" type="password" placeholder="Nhập mật khẩu"><img src="../images/icons/eye.svg" alt="" onclick="hide()">
-                        </div>
-                        <div class="dn-bottom">
-                          <div class="remember">
-                            <input id="remember" type="checkbox" name="remember" value="1">
-                            <label for="remember"> Ghi nhớ đăng nhập</label>
-                          </div><a class="btn-dangnhap" href="../infor.html">Đăng nhập</a><a class="forgot" href="#"> Quên mật khẩu?</a>
-                          <p>Hoặc</p>
-                          <button class="btn-face">Đăng nhập bằng Facebook<img src="../images/icons/facebook.svg" alt=""></button>
-                        </div>
-                      </div>
                     </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                      <div class="dangki-content">
-                        <div class="fullname"><span>Họ và tên</span>
-                          <input type="text" placeholder="Nhập họ và tên">
+                    <div class="back__grey mainbody p-20">
+                        <div class="container-fluid w-90">
+                            <div class="row">
+                                <div class="col-10">
+                                    <div class="category bg-white">
+                                        <h3 class="title-category text-center">GIẢI BÀI TẬP SÁCH GIÁO KHOA,SÁCH BÀI TẬP LỚN LỚP 1-2-3</h3>
+                                        <div class="subjects">
+                                            <div class="row">
+                                                <div class="col-4 subjects-item">
+                                                    <div class="title-subject"><img src="./../../images/icons/icon-book.svg" alt="">
+                                                        <h4>ngữ văn</h4>
+                                                    </div>
+                                                    <ul class="list-book">
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>tiếng việt 1</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt lớp 2</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Văn mẫu lớp 3</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt 1</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt 1</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tập làm văn lớp 3</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Đề thi Kiểm tra Tiếng việt</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-4 subjects-item">
+                                                    <div class="title-subject"><img src="./../../images/icons/icon-book.svg" alt="">
+                                                        <h4>Toán học</h4>
+                                                    </div>
+                                                    <ul class="list-book">
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt 1</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt lớp 2</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Văn mẫu lớp 3</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt 1</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-4 subjects-item">
+                                                    <div class="title-subject"><img src="./../../images/icons/icon-book.svg" alt="">
+                                                        <h4>Đạo đức</h4>
+                                                    </div>
+                                                    <ul class="list-book">
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt 1</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt lớp 2</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Văn mẫu lớp 3</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt 1</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-4 subjects-item">
+                                                    <div class="title-subject"><img src="./../../images/icons/icon-book.svg" alt="">
+                                                        <h4>Tin học</h4>
+                                                    </div>
+                                                    <ul class="list-book">
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Văn mẫu lớp 3</h5>
+                                                        </li>
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt 1</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-4 subjects-item">
+                                                    <div class="title-subject"><img src="./../../images/icons/icon-book.svg" alt="">
+                                                        <h4>Tự nhiên-xã hội</h4>
+                                                    </div>
+                                                    <ul class="list-book">
+                                                        <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
+                                                            <h5>Tiếng việt 1</h5>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2"><img class="advertise__img" src="../images/components/adv.png" alt="adv"></div>
+                            </div>
                         </div>
-                        <div class="email"><span>Email</span>
-                          <input type="text" placeholder="Nhập email">
-                        </div>
-                        <div class="pass"><span>Mật khẩu</span>
-                          <input id="passdk" type="password" placeholder="Nhập mật khẩu"><img src="../images/icons/eye.svg" alt="" onclick="hidedk()">
-                        </div>
-                        <div class="pass"><span> </span>
-                          <input id="passdkag" type="password" placeholder="Nhập lại mật khẩu"><img src="../images/icons/eye.svg" alt="" onclick="hidedkag()">
-                        </div>
-                        <div class="email"><span>Phone</span>
-                          <input type="text" placeholder="Nhập số điện thoại">
-                        </div>
-                        <div class="pass"><span>Lớp</span>
-                          <input type="text" placeholder="Nhập lớp">
-                        </div>
-                        <div class="dn-bottom">
-                          <div class="remember">
-                            <input id="accept" type="checkbox" name="remember" value="2">
-                            <label for="accept"> <span>Đồng ý với các </span><span style="font-weight: 600; cursor: pointer">Điều khoản sử dụng </span><span>và </span><span style="font-weight: 600; cursor: pointer">Chính sách bảo mật </span><span>của website </span><span style="color: #EE6217">Top</span><span style="color: #1972C5">loigiai.com</span></label>
-                          </div>
-                          <button class="btn-dangnhap">Tạo tài khoản</button>
-                          <p>Hoặc</p>
-                          <button class="btn-face">Đăng nhập bằng Facebook<img src="../images/icons/facebook.svg" alt=""></button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="back__grey mainbody p-20">
-      <div class="container-fluid w-90">
-        <div class="row">
-          <div class="col-10">
-            <div class="category bg-white">
-              <h3 class="title-category text-center">GIẢI BÀI TẬP SÁCH GIÁO KHOA,SÁCH BÀI TẬP LỚN LỚP 1-2-3</h3>
-              <div class="subjects">
-                <div class="row">
-                  <div class="col-4 subjects-item">
-                    <div class="title-subject"><img src="./../../images/icons/icon-book.svg" alt="">
-                      <h4>ngữ văn</h4>
-                    </div>
-                    <ul class="list-book">
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>tiếng việt 1</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt lớp 2</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Văn mẫu lớp 3</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt 1</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt 1</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tập làm văn lớp 3</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Đề thi Kiểm tra Tiếng việt</h5>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-4 subjects-item">
-                    <div class="title-subject"><img src="./../../images/icons/icon-book.svg" alt="">
-                      <h4>Toán học</h4>
-                    </div>
-                    <ul class="list-book">
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt 1</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt lớp 2</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Văn mẫu lớp 3</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt 1</h5>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-4 subjects-item">
-                    <div class="title-subject"><img src="./../../images/icons/icon-book.svg" alt="">
-                      <h4>Đạo đức</h4>
-                    </div>
-                    <ul class="list-book">
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt 1</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt lớp 2</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Văn mẫu lớp 3</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt 1</h5>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-4 subjects-item">
-                    <div class="title-subject"><img src="./../../images/icons/icon-book.svg" alt="">
-                      <h4>Tin học</h4>
-                    </div>
-                    <ul class="list-book">
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Văn mẫu lớp 3</h5>
-                      </li>
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt 1</h5>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-4 subjects-item">
-                    <div class="title-subject"><img src="./../../images/icons/icon-book.svg" alt="">
-                      <h4>Tự nhiên-xã hội</h4>
-                    </div>
-                    <ul class="list-book">
-                      <li class="item-book"><img src="./../../images/icons/icon-arrow.svg" alt="">
-                        <h5>Tiếng việt 1</h5>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-2"><img class="advertise__img" src="../images/components/adv.png" alt="adv"></div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="container-fluid w-85">
-        <div class="row">
-          <div class="col-md-5 col-12">
-            <div class="footer__left">
-              <p>Website lời giải cho tất cả các môn học trong chương trình học Tiểu Học, Trung Học Cơ Sở, Trung Học Phổ Thông </p>
-              <p><span>Email : </span><a class="email" href="mailto:toploigiai@gmail.com">toploigiai@gmail.com</a></p>
-              <p><span>SĐT : </span><a class="sdt" href="tel:+0123456789">0123456789</a></p>
-              <div class="social__icons"><a href=""><img src="../images/icons/face.svg" alt=""></a><a href=""><img src="../images/icons/youtube.svg" alt=""></a></div>
-              <p>Điều khoản sử dụng</p>
-            </div>
-          </div>
-          <div class="col-md-7 col-12">
-            <div class="footer__right"><a href=""> <img src="../images/home/header-logo.svg" alt=""></a>
-              <div class="classes">
-                <div class="row">
-                  <div class="col-3"><a href="">Lớp 1-2-3</a></div>
-                  <div class="col-3"><a href="">Lớp 4</a></div>
-                  <div class="col-3"><a href="">Lớp 5</a></div>
-                  <div class="col-3"><a href="">Lớp 6</a></div>
-                  <div class="col-3"><a href="">Lớp 7</a></div>
-                  <div class="col-3"><a href="">Lớp 8</a></div>
-                  <div class="col-3"><a href="">Lớp 9</a></div>
-                  <div class="col-3"><a href="">Lớp 10</a></div>
-                  <div class="col-3"><a href="">Lớp 11</a></div>
-                  <div class="col-3"><a href="">Lớp 12</a></div>
-                  <div class="col-3"><a href="">Hỏi đáp</a></div>
-                  <div class="col-3"><a href="">Thư viện</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-  </body>
+                        <div class="footer">
+                            <div class="container-fluid w-85">
+                                <div class="row">
+                                    <div class="col-md-5 col-12">
+                                        <div class="footer__left">
+                                            <p>Website lời giải cho tất cả các môn học trong chương trình học Tiểu Học, Trung Học Cơ Sở, Trung Học Phổ Thông </p>
+                                            <p><span>Email : </span><a class="email" href="mailto:toploigiai@gmail.com">toploigiai@gmail.com</a></p>
+                                            <p><span>SĐT : </span><a class="sdt" href="tel:+0123456789">0123456789</a></p>
+                                            <div class="social__icons">
+                                                <a href=""><img src="../images/icons/face.svg" alt=""></a>
+                                                <a href=""><img src="../images/icons/youtube.svg" alt=""></a>
+                                            </div>
+                                            <p>Điều khoản sử dụng</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-12">
+                                        <div class="footer__right">
+                                            <a href=""> <img src="../images/home/header-logo.svg" alt=""></a>
+                                            <div class="classes">
+                                                <div class="row">
+                                                    <div class="col-3"><a href="">Lớp 1-2-3</a></div>
+                                                    <div class="col-3"><a href="">Lớp 4</a></div>
+                                                    <div class="col-3"><a href="">Lớp 5</a></div>
+                                                    <div class="col-3"><a href="">Lớp 6</a></div>
+                                                    <div class="col-3"><a href="">Lớp 7</a></div>
+                                                    <div class="col-3"><a href="">Lớp 8</a></div>
+                                                    <div class="col-3"><a href="">Lớp 9</a></div>
+                                                    <div class="col-3"><a href="">Lớp 10</a></div>
+                                                    <div class="col-3"><a href="">Lớp 11</a></div>
+                                                    <div class="col-3"><a href="">Lớp 12</a></div>
+                                                    <div class="col-3"><a href="">Hỏi đáp</a></div>
+                                                    <div class="col-3"><a href="">Thư viện</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+                                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+                                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+                                    <script src="js/main.js"></script>
+</body>
+
 </html>
