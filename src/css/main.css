@@ -978,6 +978,266 @@ button {
   .active span {
     color: #EE6217; }
 
+.library-category .bread-crum {
+  display: flex;
+  padding: 20px; }
+  .library-category .bread-crum a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    /* or 153% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 0 10px; }
+
+.library-category .list-post-ctg .item-post-ctg {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 20px; }
+  .library-category .list-post-ctg .item-post-ctg img {
+    margin-right: 20px; }
+  .library-category .list-post-ctg .item-post-ctg .content-post-ctg .title-ctg {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 20px; }
+  .library-category .list-post-ctg .item-post-ctg .content-post-ctg .des-ctg {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000; }
+
+.library-category nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px; }
+  .library-category nav .pagination .page-item .pre,
+  .library-category nav .pagination .page-item .next {
+    background: #050505; }
+    .library-category nav .pagination .page-item .pre:hover,
+    .library-category nav .pagination .page-item .next:hover {
+      background-color: #050505 !important; }
+  .library-category nav .pagination .page-item .page-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #040404;
+    border: none; }
+    .library-category nav .pagination .page-item .page-link:focus {
+      outline: none; }
+    .library-category nav .pagination .page-item .page-link:hover {
+      background-color: transparent; }
+
+.library-home .title-post {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  padding: 50px 0px; }
+
+.library-home .list-post {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px; }
+  .library-home .list-post .col-4:nth-child(2) .card-body {
+    background: #E29000 !important; }
+  .library-home .list-post .col-4:nth-child(3) .card-body {
+    background: #1DBB90 !important; }
+  .library-home .list-post .item-post {
+    width: 100%; }
+    .library-home .list-post .item-post .card {
+      width: 250px;
+      background: #FFFFFF;
+      border: 0.5px solid #C5C5C5;
+      box-sizing: border-box;
+      border-radius: 20px; }
+    .library-home .list-post .item-post .card-body {
+      background: #0094AE;
+      border-radius: 0px 0px 20px 20px;
+      height: 73px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF !important;
+      cursor: pointer; }
+
+.new-post .new-post-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #0C0B0B;
+  margin: 30px 0 30px 20px; }
+
+.new-post .list-newpost .item-post {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px; }
+  .new-post .list-newpost .item-post img {
+    margin-right: 20px; }
+  .new-post .list-newpost .item-post a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+    color: #000000; }
+
+.nav-library .nav-link {
+  display: flex; }
+
+.nav-library .head {
+  width: 100%;
+  background: #EE6217 !important;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 20px 0 20px 60px; }
+  .nav-library .head p {
+    color: #FFFFFF !important; }
+
+.nav-library .active {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #EE6217 !important; }
+
+.library-post .bread-crum {
+  display: flex;
+  padding: 20px; }
+  .library-post .bread-crum a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    /* or 153% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 0 10px; }
+
+.library-post .post-content .content-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  color: #000000; }
+
+.library-post .post-content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 200% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-bottom: 30px; }
+
+.library-post .post-content .social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 30px; }
+  .library-post .post-content .social .social-item {
+    display: flex;
+    align-items: center; }
+    .library-post .post-content .social .social-item a {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      padding-right: 10px;
+      padding-bottom: 0 !important; }
+    .library-post .post-content .social .social-item img {
+      padding-right: 30px; }
+
+.library-post .goi-y .goiy-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding: 20px 0; }
+
+.library-post .goi-y .list-goiy {
+  display: flex; }
+  .library-post .goi-y .list-goiy .goiy-item {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column; }
+    .library-post .goi-y .list-goiy .goiy-item a {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 20px;
+      color: #000000;
+      padding-top: 10px;
+      width: 204px;
+      margin-bottom: 50px; }
+
+.library-post .others {
+  padding-left: 50px;
+  border-left: 2px solid #000000;
+  margin-bottom: 100px; }
+  .library-post .others .other-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #0C0B0B; }
+  .library-post .others .list-other .other-item a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #EE6217;
+    padding: 20px 10px; }
+
 .header {
   padding: 20px 0;
   background-color: #E5E5E5 !important; }
