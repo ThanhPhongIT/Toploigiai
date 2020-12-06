@@ -1,0 +1,55 @@
+.library-home {
+    .title-post {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        padding: 50px 0px;
+    }
+    .list-post {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        .col-4 {
+            &:nth-child(2) {
+                .card-body {
+                    background: #E29000 !important;
+                }
+            }
+            &:nth-child(3) {
+                .card-body {
+                    background: #1DBB90 !important;
+                }
+            }
+        }
+        .item-post {
+            width: 100%;
+            .card {
+                width: 250px;
+                background: #FFFFFF;
+                border: 0.5px solid #C5C5C5;
+                box-sizing: border-box;
+                border-radius: 20px;
+            }
+            .card-body {
+                background: #0094AE;
+                border-radius: 0px 0px 20px 20px;
+                height: 73px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #FFFFFF !important;
+                cursor: pointer;
+            }
+        }
+    }
+}

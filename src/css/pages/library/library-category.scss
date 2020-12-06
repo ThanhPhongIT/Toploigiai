@@ -1,0 +1,82 @@
+.library-category {
+    .bread-crum {
+        display: flex;
+        padding: 20px;
+        a {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 23px;
+            /* or 153% */
+            display: flex;
+            align-items: center;
+            color: #000000;
+            margin: 0 10px;
+        }
+    }
+    .list-post-ctg {
+        .item-post-ctg {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 50px;
+            padding-right: 30px;
+            padding-left: 20px;
+            img {
+                margin-right: 20px;
+            }
+            .content-post-ctg {
+                .title-ctg {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    color: #000000;
+                    margin-bottom: 20px;
+                }
+                .des-ctg {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 25px;
+                    display: flex;
+                    align-items: center;
+                    color: #000000;
+                }
+            }
+        }
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        .pagination {
+            .page-item {
+                .pre,
+                .next {
+                    background: #050505;
+                    &:hover {
+                        background-color: #050505 !important;
+                    }
+                }
+                .page-link {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 23px;
+                    display: flex;
+                    align-items: center;
+                    color: #040404;
+                    border: none;
+                    &:focus {
+                        outline: none;
+                    }
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}

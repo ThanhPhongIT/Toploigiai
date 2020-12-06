@@ -1,0 +1,32 @@
+.new-post {
+    .new-post-title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #0C0B0B;
+        margin: 30px 0 30px 20px;
+    }
+    .list-newpost {
+        .item-post {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            img {
+                margin-right: 20px;
+            }
+            a {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 20px;
+                /* or 133% */
+                display: flex;
+                align-items: center;
+                color: #000000;
+            }
+        }
+    }
+}

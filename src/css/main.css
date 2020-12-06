@@ -1023,53 +1023,292 @@ button {
           .class-page .subjects .subjects-item ul.list-book li h5::first-letter {
             text-transform: uppercase; }
 
-.category-page {
-  padding-top: 20px; }
-  .category-page .category-left h3 {
-    font-size: 17px;
-    font-weight: 700;
-    height: 70px;
-    align-self: center;
-    background: #EE6217;
-    color: #fff;
+.library-category .bread-crum {
+  display: flex;
+  padding: 20px; }
+  .library-category .bread-crum a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    /* or 153% */
     display: flex;
     align-items: center;
-    padding-left: 20px; }
-  .category-page .category-left .dropdown .dropdown-title {
+    color: #000000;
+    margin: 0 10px; }
+
+.library-category .list-post-ctg .item-post-ctg {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 20px; }
+  .library-category .list-post-ctg .item-post-ctg img {
+    margin-right: 20px; }
+  .library-category .list-post-ctg .item-post-ctg .content-post-ctg .title-ctg {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
     display: flex;
-    padding-left: 20px;
-    border-bottom: 1px solid #E5E5E5; }
-    .category-page .category-left .dropdown .dropdown-title.active {
-      color: #EE6217; }
-      .category-page .category-left .dropdown .dropdown-title.active img {
-        transform: rotate(90deg);
-        fill: #EE6217; }
-    .category-page .category-left .dropdown .dropdown-title img {
-      display: block;
-      margin-right: 15px;
-      transition: 0.3s ease; }
-    .category-page .category-left .dropdown .dropdown-title h4 {
-      display: flex;
-      height: 70px;
-      align-items: center;
-      font-size: 17px;
-      font-weight: 700; }
-  .category-page .category-left .dropdown .sub-menu .dropdown-title {
-    padding-left: 30px; }
-    .category-page .category-left .dropdown .sub-menu .dropdown-title h4 {
-      font-size: 16px;
-      font-weight: 500; }
-  .category-page .category-left .dropdown .sub-menu-2 .dropdown-title {
-    padding-left: 40px; }
-    .category-page .category-left .dropdown .sub-menu-2 .dropdown-title h4 {
+    align-items: center;
+    color: #000000;
+    margin-bottom: 20px; }
+  .library-category .list-post-ctg .item-post-ctg .content-post-ctg .des-ctg {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000; }
+
+.library-category nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px; }
+  .library-category nav .pagination .page-item .pre,
+  .library-category nav .pagination .page-item .next {
+    background: #050505; }
+    .library-category nav .pagination .page-item .pre:hover,
+    .library-category nav .pagination .page-item .next:hover {
+      background-color: #050505 !important; }
+  .library-category nav .pagination .page-item .page-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #040404;
+    border: none; }
+    .library-category nav .pagination .page-item .page-link:focus {
+      outline: none; }
+    .library-category nav .pagination .page-item .page-link:hover {
+      background-color: transparent; }
+
+.library-home .title-post {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  padding: 50px 0px; }
+
+.library-home .list-post {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px; }
+  .library-home .list-post .col-4:nth-child(2) .card-body {
+    background: #E29000 !important; }
+  .library-home .list-post .col-4:nth-child(3) .card-body {
+    background: #1DBB90 !important; }
+  .library-home .list-post .item-post {
+    width: 100%; }
+    .library-home .list-post .item-post .card {
+      width: 250px;
+      background: #FFFFFF;
+      border: 0.5px solid #C5C5C5;
+      box-sizing: border-box;
+      border-radius: 20px; }
+    .library-home .list-post .item-post .card-body {
+      background: #0094AE;
+      border-radius: 0px 0px 20px 20px;
+      height: 73px;
+      font-style: normal;
+      font-weight: 500;
       font-size: 15px;
-      font-weight: 400; }
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF !important;
+      cursor: pointer; }
+
+.new-post .new-post-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #0C0B0B;
+  margin: 30px 0 30px 20px; }
+
+.new-post .list-newpost .item-post {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px; }
+  .new-post .list-newpost .item-post img {
+    margin-right: 20px; }
+  .new-post .list-newpost .item-post a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+    color: #000000; }
+
+.nav-library .nav-link {
+  display: flex; }
+
+.nav-library .head {
+  width: 100%;
+  background: #EE6217 !important;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 20px 0 20px 60px; }
+  .nav-library .head p {
+    color: #FFFFFF !important; }
+
+.nav-library .active {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #EE6217 !important; }
+
+.library-post .bread-crum {
+  display: flex;
+  padding: 20px; }
+  .library-post .bread-crum a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    /* or 153% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 0 10px; }
+
+.library-post .post-content .content-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  color: #000000; }
+
+.library-post .post-content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 200% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-bottom: 30px; }
+
+.library-post .post-content .social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 30px; }
+  .library-post .post-content .social .social-item {
+    display: flex;
+    align-items: center; }
+    .library-post .post-content .social .social-item a {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      padding-right: 10px;
+      padding-bottom: 0 !important; }
+    .library-post .post-content .social .social-item img {
+      padding-right: 30px; }
+
+.library-post .goi-y .goiy-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  /* or 100% */
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding: 20px 0; }
+
+.library-post .goi-y .list-goiy {
+  display: flex; }
+  .library-post .goi-y .list-goiy .goiy-item {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column; }
+    .library-post .goi-y .list-goiy .goiy-item a {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 20px;
+      color: #000000;
+      padding-top: 10px;
+      width: 204px;
+      margin-bottom: 50px; }
+
+.library-post .others {
+  padding-left: 50px;
+  border-left: 2px solid #000000;
+  margin-bottom: 100px; }
+  .library-post .others .other-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #0C0B0B; }
+  .library-post .others .list-other .other-item a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #EE6217;
+    padding: 20px 10px; }
+
+.category-page {
+  padding-top: 20px; }
+  .category-page .panagation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px; }
+    .category-page .panagation .btn {
+      width: 168px;
+      height: 47px;
+      border-radius: 7px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 20px;
+      line-height: 25px;
+      color: #FFFFFF; }
+    .category-page .panagation .btn-pre {
+      background: #707070;
+      margin-right: 90px; }
+    .category-page .panagation .btn-next {
+      background: #EE6217; }
   .category-page .border-category {
     border: 1px solid #E5E5E5; }
   .category-page .category-centter .breadcrumb-category .breadcrumb {
     background: unset;
     padding-top: 45px;
-    margin-bottom: 45px; }
+    margin-bottom: 45px;
+    padding-left: 0px; }
     .category-page .category-centter .breadcrumb-category .breadcrumb .breadcrumb-item {
       color: #000;
       font-size: 15px;
@@ -1109,6 +1348,33 @@ button {
           font-weight: 500;
           font-size: 15px;
           line-height: 28px; }
+  .category-page .category-centter .content-submenu h4 {
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-bottom: 30px; }
+  .category-page .category-centter .content-submenu ul.list-lesson {
+    margin-bottom: 90px;
+    padding-left: 25px; }
+    .category-page .category-centter .content-submenu ul.list-lesson li {
+      margin-bottom: 30px;
+      font-size: 18px;
+      font-weight: 500; }
+      .category-page .category-centter .content-submenu ul.list-lesson li div::before {
+        content: '';
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background: #1972C5;
+        border-radius: 50%;
+        margin-right: 20px; }
+      .category-page .category-centter .content-submenu ul.list-lesson li div a::first-letter {
+        text-transform: uppercase; }
+      .category-page .category-centter .content-submenu ul.list-lesson li div span {
+        color: #000; }
   .category-page .category-right {
     padding-left: 15px;
     padding-top: 30px;
@@ -1128,13 +1394,266 @@ button {
       .category-page .category-right ul.list-category-right li div img {
         display: block;
         margin-right: 15px; }
-      .category-page .category-right ul.list-category-right li div h5 {
+      .category-page .category-right ul.list-category-right li div a {
         font-family: Livvic;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 20px;
+        letter-spacing: 0em;
+        transition: 0.3s ease;
+        color: #000; }
+        .category-page .category-right ul.list-category-right li div a:hover {
+          color: blue; }
+  .category-page .seemore-lesson {
+    position: relative;
+    margin-bottom: 55px; }
+    .category-page .seemore-lesson::before {
+      display: block;
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      left: -16px;
+      background: #000;
+      height: 100%; }
+    .category-page .seemore-lesson h6 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0em;
+      color: #000;
+      margin-bottom: 20px; }
+    .category-page .seemore-lesson ul {
+      padding-left: 25px; }
+      .category-page .seemore-lesson ul li {
+        margin-bottom: 25px; }
+        .category-page .seemore-lesson ul li div {
+          display: flex;
+          align-items: center; }
+          .category-page .seemore-lesson ul li div img {
+            display: block;
+            margin-right: 10px; }
+          .category-page .seemore-lesson ul li div a {
+            font-size: 16px;
+            color: #EE6217;
+            transition: 0.3s ease; }
+            .category-page .seemore-lesson ul li div a::first-letter {
+              text-transform: uppercase; }
+            .category-page .seemore-lesson ul li div a:hover {
+              color: blue; }
+
+.content-submenu2 h4 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin-bottom: 40px;
+  text-align: center; }
+
+.content-submenu2 ul.list-question li {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .content-submenu2 ul.list-question li:not(:last-child) {
+    border-bottom: 0.5px solid #A7A7A7; }
+  .content-submenu2 ul.list-question li div p {
+    font-size: 18px;
+    color: #000; }
+    .content-submenu2 ul.list-question li div p.question {
+      margin-bottom: 40px; }
+    .content-submenu2 ul.list-question li div p.answer {
+      margin-bottom: 15px; }
+    .content-submenu2 ul.list-question li div p span {
+      font-weight: 600; }
+
+.content-submenu2 .refer {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  margin-bottom: 30px; }
+  .content-submenu2 .refer a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-decoration: underline; }
+
+.content-submenu2 .view {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 40px; }
+  .content-submenu2 .view div {
+    display: flex;
+    align-items: center;
+    margin-right: 30px; }
+    .content-submenu2 .view div.share p {
+      margin-right: 10px; }
+    .content-submenu2 .view div.share img {
+      margin-right: 0; }
+    .content-submenu2 .view div img {
+      display: block;
+      margin-right: 10px; }
+    .content-submenu2 .view div p {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: 0em;
+      font-style: italic; }
+      .content-submenu2 .view div p span {
+        margin-left: 5px;
+        font-weight: 300; }
+
+.content-submenu2 .opinion h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left; }
+  .content-submenu2 .opinion h4 span {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 25px; }
+
+.content-submenu2 .opinion form input {
+  height: 55px; }
+
+.content-submenu2 .opinion form div {
+  display: flex;
+  justify-content: flex-end; }
+  .content-submenu2 .opinion form div button {
+    height: 35px;
+    width: 91px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    margin-top: 15px;
+    background: #EE6217;
+    border: none; }
+
+.content-submenu2 .opinion ul.list-opinion li {
+  margin-bottom: 30px; }
+  .content-submenu2 .opinion ul.list-opinion li .opinion-detail {
+    display: flex;
+    align-items: flex-start; }
+    .content-submenu2 .opinion ul.list-opinion li .opinion-detail img.opinion-avatar {
+      display: block;
+      width: 49px;
+      height: 49px;
+      border-radius: 50%;
+      margin-right: 20px; }
+    .content-submenu2 .opinion ul.list-opinion li .opinion-detail div .opinion-name {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: 0em;
+      margin-right: 18px; }
+    .content-submenu2 .opinion ul.list-opinion li .opinion-detail div .opinion-content {
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 20px;
+      letter-spacing: 0em; }
+  .content-submenu2 .opinion ul.list-opinion li .count-like {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px; }
+    .content-submenu2 .opinion ul.list-opinion li .count-like img {
+      margin-right: 10px;
+      filter: invert(79%) sepia(3%) saturate(13%) hue-rotate(18deg) brightness(83%) contrast(96%); }
+    .content-submenu2 .opinion ul.list-opinion li .count-like p {
+      font-style: italic;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: 0em; }
+      .content-submenu2 .opinion ul.list-opinion li .count-like p span {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
         letter-spacing: 0em; }
+
+.content-submenu2 .see-more {
+  height: 40px;
+  background: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .content-submenu2 .see-more a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #EE6217;
+    text-decoration: underline;
+    transition: 0.3s ease; }
+    .content-submenu2 .see-more a:hover {
+      color: blue; }
+
+.content-submenu2 .panagation {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  .content-submenu2 .panagation .mr-90 {
+    margin-right: 90px; }
+
+.content-submenu2 .sub-menu2-seemore-lesson {
+  padding-left: 15px;
+  margin-bottom: 70px; }
+  .content-submenu2 .sub-menu2-seemore-lesson .seemore-lesson-submenu2 p {
+    text-decoration: underline; }
+
+.category-left h3 {
+  font-size: 17px;
+  font-weight: 700;
+  height: 70px;
+  align-self: center;
+  background: #EE6217;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 20px; }
+
+.category-left .dropdown .dropdown-title {
+  display: flex;
+  padding-left: 20px; }
+  .category-left .dropdown .dropdown-title.active h4 {
+    color: #EE6217; }
+  .category-left .dropdown .dropdown-title.active img {
+    transform: rotate(90deg);
+    filter: invert(43%) sepia(61%) saturate(2502%) hue-rotate(354deg) brightness(98%) contrast(91%); }
+  .category-left .dropdown .dropdown-title img {
+    display: block;
+    margin-right: 15px;
+    transition: 0.3s ease; }
+  .category-left .dropdown .dropdown-title h4 {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.3s ease; }
+
+.category-left .dropdown .sub-menu .dropdown-title {
+  padding-left: 30px; }
+  .category-left .dropdown .sub-menu .dropdown-title h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em; }
+
+.category-left .dropdown .sub-menu-2 .dropdown-title {
+  padding-left: 40px; }
+  .category-left .dropdown .sub-menu-2 .dropdown-title.active img {
+    transform: unset; }
+  .category-left .dropdown .sub-menu-2 .dropdown-title h4 {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em; }
 
 .header {
   padding: 20px 0;

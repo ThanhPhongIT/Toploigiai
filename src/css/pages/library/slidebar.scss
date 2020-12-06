@@ -1,0 +1,25 @@
+.nav-library {
+    .nav-link {
+        display: flex;
+    }
+    .head {
+        width: 100%;
+        p {
+            color: #FFFFFF !important;
+        }
+        background: #EE6217 !important;
+        font-style: normal;
+        font-weight: bold !important;
+        font-size: 20px;
+        line-height: 25px;
+        padding: 20px 0 20px 60px;
+    }
+    .active {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        /* identical to box height */
+        color: #EE6217 !important;
+    }
+}
