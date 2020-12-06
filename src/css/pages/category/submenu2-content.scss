@@ -1,0 +1,206 @@
+.content-submenu2 {
+    h4 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    ul.list-question {
+        li {
+            &:not(:last-child) {
+                border-bottom: 0.5px solid #A7A7A7;
+            }
+            padding-top: 40px;
+            padding-bottom: 40px;
+            div {
+                p {
+                    font-size: 18px;
+                    color: #000;
+                    &.question {
+                        margin-bottom: 40px;
+                    }
+                    &.answer {
+                        margin-bottom: 15px;
+                    }
+                    span {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .refer {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0em;
+        margin-bottom: 30px;
+        a {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: 0em;
+            text-decoration: underline;
+        }
+    }
+    .view {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 40px;
+        div {
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+            &.share {
+                p {
+                    margin-right: 10px;
+                }
+                img {
+                    margin-right: 0;
+                }
+            }
+            img {
+                display: block;
+                margin-right: 10px;
+            }
+            p {
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 19px;
+                letter-spacing: 0em;
+                font-style: italic;
+                &.share {}
+                span {
+                    margin-left: 5px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+    .opinion {
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: 0em;
+            text-align: left;
+            span {
+                font-size: 20px;
+                font-weight: 200;
+                line-height: 25px;
+            }
+        }
+        form {
+            input {
+                height: 55px;
+            }
+            div {
+                display: flex;
+                justify-content: flex-end;
+                button {
+                    height: 35px;
+                    width: 91px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 23px;
+                    letter-spacing: 0em;
+                    margin-top: 15px;
+                    background: #EE6217;
+                    border: none;
+                }
+            }
+        }
+        ul.list-opinion {
+            li {
+                margin-bottom: 30px;
+                .opinion-detail {
+                    display: flex;
+                    align-items: flex-start;
+                    img.opinion-avatar {
+                        display: block;
+                        width: 49px;
+                        height: 49px;
+                        border-radius: 50%;
+                        margin-right: 20px;
+                    }
+                    div {
+                        .opinion-name {
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                            margin-right: 18px;
+                        }
+                        .opinion-content {
+                            font-size: 15px;
+                            font-weight: 300;
+                            line-height: 20px;
+                            letter-spacing: 0em;
+                        }
+                    }
+                }
+                .count-like {
+                    display: flex;
+                    align-items: flex-end;
+                    margin-top: 10px;
+                    img {
+                        margin-right: 10px;
+                        filter: invert(79%) sepia(3%) saturate(13%) hue-rotate(18deg) brightness(83%) contrast(96%);
+                    }
+                    p {
+                        font-style: italic;
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 19px;
+                        letter-spacing: 0em;
+                        span {
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: 19px;
+                            letter-spacing: 0em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .see-more {
+        height: 40px;
+        background: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            &:hover {
+                color: blue;
+            }
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0em;
+            color: #EE6217;
+            text-decoration: underline;
+            transition: 0.3s ease;
+        }
+    }
+    .panagation {
+        .mr-90 {
+            margin-right: 90px;
+        }
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .sub-menu2-seemore-lesson {
+        padding-left: 15px;
+        margin-bottom: 70px;
+        .seemore-lesson-submenu2 {
+            p {
+                text-decoration: underline;
+            }
+        }
+    }
+}
