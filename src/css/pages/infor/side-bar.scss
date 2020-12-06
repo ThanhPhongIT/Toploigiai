@@ -1,0 +1,26 @@
+.nav-link {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #0C0B0B;
+    img {
+        width: 14px;
+        height: 18px;
+        margin-right: 20px;
+    }
+    button {
+        background-color: transparent;
+        padding: 0;
+    }
+}
+
+.active {
+    background-color: transparent !important;
+    span {
+        color: #EE6217;
+    }
+}

@@ -1,0 +1,50 @@
+.person-infor {
+    min-height: 120vh;
+    border-left: 0.5px solid #A7A7A7;
+    margin-bottom: 100px;
+    .person-heading {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 38px;
+        /* identical to box height */
+        color: #32312F;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    .infor-edit {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 40px;
+        a {
+            span {
+                color: #1972C5;
+                padding-right: 10px;
+            }
+        }
+    }
+    .list-infor {
+        .infor-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0px 20px 40px;
+            border-top: 0.5px solid #A7A7A7;
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 40px;
+                /* or 160% */
+                display: flex;
+                align-items: center;
+                color: #0C0B0B;
+            }
+        }
+    }
+}
