@@ -2,6 +2,29 @@ extends master.pug
 block header
    include ./layouts/header.pug
 block content
-    include ./pages/category/category-content.pug
+    .category-page.back__grey
+        .container-fluid.w-90.back__grey
+            .row
+                .col-2.p-0.bg-white
+                    include ./pages/category/category-sidebar.pug
+                .col-7.bg-white.border-category
+                    .category-centter
+                        .breadcrumb-category
+                            nav
+                                ol.breadcrumb
+                                    li.breadcrumb-item
+                                        a(href='#') Lớp 1-2-3
+                                    li.breadcrumb-item.active(aria-current='page') Giải Tiếng việt lớp 3
+                        #v-pills-tabContent.tab-content
+                            #v-pills-all.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='v-pills-home-tab')
+                                include ./pages/category/category-main-content.pug
+                            #v-pills-toan.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-profile-tab')
+                                include ./pages/category/category-submenu.pug
+                            #v-pills-ly.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-messages-tab')
+                                include ./pages/category/category-submenu2.pug
+                            #v-pills-hoa.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-settings-tab')
+                                include ./pages/question/question-content.pug
+                .col-3.pl-0.bg-white
+                    include ./pages/category/category-right.pug
 block footer
       include ./layouts/footer-category.pug
