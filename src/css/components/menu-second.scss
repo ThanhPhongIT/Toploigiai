@@ -1,6 +1,6 @@
 .menu__second {
     z-index: 100000;
-    width: 100%;
+    width: 80%;
     display: none;
     position: absolute;
     top: 35px;
@@ -11,15 +11,41 @@
         box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
         padding: 50px 56px;
-        .chuyenmuc {
-            li {
+        .nav-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p {
                 font-style: normal;
                 font-weight: 600;
                 font-size: 25px;
                 line-height: 40px;
-                display: flex;
-                align-items: center;
                 color: #000000;
+            }
+        }
+        .active {
+            p {
+                color: #EE6217 !important;
+            }
+        }
+        .chuyenmuc__con {
+            .list-menu {
+                .item-menu {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin-bottom: 20px;
+                    img {
+                        margin-right: 15px;
+                    }
+                    a {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 25px;
+                        color: #000000;
+                    }
+                }
             }
         }
     }

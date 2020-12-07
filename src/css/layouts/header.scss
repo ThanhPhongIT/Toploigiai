@@ -83,6 +83,9 @@
         justify-content: flex-start;
         align-items: center;
         position: relative;
+        &:hover .menu__second {
+            display: block;
+        }
         a {
             &:hover .each__class {
                 background: #EE6217;
@@ -103,9 +106,6 @@
                 line-height: 25px;
                 color: #FFFFFF;
                 margin-right: 30px;
-            }
-            &:hover .menu__second {
-                display: block;
             }
         }
         .header__question,
