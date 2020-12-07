@@ -132,6 +132,10 @@ input[type=checkbox] {
     .w-90 {
       width: 100%; } }
 
+@media only screen and (max-width: 414px) {
+  .p-mb-0 {
+    padding: 0; } }
+
 .w-85 {
   width: 85% !important; }
 
@@ -151,9 +155,16 @@ input[type=checkbox] {
 
 .hot__news {
   padding-bottom: 80px; }
+  @media only screen and (max-width: 414px) {
+    .hot__news {
+      padding-bottom: 50px; } }
   .hot__news h3 {
     padding-top: 70px;
     padding-bottom: 68px; }
+    @media only screen and (max-width: 414px) {
+      .hot__news h3 {
+        padding-top: 25px;
+        padding-bottom: 25px; } }
   .hot__news .carousel-hot-news {
     padding: 0 25px; }
     .hot__news .carousel-hot-news .owl-hot-news .owl-item .active:nth-child(2) {
@@ -168,6 +179,9 @@ input[type=checkbox] {
         padding-left: 15px;
         height: 70px;
         background-color: #1DBB90; }
+        @media only screen and (max-width: 414px) {
+          .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom {
+            padding-left: 10px; } }
         .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom p {
           font-family: Livvic;
           font-size: 14px;
@@ -177,6 +191,9 @@ input[type=checkbox] {
           letter-spacing: 0em;
           text-align: left;
           color: #fff; }
+          @media only screen and (max-width: 414px) {
+            .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom p {
+              font-size: 12px; } }
     .hot__news .carousel-hot-news .owl-hot-news .owl-dots {
       margin-top: 50px; }
       .hot__news .carousel-hot-news .owl-hot-news .owl-dots .owl-dot.active span {
@@ -189,6 +206,9 @@ input[type=checkbox] {
   background-color: #1972C5;
   padding-bottom: 70px;
   position: relative; }
+  @media only screen and (max-width: 414px) {
+    .class-select {
+      padding-bottom: 50px; } }
   .class-select::after {
     content: '';
     position: absolute;
@@ -200,15 +220,23 @@ input[type=checkbox] {
     transform: rotate(45deg) translateX(-50%);
     clear: both;
     z-index: 99999; }
-    @media only screen and (min-width: 576px) {
+    @media only screen and (max-width: 576px) {
       .class-select::after {
         display: none; } }
   .class-select h3 {
     padding-top: 70px;
     padding-bottom: 70px; }
+    @media only screen and (max-width: 414px) {
+      .class-select h3 {
+        padding-top: 30px;
+        padding-bottom: 30px; } }
   .class-select .list-class {
     padding-left: 27px;
     padding-right: 27px; }
+    @media only screen and (max-width: 414px) {
+      .class-select .list-class {
+        padding-left: 15px;
+        padding-right: 15px; } }
     .class-select .list-class .class-item {
       display: block;
       font-family: Livvic;
@@ -218,6 +246,13 @@ input[type=checkbox] {
       text-align: center;
       letter-spacing: 0em;
       background: #1972C5; }
+      @media only screen and (max-width: 414px) {
+        .class-select .list-class .class-item {
+          font-size: 15px;
+          padding: 5px; } }
+      @media only screen and (max-width: 767px) {
+        .class-select .list-class .class-item:nth-child(-n+9) {
+          margin-bottom: 20px; } }
       .class-select .list-class .class-item.active div {
         background-color: #fff !important;
         color: #000 !important; }
@@ -233,6 +268,11 @@ input[type=checkbox] {
         .class-select .list-class .class-item div:hover {
           background-color: #fff;
           color: #000; }
+        @media only screen and (max-width: 414px) {
+          .class-select .list-class .class-item div {
+            height: 100%;
+            padding: 15px 5px;
+            border-radius: 10px; } }
 
 .category {
   padding-top: 70px; }
@@ -281,6 +321,9 @@ input[type=checkbox] {
 
 .about {
   padding: 80px 25px 0 25px; }
+  @media only screen and (max-width: 575px) {
+    .about {
+      padding: 80px 0px 0 0px; } }
   .about .about-item {
     margin-bottom: 100px; }
     .about .about-item .about-item-tittle {
@@ -328,11 +371,15 @@ input[type=checkbox] {
           background: #E29000; }
         .about .about-item .about-item-tittle h5.rank {
           background: #0094AE; }
+        @media only screen and (max-width: 414px) {
+          .about .about-item .about-item-tittle h5 {
+            font-size: 16px; } }
     @media only screen and (max-width: 767px) {
-      .about .about-item .about-item-content > img {
+      .about .about-item .about-item-content .img-about {
         width: 111px;
         height: 84px;
-        margin-right: 15px; } }
+        margin-right: 15px;
+        display: inline-block; } }
     .about .about-item .about-item-content ul.list-detail li {
       margin-bottom: 30px;
       font-weight: 500; }
@@ -367,9 +414,15 @@ input[type=checkbox] {
         display: flex;
         align-items: center;
         margin-bottom: 50px; }
+        @media only screen and (max-width: 414px) {
+          .about .about-item .about-item-content-rank ul.list-rank li {
+            margin-bottom: 20px; } }
         .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar {
           position: relative;
           margin-right: 35px; }
+          @media only screen and (max-width: 414px) {
+            .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar {
+              margin-right: 15px; } }
           .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar::after {
             display: flex;
             justify-content: center;
@@ -394,7 +447,15 @@ input[type=checkbox] {
           position: relative;
           font-size: 20px;
           font-weight: 500;
-          text-transform: capitalize; }
+          text-transform: capitalize;
+          -webkit-line-clamp: 1;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          @media only screen and (max-width: 414px) {
+            .about .about-item .about-item-content-rank ul.list-rank li h5.rank-name {
+              font-size: 15px; } }
           .about .about-item .about-item-content-rank ul.list-rank li h5.rank-name::after {
             position: absolute;
             display: block;
@@ -408,6 +469,9 @@ input[type=checkbox] {
         .about .about-item .about-item-content-rank ul.list-rank li .rank-point {
           font-size: 20px;
           font-weight: 500; }
+          @media only screen and (max-width: 414px) {
+            .about .about-item .about-item-content-rank ul.list-rank li .rank-point {
+              font-size: 13px; } }
       .about .about-item .about-item-content-rank ul.list-rank li:nth-child(1) .rank-avatar::after {
         background: #DA0F1A;
         content: '1'; }
@@ -430,17 +494,30 @@ input[type=checkbox] {
 .comment {
   padding-top: 80px;
   padding-bottom: 45px; }
+  @media only screen and (max-width: 425px) {
+    .comment {
+      padding-top: 40px; } }
   .comment h3 {
     margin-bottom: 70px;
     font-size: 30px;
     font-weight: 500;
     text-align: center; }
+    @media only screen and (max-width: 425px) {
+      .comment h3 {
+        font-size: 15px;
+        margin-bottom: 40px; } }
   .comment .owl-comment {
     padding: 0 80px; }
+    @media only screen and (max-width: 1199px) {
+      .comment .owl-comment {
+        padding: 0 0px; } }
     .comment .owl-comment .comment-item {
       padding: 25px;
       border: 0.5px solid #A7A7A7;
       border-radius: 20px; }
+      @media only screen and (max-width: 425px) {
+        .comment .owl-comment .comment-item {
+          padding: 10px; } }
       .comment .owl-comment .comment-item .comment-item-top {
         display: flex;
         align-items: center;
@@ -452,13 +529,24 @@ input[type=checkbox] {
           width: 100px;
           border-radius: 50px;
           margin-right: 25px; }
+          @media only screen and (max-width: 425px) {
+            .comment .owl-comment .comment-item .comment-item-top img {
+              height: 70px;
+              width: 70px;
+              margin-right: 15px; } }
         .comment .owl-comment .comment-item .comment-item-top div h4 {
           font-size: 18px;
           font-weight: 700;
           margin-bottom: 10px; }
+          @media only screen and (max-width: 425px) {
+            .comment .owl-comment .comment-item .comment-item-top div h4 {
+              font-size: 15px; } }
         .comment .owl-comment .comment-item .comment-item-top div h5 {
           font-size: 15px;
           font-weight: 400; }
+          @media only screen and (max-width: 425px) {
+            .comment .owl-comment .comment-item .comment-item-top div h5 {
+              font-size: 13px; } }
       .comment .owl-comment .comment-item .comment-item-bottom p {
         font-family: Livvic;
         font-size: 15px;
@@ -472,6 +560,9 @@ input[type=checkbox] {
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis; }
+        @media only screen and (max-width: 425px) {
+          .comment .owl-comment .comment-item .comment-item-bottom p {
+            font-size: 12px; } }
     .comment .owl-comment .owl-nav:hover {
       background: unset; }
     .comment .owl-comment .owl-nav button {
@@ -518,9 +609,17 @@ input[type=checkbox] {
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left; }
+  @media only screen and (max-width: 414px) {
+    .title-category {
+      font-size: 15px;
+      line-height: 19px;
+      letter-spacing: 0em; } }
 
 .home-left {
   border-right: 0.5px solid #A7A7A7; }
+  @media only screen and (max-width: 1199px) {
+    .home-left {
+      border: none; } }
 
 .nav-question .nav-link {
   font-family: Livvic;

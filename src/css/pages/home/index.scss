@@ -5,7 +5,7 @@
 @import './about.scss';
 @import './comment.scss';
 @import './responsive.scss';
-
+@import './../../common/common.scss';
 .title-category {
     font-family: Livvic;
     font-size: 30px;
@@ -14,8 +14,16 @@
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
+    @include max-breakpoint(414) {
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: 0em;
+    }
 }
 
 .home-left {
     border-right: 0.5px solid #A7A7A7;
+    @include max-breakpoint(1199) {
+        border: none;
+    }
 }

@@ -3,7 +3,9 @@
     background-color: #1972C5;
     padding-bottom: 70px;
     position: relative;
-   
+    @include max-breakpoint(414) {
+        padding-bottom: 50px;
+    }
     &::after {
         content: '';
         position: absolute;
@@ -15,17 +17,25 @@
         transform: rotate(45deg) translateX(-50%);
         clear: both;
         z-index: 99999;
-        @include min-breakpoint(576) { 
+        @include max-breakpoint(576) {
             display: none;
-         }
+        }
     }
     h3 {
         padding-top: 70px;
         padding-bottom: 70px;
+        @include max-breakpoint(414) {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
     }
     .list-class {
         padding-left: 27px;
         padding-right: 27px;
+        @include max-breakpoint(414) {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
         .class-item {
             display: block;
             font-family: Livvic;
@@ -35,6 +45,15 @@
             text-align: center;
             letter-spacing: 0em;
             background: #1972C5;
+            @include max-breakpoint(414) {
+                font-size: 15px;
+                padding: 5px;
+            }
+            @include max-breakpoint(767) {
+                &:nth-child(-n+9) {
+                    margin-bottom: 20px;
+                }
+            }
             &.active {
                 div {
                     background-color: #fff !important;
@@ -54,6 +73,11 @@
                 &:hover {
                     background-color: #fff;
                     color: #000;
+                }
+                @include max-breakpoint(414) {
+                    height: 100%;
+                    padding: 15px 5px;
+                    border-radius: 10px;
                 }
             }
         }

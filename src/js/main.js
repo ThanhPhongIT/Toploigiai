@@ -1,6 +1,6 @@
-$(document).ready(function () {
+$(document).ready(function() {
     $(".item-q").slice(0, 2).show();
-    $("#loadmore").on("click", function (e) {
+    $("#loadmore").on("click", function(e) {
         e.preventDefault();
         $(".item-q:hidden").slice(0, 2).slideDown();
         if ($(".item-q:hidden").length == 0) {
@@ -9,72 +9,75 @@ $(document).ready(function () {
     });
     //toggle tab
     var tabItem = $(".tab-item");
-    tabItem.click(function () {
-        tabItem.removeClass("active")
-    })
-    //active tab
+    tabItem.click(function() {
+            tabItem.removeClass("active")
+        })
+        //active tab
     var titleCategory = $(".dropdown-title >a");
     var titleParent = $(".title-parent");
     var titleSubmenu = $(".title-submenu");
     var titleSubmeu2 = $(".title-submenu2")
 
-    titleCategory.click(function () {
-        if ($(this).parent().hasClass("active-title")) {
-            console.log('aaaaaa');
-            titleCategory.removeClass("active");
-            tabItem.removeClass("active");
-            titleSubmenu.removeClass("active-title")
-            titleParent.removeClass("active-title")
-            titleSubmeu2.removeClass("active-title")
-            // $(this).parent().toggleClass("active-title")
-            $(this).parents(".title-parent").addClass("active-title")
-            $(this).parents(".title-submenu").addClass("active-title")
-            $(this).parents(".title-submenu2").addClass("active-title")
-            $(this).parent().removeClass("active-title")
-        } else {
-            titleCategory.removeClass("active");
-            tabItem.removeClass("active");
-            titleSubmenu.removeClass("active-title")
-            titleParent.removeClass("active-title")
-            titleSubmeu2.removeClass("active-title")
-            // $(this).parent().toggleClass("active-title")
-            $(this).parents(".title-parent").addClass("active-title")
-            $(this).parents(".title-submenu").addClass("active-title")
-            $(this).parents(".title-submenu2").addClass("active-title")
-            $(this).parent().addClass("active-title")
-        }
-
-
-
-
-
-        console.log($(this).parent())
-    })
-    //carousel banner
-    $('.owl-carousel.owl-banner').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
+    titleCategory.click(function() {
+            if ($(this).parent().hasClass("active-title")) {
+                console.log('aaaaaa');
+                titleCategory.removeClass("active");
+                tabItem.removeClass("active");
+                titleSubmenu.removeClass("active-title")
+                titleParent.removeClass("active-title")
+                titleSubmeu2.removeClass("active-title")
+                    // $(this).parent().toggleClass("active-title")
+                $(this).parents(".title-parent").addClass("active-title")
+                $(this).parents(".title-submenu").addClass("active-title")
+                $(this).parents(".title-submenu2").addClass("active-title")
+                $(this).parent().removeClass("active-title")
+            } else {
+                titleCategory.removeClass("active");
+                tabItem.removeClass("active");
+                titleSubmenu.removeClass("active-title")
+                titleParent.removeClass("active-title")
+                titleSubmeu2.removeClass("active-title")
+                    // $(this).parent().toggleClass("active-title")
+                $(this).parents(".title-parent").addClass("active-title")
+                $(this).parents(".title-submenu").addClass("active-title")
+                $(this).parents(".title-submenu2").addClass("active-title")
+                $(this).parent().addClass("active-title")
             }
-        }
-    })
-    //carousel home hot news
+
+
+
+
+
+            console.log($(this).parent())
+        })
+        //carousel banner
+    $('.owl-carousel.owl-banner').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+        //carousel home hot news
     $(".owl-carousel.owl-hot-news").owlCarousel({
         loop: true,
         margin: 30,
         nav: false,
         responsive: {
             0: {
-                items: 1
+                items: 2.3,
+                dots: false,
+                margin: 10,
+
             },
             600: {
                 items: 3
@@ -89,19 +92,22 @@ $(document).ready(function () {
         autoplay: false,
         loop: true,
         margin: 20,
-        nav: true,
+        nav: false,
         dots: false,
         stagePadding: 10,
         navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
         responsive: {
             0: {
-                items: 2
+                items: 1.3
             },
-            600: {
-                items: 2
+            767: {
+                items: 2.3
             },
             1000: {
                 items: 3
+            },
+            1200: {
+                nav: true,
             }
         }
     });

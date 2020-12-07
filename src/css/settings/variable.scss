@@ -42,9 +42,16 @@ input[type=checkbox] {
 }
 
 .w-90 {
-    width: 90% ;
-    @include max-breakpoint(767) { width:100%; }
+    width: 90%;
+    @include max-breakpoint(767) {
+        width: 100%;
+    }
+}
 
+.p-mb-0 {
+    @include max-breakpoint(414) {
+        padding: 0;
+    }
 }
 
 .w-85 {
