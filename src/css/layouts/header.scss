@@ -1,9 +1,13 @@
+@import '../common/common.scss';
 .header {
     padding: 20px 0;
     background-color: #E5E5E5 !important;
     .header__logo {
         width: 241px;
-        height: 44px;
+        height: auto;
+        @include breakpoint(769) {
+            width: 200px !important;
+        }
         a {
             width: 100%;
             img {
@@ -74,6 +78,17 @@
     }
 }
 
+// @media all and (max-width: 769px) {
+//     .header {
+//         .header__logo {
+//             a {
+//                 img {
+//                     width: 75% !important;
+//                 }
+//             }
+//         }
+//     }
+// }
 .header__class {
     padding: 26px 0;
     .back__white {
@@ -122,6 +137,49 @@
             margin-right: 30px;
             &:hover {
                 color: #EE6217;
+            }
+        }
+    }
+}
+
+@media (max-width: 1441px) {
+    .header__class {
+        .menu {
+            a {
+                .each__class,
+                .header__question,
+                .header__library {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1281px) {
+    .header__class {
+        .menu {
+            a {
+                .each__class,
+                .header__question,
+                .header__library {
+                    font-size: 13px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1025px) {
+    .header__class {
+        .menu {
+            a {
+                .each__class {
+                    margin-right: 9px !important;
+                }
+                .header__question {
+                    margin-right: 9px !important;
+                }
             }
         }
     }

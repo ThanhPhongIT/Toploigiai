@@ -1796,7 +1796,10 @@ input[type=checkbox] {
   background-color: #E5E5E5 !important; }
   .header .header__logo {
     width: 241px;
-    height: 44px; }
+    height: auto; }
+    @media only screen and (max-width: 769px) {
+      .header .header__logo {
+        width: 200px !important; } }
     .header .header__logo a {
       width: 100%; }
       .header .header__logo a img {
@@ -1892,6 +1895,24 @@ input[type=checkbox] {
       .header__class .menu .header__question:hover,
       .header__class .menu .header__library:hover {
         color: #EE6217; }
+
+@media (max-width: 1441px) {
+  .header__class .menu a .each__class,
+  .header__class .menu a .header__question,
+  .header__class .menu a .header__library {
+    font-size: 16px !important; } }
+
+@media (max-width: 1281px) {
+  .header__class .menu a .each__class,
+  .header__class .menu a .header__question,
+  .header__class .menu a .header__library {
+    font-size: 13px !important; } }
+
+@media (max-width: 1025px) {
+  .header__class .menu a .each__class {
+    margin-right: 9px !important; }
+  .header__class .menu a .header__question {
+    margin-right: 9px !important; } }
 
 .footer {
   background-color: #F3FAF3;
@@ -2577,3 +2598,15 @@ input[type=checkbox] {
         font-size: 20px;
         line-height: 25px;
         color: #000000; }
+
+@media (max-width: 1441px) {
+  .menu__second .second__content .nav-link p {
+    font-size: 20px !important; }
+  .menu__second .second__content .chuyenmuc__con .list-menu .item-menu a {
+    font-size: 15px !important; } }
+
+@media (max-width: 1281px) {
+  .menu__second .second__content .nav-link p {
+    font-size: 18px !important; }
+  .menu__second .chuyenmuc__con .list-menu .item-menu a {
+    font-size: 13px !important; } }
