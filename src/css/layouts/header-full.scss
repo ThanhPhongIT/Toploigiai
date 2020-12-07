@@ -1,78 +1,5 @@
-.header {
-    padding: 20px 0;
-    background-color: #E5E5E5 !important;
-    .search__input {
-        position: relative;
-        input {
-            width: 405px;
-            height: 37px;
-            left: 1130px;
-            top: 37px;
-            border: 0.5px solid #EE6217;
-            border-radius: 7px;
-            background-color: transparent !important;
-            padding-left: 20px;
-        }
-        .icon_search {
-            position: absolute;
-            width: 51px;
-            height: 37px;
-            right: 0;
-            top: 0;
-            background: #EE6217;
-            border: 1px solid #EE6217;
-            box-sizing: border-box;
-            border-radius: 0px 7px 7px 0px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            button {
-                border: none;
-                background-color: transparent !important;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                &:focus {
-                    outline: none;
-                }
-            }
-        }
-        margin-right: 22px;
-    }
-    .login {
-        button {
-            padding: 0 10px;
-            background-color: transparent;
-            border: none;
-            font-family: Livvic;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 25px;
-            display: flex;
-            align-items: center;
-            &:nth-child(2) {
-                border-left: 2px solid #C5C5C5;
-            }
-            &:hover {
-                color: #EE6217;
-            }
-            &:focus {
-                outline: none;
-            }
-        }
-    }
-}
-
 .header__class {
-    padding: 26px 0;
-    .back__white {
-        background-color: white;
-    }
     .menu {
-        justify-content: flex-start;
-        align-items: center;
-        position: relative;
         .header__logo {
             width: 241px;
             height: 44px;
@@ -81,47 +8,6 @@
                 img {
                     width: 100%;
                 }
-            }
-        }
-        a {
-            &:hover .each__class {
-                background: #EE6217;
-            }
-            // &:visited .each__class {
-            //     background: #EE6217;
-            // }
-            .each__class {
-                padding: 10px;
-                background: #1972C5;
-                border-radius: 7px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 20px;
-                line-height: 25px;
-                color: #FFFFFF;
-                margin-right: 30px;
-            }
-            &:hover .menu__second {
-                display: block;
-            }
-        }
-        .header__question,
-        .header__library {
-            font-style: normal;
-            font-weight: bold;
-            font-size: 22px;
-            line-height: 28px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            color: #1972C5;
-            text-transform: uppercase;
-            margin-right: 30px;
-            &:hover {
-                color: #EE6217;
             }
         }
     }
