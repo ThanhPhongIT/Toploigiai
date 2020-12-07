@@ -74,6 +74,10 @@
                     font-size: 18px;
                     line-height: 23px;
                     margin-bottom: 30px;
+                    cursor: pointer;
+                    &:hover {
+                        color: #EE6217;
+                    }
                 }
                 ul.list-lesson {
                     li {
@@ -89,6 +93,10 @@
                                 font-weight: 500;
                                 font-size: 15px;
                                 line-height: 28px;
+                                cursor: pointer;
+                                &:hover {
+                                    color: #EE6217;
+                                }
                             }
                         }
                     }

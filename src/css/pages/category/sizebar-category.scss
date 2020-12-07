@@ -13,13 +13,16 @@
     .dropdown {
         .dropdown-title {
             padding-left: 20px;
-            &.active {
-                a {
+            &.active-title {
+                &>a {
                     color: #EE6217;
                 }
-                img {
+                &>img {
                     transform: rotate(90deg);
                     filter: invert(43%) sepia(61%) saturate(2502%) hue-rotate(354deg) brightness(98%) contrast(91%);
+                }
+                &>.sub-menu {
+                    display: block;
                 }
             }
             img {
@@ -42,6 +45,7 @@
             }
         }
         .sub-menu {
+            display: none;
             .dropdown-title {
                 padding-left: 30px;
                 a {
@@ -55,7 +59,7 @@
         .sub-menu-2 {
             .dropdown-title {
                 padding-left: 40px;
-                &.active {
+                &.active-title {
                     img {
                         transform: unset;
                     }
