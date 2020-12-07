@@ -1634,7 +1634,10 @@ button {
     align-items: center;
     font-size: 17px;
     font-weight: 700;
-    transition: 0.3s ease; }
+    transition: 0.3s ease;
+    cursor: pointer; }
+    .category-left .dropdown .dropdown-title h4:hover {
+      color: #EE6217; }
 
 .category-left .dropdown .sub-menu .dropdown-title {
   padding-left: 30px; }
