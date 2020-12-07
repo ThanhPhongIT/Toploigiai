@@ -3,17 +3,15 @@
         .second__content
             .row
                 .col-5
-                    ul.chuyenmuc
-                        li Giải bài tập sách giáo khoa
-                        li Giải sách bài tập, vở bài tập
-                        li Đề kiểm tra, đề thi
-                        li Lý thuyết
-                        li Chuyên đề
-                        li Bài giảng
-                        li Giáo án
+                    #v-pills-tab.nav.flex-column.nav-pills(role='tablist' aria-orientation='vertical')
+                        a#v-pills-home-tab.nav-link.active(data-toggle='pill' href='#v-pills-home' role='tab' aria-controls='v-pills-home' aria-selected='true') Home
+                        a#v-pills-profile-tab.nav-link(data-toggle='pill' href='#v-pills-profile' role='tab' aria-controls='v-pills-profile' aria-selected='false') Profile
+                        a#v-pills-messages-tab.nav-link(data-toggle='pill' href='#v-pills-messages' role='tab' aria-controls='v-pills-messages' aria-selected='false') Messages
+                        a#v-pills-settings-tab.nav-link(data-toggle='pill' href='#v-pills-settings' role='tab' aria-controls='v-pills-settings' aria-selected='false') Settings
+
                 .col-7.chuyenmuc__con
-                    ul
-                        li abc
-                        li abc
-                        li abc
-                        li abc
+                    #v-pills-tabContent.tab-content
+                        #v-pills-home.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='v-pills-home-tab') ...
+                        #v-pills-profile.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-profile-tab') ...
+                        #v-pills-messages.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-messages-tab') ...
+                        #v-pills-settings.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-settings-tab') ...

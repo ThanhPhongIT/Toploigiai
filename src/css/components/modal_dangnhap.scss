@@ -55,6 +55,11 @@
                         align-items: center;
                         justify-content: space-between;
                         padding-bottom: 25px;
+                        position: relative;
+                        img {
+                            position: absolute;
+                            right: 10px;
+                        }
                         span {
                             font-style: normal;
                             font-weight: normal;
@@ -90,6 +95,9 @@
                             display: flex;
                             align-items: center;
                             color: #7B7B7B;
+                            input {
+                                margin-right: 10px;
+                            }
                         }
                         .btn-dangnhap {
                             width: 320px;
@@ -182,6 +190,13 @@
                             padding-left: 15px;
                         }
                     }
+                    .pass {
+                        position: relative;
+                        img {
+                            position: absolute;
+                            right: 10px;
+                        }
+                    }
                     .dn-bottom {
                         padding-left: 100px;
                         .remember {
@@ -194,6 +209,14 @@
                             display: flex;
                             align-items: center;
                             color: #7B7B7B;
+                            input {
+                                margin-right: 10px;
+                            }
+                            label {
+                                span {
+                                    color: #000;
+                                }
+                            }
                         }
                         .btn-dangnhap {
                             width: 320px;

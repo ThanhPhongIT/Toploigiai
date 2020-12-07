@@ -1,16 +1,6 @@
 .header {
     padding: 20px 0;
     background-color: #E5E5E5 !important;
-    .header__logo {
-        width: 241px;
-        height: 44px;
-        a {
-            width: 100%;
-            img {
-                width: 100%;
-            }
-        }
-    }
     .search__input {
         position: relative;
         input {
@@ -83,6 +73,16 @@
         justify-content: flex-start;
         align-items: center;
         position: relative;
+        .header__logo {
+            width: 241px;
+            height: 44px;
+            a {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
         a {
             &:hover .each__class {
                 background: #EE6217;

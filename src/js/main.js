@@ -47,3 +47,30 @@ $(document).ready(function() {
         }
     });
 })
+
+function hide() {
+    var x = document.getElementById("passdn");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+
+function hidedk() {
+    var x = document.getElementById("passdk");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+
+function hidedkag() {
+    var x = document.getElementById("passdkag");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}

@@ -24,3 +24,38 @@
         color: #EE6217;
     }
 }
+
+.side-bar-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .profile-avatar {
+        position: relative;
+    }
+    .add-photo {
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+        cursor: pointer;
+    }
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        color: #0C0B0B;
+        padding: 20px 0;
+        span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 31px;
+            display: flex;
+            align-items: center;
+            color: #0C0B0B;
+        }
+    }
+}

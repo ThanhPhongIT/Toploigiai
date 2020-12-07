@@ -12,6 +12,7 @@
         background-color: #1972C5;
         transform: rotate(45deg) translateX(-50%);
         clear: both;
+        z-index: 99999;
     }
     h3 {
         padding-top: 70px;
@@ -21,6 +22,7 @@
         padding-left: 27px;
         padding-right: 27px;
         .class-item {
+            display: block;
             font-family: Livvic;
             font-size: 18px;
             font-style: normal;
@@ -28,6 +30,12 @@
             text-align: center;
             letter-spacing: 0em;
             background: #1972C5;
+            &.active {
+                div {
+                    background-color: #fff !important;
+                    color: #000!important;
+                }
+            }
             &:nth-child(-n+5) {
                 margin-bottom: 20px;
             }
@@ -42,10 +50,6 @@
                     background-color: #fff;
                     color: #000;
                 }
-            }
-            .active {
-                background-color: #fff !important;
-                color: #000!important;
             }
         }
     }
