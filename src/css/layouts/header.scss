@@ -67,11 +67,11 @@
             }
         }
         margin-right: 22px;
-        .toggle-menu-icon {
-            display: none;
-            @include breakpoint(769) {
-                display: block !important;
-            }
+    }
+    .toggle-menu-icon {
+        display: none !important;
+        @include breakpoint(769) {
+            display: block !important;
         }
     }
     .toggle-menu {

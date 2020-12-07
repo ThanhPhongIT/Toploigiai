@@ -1964,11 +1964,11 @@ input[type=checkbox] {
           width: 100%; }
         .header .search__input .icon_search button:focus {
           outline: none; }
-    .header .search__input .toggle-menu-icon {
-      display: none; }
-      @media only screen and (max-width: 769px) {
-        .header .search__input .toggle-menu-icon {
-          display: block !important; } }
+  .header .toggle-menu-icon {
+    display: none !important; }
+    @media only screen and (max-width: 769px) {
+      .header .toggle-menu-icon {
+        display: block !important; } }
   .header .toggle-menu {
     display: none;
     opacity: 0;
@@ -2214,7 +2214,7 @@ input[type=checkbox] {
         .footer .footer__right .classes-two a {
           font-style: normal;
           font-weight: 500;
-          font-size: 18px;
+          font-size: 16px;
           line-height: 40px;
           color: #0C0B0B; } }
 
