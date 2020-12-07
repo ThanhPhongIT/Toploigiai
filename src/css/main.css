@@ -152,6 +152,10 @@ input[type=checkbox] {
   .banner .owl-banner .owl-dots .owl-dot span {
     width: 20px;
     height: 20px; }
+    @media only screen and (max-width: 1200px) {
+      .banner .owl-banner .owl-dots .owl-dot span {
+        width: 13px;
+        height: 13px; } }
 
 .hot__news {
   padding-bottom: 80px; }
@@ -167,6 +171,9 @@ input[type=checkbox] {
         padding-bottom: 25px; } }
   .hot__news .carousel-hot-news {
     padding: 0 25px; }
+    @media only screen and (max-width: 414px) {
+      .hot__news .carousel-hot-news {
+        padding: 0 15px; } }
     .hot__news .carousel-hot-news .owl-hot-news .owl-item .active:nth-child(2) {
       background-color: #1DBB90; }
     .hot__news .carousel-hot-news .owl-hot-news .hot-news-item {
