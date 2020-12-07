@@ -10,7 +10,7 @@
     }
     .noti-list {
         .noti-item {
-            padding: 20px 0;
+            padding: 20px 0 20px 20px;
             .center {
                 display: flex;
                 align-items: center;
@@ -28,6 +28,7 @@
                 color: #0C0B0B;
             }
             .noti-date {
+                font-family: Arial;
                 font-style: italic;
                 font-weight: normal;
                 font-size: 18px;
@@ -39,7 +40,7 @@
             }
         }
         .active {
-            background: #E7E7E7;
+            background: #E7E7E7 !important;
         }
     }
 }

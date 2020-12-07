@@ -23,6 +23,9 @@
     span {
         color: #EE6217;
     }
+    .ar {
+        filter: invert(43%) sepia(61%) saturate(2502%) hue-rotate(354deg) brightness(98%) contrast(91%);
+    }
 }
 
 .side-bar-head {
@@ -30,6 +33,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
     .profile-avatar {
         position: relative;
     }

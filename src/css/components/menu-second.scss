@@ -27,6 +27,9 @@
             p {
                 color: #EE6217 !important;
             }
+            .ar {
+                filter: invert(43%) sepia(61%) saturate(2502%) hue-rotate(354deg) brightness(98%) contrast(91%);
+            }
         }
         .chuyenmuc__con {
             .list-menu {

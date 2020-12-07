@@ -836,6 +836,9 @@ input[type=checkbox] {
       align-items: center;
       color: #000000; }
 
+.bl {
+  border-left: 0.5px solid #A7A7A7; }
+
 .noti {
   min-height: 120vh; }
   .noti .noti-heading {
@@ -846,7 +849,7 @@ input[type=checkbox] {
     color: #32312F;
     padding: 50px 20px; }
   .noti .noti-list .noti-item {
-    padding: 20px 0; }
+    padding: 20px 0 20px 20px; }
     .noti .noti-list .noti-item .center {
       display: flex;
       align-items: center;
@@ -862,6 +865,7 @@ input[type=checkbox] {
       align-items: center;
       color: #0C0B0B; }
     .noti .noti-list .noti-item .noti-date {
+      font-family: Arial;
       font-style: italic;
       font-weight: normal;
       font-size: 18px;
@@ -871,7 +875,7 @@ input[type=checkbox] {
       align-items: center;
       color: #0C0B0B; }
   .noti .noti-list .active {
-    background: #E7E7E7; }
+    background: #E7E7E7 !important; }
 
 .person-infor {
   min-height: 120vh;
@@ -915,7 +919,7 @@ input[type=checkbox] {
       color: #0C0B0B; }
 
 .user-question {
-  min-height: 120vh; }
+  min-height: 150vh; }
   .user-question .question-heading {
     font-style: normal;
     font-weight: normal;
@@ -923,12 +927,14 @@ input[type=checkbox] {
     line-height: 38px;
     /* identical to box height */
     color: #32312F;
-    padding: 50px 0 50px 20px; }
+    padding: 50px 0 50px 50px; }
   .user-question .question-content {
     background: #FFFFFF;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
     border-radius: 13px;
-    padding: 20px; }
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px; }
     .user-question .question-content .cauhoi {
       border-bottom: 0.5px solid #A7A7A7;
       padding-bottom: 40px; }
@@ -965,10 +971,8 @@ input[type=checkbox] {
       font-weight: 600;
       font-size: 18px;
       line-height: 30px;
-      /* or 167% */
-      display: flex;
-      align-items: center;
-      color: #0C0B0B; }
+      color: #0C0B0B;
+      padding: 20px 0 50px 0; }
     .user-question .question-content .traloi .infor-answer {
       display: flex;
       align-items: center; }
@@ -979,9 +983,6 @@ input[type=checkbox] {
         font-weight: normal;
         font-size: 18px;
         line-height: 30px;
-        /* or 167% */
-        display: flex;
-        align-items: center;
         color: #151515; }
     .user-question .question-content .traloi .answer-detail p {
       font-family: Arial;
@@ -989,9 +990,7 @@ input[type=checkbox] {
       font-weight: normal;
       font-size: 15px;
       line-height: 30px;
-      /* or 200% */
-      display: flex;
-      align-items: center;
+      padding-top: 30px;
       color: #151515; }
     .user-question .question-content .traloi .rate {
       font-family: Arial;
@@ -999,12 +998,15 @@ input[type=checkbox] {
       font-weight: normal;
       font-size: 15px;
       line-height: 30px;
-      /* or 200% */
-      display: flex;
-      align-items: center;
       color: #151515;
       padding-bottom: 20px;
       padding-top: 20px; }
+      .user-question .question-content .traloi .rate .rating {
+        margin-top: 10px;
+        display: flex;
+        align-items: center; }
+        .user-question .question-content .traloi .rate .rating img {
+          margin-right: 10px; }
 
 .nav-link {
   display: flex;
@@ -1027,12 +1029,15 @@ input[type=checkbox] {
   background-color: transparent !important; }
   .active span {
     color: #EE6217; }
+  .active .ar {
+    filter: invert(43%) sepia(61%) saturate(2502%) hue-rotate(354deg) brightness(98%) contrast(91%); }
 
 .side-bar-head {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 50px; }
   .side-bar-head .profile-avatar {
     position: relative; }
   .side-bar-head .add-photo {
@@ -2557,6 +2562,8 @@ input[type=checkbox] {
         color: #000000; }
     .menu__second .second__content .active p {
       color: #EE6217 !important; }
+    .menu__second .second__content .active .ar {
+      filter: invert(43%) sepia(61%) saturate(2502%) hue-rotate(354deg) brightness(98%) contrast(91%); }
     .menu__second .second__content .chuyenmuc__con .list-menu .item-menu {
       display: flex;
       align-items: center;
