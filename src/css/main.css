@@ -127,7 +127,10 @@ input[type=checkbox] {
   border-top: 3px solid #E5E5E5; }
 
 .w-90 {
-  width: 90% !important; }
+  width: 90%; }
+  @media only screen and (max-width: 767px) {
+    .w-90 {
+      width: 100%; } }
 
 .w-85 {
   width: 85% !important; }
@@ -325,6 +328,11 @@ input[type=checkbox] {
           background: #E29000; }
         .about .about-item .about-item-tittle h5.rank {
           background: #0094AE; }
+    @media only screen and (max-width: 767px) {
+      .about .about-item .about-item-content > img {
+        width: 111px;
+        height: 84px;
+        margin-right: 15px; } }
     .about .about-item .about-item-content ul.list-detail li {
       margin-bottom: 30px;
       font-weight: 500; }
@@ -352,6 +360,9 @@ input[type=checkbox] {
         color: blue; }
     .about .about-item .about-item-content-rank {
       padding-left: 50px; }
+      @media only screen and (max-width: 767px) {
+        .about .about-item .about-item-content-rank {
+          padding-left: 15px; } }
       .about .about-item .about-item-content-rank ul.list-rank li {
         display: flex;
         align-items: center;
@@ -1799,7 +1810,10 @@ input[type=checkbox] {
   background-color: #E5E5E5 !important; }
   .header .header__logo {
     width: 241px;
-    height: 44px; }
+    height: auto; }
+    @media only screen and (max-width: 769px) {
+      .header .header__logo {
+        width: 200px !important; } }
     .header .header__logo a {
       width: 100%; }
       .header .header__logo a img {
@@ -1895,6 +1909,24 @@ input[type=checkbox] {
       .header__class .menu .header__question:hover,
       .header__class .menu .header__library:hover {
         color: #EE6217; }
+
+@media (max-width: 1441px) {
+  .header__class .menu a .each__class,
+  .header__class .menu a .header__question,
+  .header__class .menu a .header__library {
+    font-size: 16px !important; } }
+
+@media (max-width: 1281px) {
+  .header__class .menu a .each__class,
+  .header__class .menu a .header__question,
+  .header__class .menu a .header__library {
+    font-size: 13px !important; } }
+
+@media (max-width: 1025px) {
+  .header__class .menu a .each__class {
+    margin-right: 9px !important; }
+  .header__class .menu a .header__question {
+    margin-right: 9px !important; } }
 
 .footer {
   background-color: #F3FAF3;
@@ -2580,3 +2612,15 @@ input[type=checkbox] {
         font-size: 20px;
         line-height: 25px;
         color: #000000; }
+
+@media (max-width: 1441px) {
+  .menu__second .second__content .nav-link p {
+    font-size: 20px !important; }
+  .menu__second .second__content .chuyenmuc__con .list-menu .item-menu a {
+    font-size: 15px !important; } }
+
+@media (max-width: 1281px) {
+  .menu__second .second__content .nav-link p {
+    font-size: 18px !important; }
+  .menu__second .chuyenmuc__con .list-menu .item-menu a {
+    font-size: 13px !important; } }

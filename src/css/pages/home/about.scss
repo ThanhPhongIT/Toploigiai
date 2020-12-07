@@ -1,3 +1,4 @@
+@import './../../common/common.scss';
 .about {
     padding: 80px 25px 0 25px;
     .about-item {
@@ -63,7 +64,18 @@
             }
         }
         .about-item-content {
-            img {}
+            &>img {
+                // @media all and (max-width: 767px) {
+                //     width: 111px;
+                //     height: 84px;
+                //     margin-right: 15px;
+                //   }
+                @include max-breakpoint(767) { 
+                    width: 111px;
+                    height: 84px;
+                    margin-right: 15px;
+               }
+            }
             ul.list-detail {
                 li {
                     margin-bottom: 30px;
@@ -103,6 +115,10 @@
         }
         .about-item-content-rank {
             padding-left: 50px;
+            @include max-breakpoint(767) { 
+            padding-left: 15px;
+                
+           }
             ul.list-rank {
                 li {
                     display: flex;
