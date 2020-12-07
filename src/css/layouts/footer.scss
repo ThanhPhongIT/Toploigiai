@@ -1,20 +1,45 @@
+@import '../common/common.scss';
 .footer {
     background-color: #F3FAF3;
     padding: 70px 0;
+    .one {
+        @include breakpoint(769) {
+            order: 2 !important;
+        }
+    }
+    .two {
+        @include breakpoint(769) {
+            order: 1 !important;
+        }
+    }
     .footer__left {
+        @include max-breakpoint(769) {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
         p {
             font-style: normal;
             font-weight: 300;
             font-size: 18px;
             line-height: 30px;
-            /* or 150% */
-            display: flex;
-            align-items: center;
             color: #21243D;
             padding-bottom: 25px;
+            @include max-breakpoint(769) {
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                padding-bottom: 10px;
+            }
             span {
                 &:nth-child(1) {
                     font-weight: bold;
+                }
+                @include max-breakpoint(769) {
+                    font-size: 12px;
                 }
             }
             &:nth-last-child(1) {
@@ -25,18 +50,24 @@
                 font-weight: 300;
                 font-size: 20px;
                 line-height: 40px;
-                /* identical to box height, or 200% */
                 display: flex;
                 align-items: center;
                 text-align: center;
                 color: #21243D;
+                @include max-breakpoint(769) {
+                    font-size: 12px;
+                    line-height: 20px;
+                }
             }
             .sdt {
+                @include max-breakpoint(769) {
+                    font-size: 12px;
+                    line-height: 20px;
+                }
                 font-style: normal;
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 40px;
-                /* identical to box height, or 200% */
                 display: flex;
                 align-items: center;
                 text-align: center;
@@ -60,22 +91,45 @@
             width: 399px;
             height: 72px;
             margin-bottom: 75px;
+            @include max-breakpoint(769) {
+                width: 163px;
+                height: 29px;
+                margin-bottom: 20px;
+            }
         }
         .classes {
             display: flex;
             flex-wrap: wrap;
             align-items: flex-end;
             justify-content: center;
+            @include max-breakpoint(769) {
+                display: none;
+            }
             a {
                 font-style: normal;
                 font-weight: 500;
                 font-size: 25px;
                 line-height: 40px;
-                /* or 160% */
-                display: flex;
-                align-items: center;
                 color: #0C0B0B;
                 margin-bottom: 30px;
+            }
+        }
+        .classes-two {
+            display: none;
+            @include breakpoint(769) {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-end;
+                justify-content: center;
+            }
+            a {
+                @include breakpoint(769) {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 40px;
+                    color: #0C0B0B;
+                }
             }
         }
     }

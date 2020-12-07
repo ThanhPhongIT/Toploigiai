@@ -1,13 +1,14 @@
 @import '../common/common.scss';
 .header {
     padding: 20px 0;
-    background-color: #E5E5E5 !important;
+    background-color: #E5E5E5;
+    @include breakpoint(769) {
+        background-color: #fff !important;
+        position: relative !important;
+    }
     .header__logo {
         width: 241px;
         height: auto;
-        @include breakpoint(769) {
-            width: 200px !important;
-        }
         a {
             width: 100%;
             img {
@@ -26,6 +27,13 @@
             border-radius: 7px;
             background-color: transparent !important;
             padding-left: 20px;
+            @include breakpoint(769) {
+                width: 107px !important;
+                height: 20px !important;
+                border: 0.5px solid #EE6217;
+                box-sizing: border-box;
+                border-radius: 7px;
+            }
         }
         .icon_search {
             position: absolute;
@@ -40,20 +48,91 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            @include breakpoint(769) {
+                width: 23px !important;
+                height: 20px !important;
+            }
             button {
                 border: none;
                 background-color: transparent !important;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                img {
+                    width: 100%;
+                }
                 &:focus {
                     outline: none;
                 }
             }
         }
         margin-right: 22px;
+        .toggle-menu-icon {
+            display: none;
+            @include breakpoint(769) {
+                display: block !important;
+            }
+        }
+    }
+    .toggle-menu {
+        display: none;
+        opacity: 0;
+        flex-direction: column;
+        position: absolute !important;
+        top: 65px;
+        right: 10px;
+        width: 220px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        z-index: 10;
+        .each__class {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            color: #32312F;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+            border-bottom: 0.5px solid #9B9B9B;
+        }
+        .login-out {
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+            align-items: center;
+            justify-content: center;
+            button {
+                background-color: transparent;
+                width: 93px;
+                height: 23px;
+                border: 1px solid #EE6217;
+                box-sizing: border-box;
+                border-radius: 24px;
+                margin-bottom: 10px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 11px;
+                color: #EE6217;
+                &:hover {
+                    background: #EE6217;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    .show {
+        display: flex;
+        opacity: 1;
+        transition: all 0.5s ease;
     }
     .login {
+        @include breakpoint(769) {
+            display: none !important;
+        }
         button {
             padding: 0 10px;
             background-color: transparent;
@@ -78,19 +157,23 @@
     }
 }
 
-// @media all and (max-width: 769px) {
-//     .header {
-//         .header__logo {
-//             a {
-//                 img {
-//                     width: 75% !important;
-//                 }
-//             }
-//         }
-//     }
-// }
+@media all and (max-width: 769px) {
+    .header {
+        .header__logo {
+            a {
+                img {
+                    width: 75% !important;
+                }
+            }
+        }
+    }
+}
+
 .header__class {
     padding: 26px 0;
+    @include breakpoint(769) {
+        display: none;
+    }
     .back__white {
         background-color: white;
     }

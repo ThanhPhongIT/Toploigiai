@@ -1,3 +1,19 @@
+var menuResponsive = {
+    init: function() {
+        this.toggleMenu();
+    },
+    toggleMenu: function() {
+        var button = document.querySelector(".toggle-menu-icon");
+        var menu = document.querySelector(".toggle-menu");
+        button.addEventListener("click", function() {
+            menu.classList.toggle("show");
+        });
+    },
+}
+
+
+menuResponsive.init();
+
 $(document).ready(function() {
     $(".item-q").slice(0, 2).show();
     $("#loadmore").on("click", function(e) {
