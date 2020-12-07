@@ -54,6 +54,20 @@
                     }
                 }
             }
+            .owl-dots {
+                margin-top: 50px;
+                .owl-dot {
+                    &.active {
+                        span {
+                            background-color: #E29000;
+                        }
+                    }
+                    span {
+                        width: 12.14px;
+                        height: 12.14px;
+                    }
+                }
+            }
         }
     }
 }

@@ -10,34 +10,51 @@ $(document).ready(function() {
     //
     var titleCategory = $(".dropdown-title >a");
     titleCategory.click(function() {
-        titleCategory.removeClass("active");
-    })
-    $(document).ready(function() {
-        $(".owl-hot-news.owl-carousel").owlCarousel({
+            titleCategory.removeClass("active");
+        })
+        //carousel banner
+    $('.owl-carousel.owl-banner').owlCarousel({
             loop: true,
-            margin: 30,
-            nav: true,
-            dot: true,
+            margin: 10,
+            nav: false,
             responsive: {
                 0: {
                     items: 1
                 },
                 600: {
-                    items: 3
+                    items: 1
                 },
                 1000: {
-                    items: 3
+                    items: 1
                 }
             }
-        });
+        })
+        //carousel home hot news
+    $(".owl-carousel.owl-hot-news").owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
     });
-    $(".comment-carousel.owl-carousel").owlCarousel({
+    //carousel home commnet
+    $(".owl-carousel.comment-carousel").owlCarousel({
         autoplay: false,
         loop: true,
         margin: 20,
         nav: true,
-        // rewindNav: true,
-        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+        dots: false,
+        stagePadding: 10,
+        navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
         responsive: {
             0: {
                 items: 1

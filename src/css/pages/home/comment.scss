@@ -8,7 +8,7 @@
         text-align: center;
     }
     .owl-comment {
-        padding: 0 25px;
+        padding: 0 80px;
         .comment-item {
             padding: 25px;
             border: 0.5px solid #A7A7A7;
@@ -52,6 +52,28 @@
                     overflow: hidden;
                     text-overflow: ellipsis;
                 }
+            }
+        }
+        .owl-nav {
+            &:hover {
+                background: unset;
+            }
+            button {
+                &:hover {
+                    background: unset;
+                }
+                top: 50%;
+                transform: translateY(-50%);
+                i {
+                    font-size: 30px;
+                    transform: unset;
+                }
+            }
+            .owl-prev {
+                left: -40px;
+            }
+            .owl-next {
+                right: -40px;
             }
         }
     }

@@ -1,0 +1,21 @@
+.banner {
+    .owl-banner {
+        .owl-dots {
+            position: absolute;
+            left: 50%;
+            bottom: 40px;
+            transform: translateX(-50%);
+            .owl-dot {
+                &.active {
+                    span {
+                        background-color: #fff;
+                    }
+                }
+                span {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
