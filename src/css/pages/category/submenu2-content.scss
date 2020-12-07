@@ -1,4 +1,28 @@
 .content-submenu2 {
+    .inquiry24h {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        height: 87px;
+        width: 87px;
+        right: 66px;
+        top: 28px;
+        border-radius: 50%;
+        background: #EE6217;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        padding: 0 15px;
+        a {
+            &:hover {
+                color: blue;
+            }
+            color: #fff;
+            font-size: 15px;
+            text-align: center;
+            line-height: 19px;
+            transition: 0.3s ease;
+        }
+    }
     h4 {
         font-size: 30px;
         font-weight: 500;
@@ -26,6 +50,7 @@
                     }
                     span {
                         font-weight: 600;
+                        color: #000 !important;
                     }
                 }
             }
@@ -76,6 +101,7 @@
                 span {
                     margin-left: 5px;
                     font-weight: 300;
+                    color: #000;
                 }
             }
         }
@@ -91,6 +117,7 @@
                 font-size: 20px;
                 font-weight: 200;
                 line-height: 25px;
+                color: #000;
             }
         }
         form {
@@ -139,6 +166,7 @@
                             font-weight: 300;
                             line-height: 20px;
                             letter-spacing: 0em;
+                            color: #000;
                         }
                     }
                 }
@@ -162,6 +190,7 @@
                             font-weight: 300;
                             line-height: 19px;
                             letter-spacing: 0em;
+                            color: #000;
                         }
                     }
                 }
@@ -195,7 +224,6 @@
         margin-bottom: 80px;
     }
     .sub-menu2-seemore-lesson {
-        padding-left: 15px;
         margin-bottom: 70px;
         .seemore-lesson-submenu2 {
             p {
