@@ -1,7 +1,9 @@
+@import './../../common/common.scss';
 .class-select {
     background-color: #1972C5;
     padding-bottom: 70px;
     position: relative;
+   
     &::after {
         content: '';
         position: absolute;
@@ -13,6 +15,9 @@
         transform: rotate(45deg) translateX(-50%);
         clear: both;
         z-index: 99999;
+        @include min-breakpoint(576) { 
+            display: none;
+         }
     }
     h3 {
         padding-top: 70px;
