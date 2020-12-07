@@ -16,9 +16,15 @@
         .btn-pre {
             background: #707070;
             margin-right: 90px;
+            img {
+                margin-right: 10px;
+            }
         }
         .btn-next {
             background: #EE6217;
+            img {
+                margin-left: 10px;
+            }
         }
     }
     .border-category {
@@ -171,6 +177,7 @@
     }
     .seemore-lesson {
         position: relative;
+        margin-left: 15px;
         margin-bottom: 55px;
         &::before {
             display: block;

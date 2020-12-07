@@ -8,6 +8,10 @@ $(document).ready(function() {
         }
     });
     //
+    var titleCategory = $(".dropdown-title >a");
+    titleCategory.click(function() {
+        titleCategory.removeClass("active");
+    })
     $(document).ready(function() {
         $(".owl-hot-news.owl-carousel").owlCarousel({
             loop: true,

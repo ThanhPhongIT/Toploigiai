@@ -26,6 +26,7 @@
                     }
                     span {
                         font-weight: 600;
+                        color: #000 !important;
                     }
                 }
             }
@@ -91,6 +92,7 @@
                 font-size: 20px;
                 font-weight: 200;
                 line-height: 25px;
+                color: #000;
             }
         }
         form {
@@ -139,6 +141,7 @@
                             font-weight: 300;
                             line-height: 20px;
                             letter-spacing: 0em;
+                            color: #000;
                         }
                     }
                 }
@@ -162,6 +165,7 @@
                             font-weight: 300;
                             line-height: 19px;
                             letter-spacing: 0em;
+                            color: #000;
                         }
                     }
                 }
@@ -195,7 +199,6 @@
         margin-bottom: 80px;
     }
     .sub-menu2-seemore-lesson {
-        padding-left: 15px;
         margin-bottom: 70px;
         .seemore-lesson-submenu2 {
             p {
