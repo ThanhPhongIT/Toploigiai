@@ -1,20 +1,20 @@
 @import './../../common/common.scss';
 .hot__news {
     padding-bottom: 80px;
-    @include max-breakpoint(414) {
+    @include max-breakpoint(425) {
         padding-bottom: 50px;
     }
     h3 {
         padding-top: 70px;
         padding-bottom: 68px;
-        @include max-breakpoint(414) {
+        @include max-breakpoint(425) {
             padding-top: 25px;
             padding-bottom: 25px;
         }
     }
     .carousel-hot-news {
         padding: 0 25px;
-        @include max-breakpoint(414) {
+        @include max-breakpoint(425) {
             padding: 0 15px;
         }
         .owl-hot-news {
@@ -53,7 +53,7 @@
                     padding-left: 15px;
                     height: 70px;
                     background-color: #1DBB90;
-                    @include max-breakpoint(414) {
+                    @include max-breakpoint(425) {
                         padding-left: 10px;
                     }
                     p {
@@ -65,7 +65,7 @@
                         letter-spacing: 0em;
                         text-align: left;
                         color: #fff;
-                        @include max-breakpoint(414) {
+                        @include max-breakpoint(425) {
                             font-size: 12px;
                         }
                     }

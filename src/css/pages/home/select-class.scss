@@ -3,7 +3,7 @@
     background-color: #1972C5;
     padding-bottom: 70px;
     position: relative;
-    @include max-breakpoint(414) {
+    @include max-breakpoint(425) {
         padding-bottom: 50px;
     }
     &::after {
@@ -24,7 +24,7 @@
     h3 {
         padding-top: 70px;
         padding-bottom: 70px;
-        @include max-breakpoint(414) {
+        @include max-breakpoint(425) {
             padding-top: 30px;
             padding-bottom: 30px;
         }
@@ -32,7 +32,7 @@
     .list-class {
         padding-left: 27px;
         padding-right: 27px;
-        @include max-breakpoint(414) {
+        @include max-breakpoint(425) {
             padding-left: 15px;
             padding-right: 15px;
         }
@@ -45,7 +45,7 @@
             text-align: center;
             letter-spacing: 0em;
             background: #1972C5;
-            @include max-breakpoint(414) {
+            @include max-breakpoint(425) {
                 font-size: 15px;
                 padding: 5px;
             }
@@ -74,7 +74,7 @@
                     background-color: #fff;
                     color: #000;
                 }
-                @include max-breakpoint(414) {
+                @include max-breakpoint(425) {
                     height: 100%;
                     padding: 15px 5px;
                     border-radius: 10px;

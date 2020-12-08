@@ -1,28 +1,69 @@
 @import './../../common/common.scss';
-
 .class-page {
     padding-top: 20px;
+    .class-select {
+        &::after {
+            display: block;
+            bottom: -37px;
+            width: 46px;
+            height: 46px;
+        }
+    }
     .subjects {
         padding: 0 10px;
         background: #fff;
         padding-top: 70px;
-        .title-mobile{
-            @include max-breakpoint(575) { 
-            font-size: 13px;
-            font-weight: 500;
-            line-height: 20px;
-            letter-spacing: 0em;
-            text-align: center;
-            margin-bottom:40px;
+        @include max-breakpoint(575) {
+            padding: 0 0px;
+            background: #fff;
+            padding-top: 40px;
+        }
+        .title-mobile {
+            position: relative;
+            h3 {
+                @include max-breakpoint(575) {
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    margin-bottom: 40px;
+                    max-width: 70%;
+                    margin: auto;
+                    margin-bottom: 30px;
+                    text-transform: capitalize;
+                }
+            }
+            a {
+                position: absolute;
+                top: 5px;
+                right: -10px;
+                color: #858585;
+                font-size: 14px;
+                text-transform: uppercase;
             }
         }
         .subjects-item {
             margin-bottom: 40px;
+            &.active {
+                .list-book {
+                    display: block;
+                }
+                .title-subject {
+                    @include max-breakpoint(425) {
+                        margin-bottom: 40px;
+                    }
+                }
+            }
             .title-subject {
                 display: flex;
-                align-items: flex-end;
+                align-items: center;
                 position: relative;
                 margin-bottom: 50px;
+                @include max-breakpoint(425) {
+                    margin-bottom: 0px;
+                    margin-left: 15px;
+                }
                 &::after {
                     display: block;
                     content: "";
@@ -33,32 +74,39 @@
                     background: #E29000;
                     border-radius: 2.5px;
                     width: 193px;
-                    @include max-breakpoint(425) { 
-                        height:0.5px;
-                        width:100%;
-                        }
+                    @include max-breakpoint(425) {
+                        height: 0.5px;
+                        width: 100%;
+                    }
                 }
                 img {
                     display: block;
                     margin-right: 20px;
-                    @include max-breakpoint(425) { 
-                        weight:14px;
-                        height:10px;;
-                        
-                        }
+                    @include max-breakpoint(425) {
+                        weight: 14px;
+                        height: 10px;
+                        ;
+                    }
                 }
                 h4 {
                     color: #E29000;
                     font-size: 30px;
                     text-transform: capitalize;
                     font-weight: 500;
-                    @include max-breakpoint(425) { 
+                    line-height: normal;
+                    cursor: pointer;
+                    @include max-breakpoint(425) {
                         font-size: 16px;
-                        
-                        }
+                    }
+                    @include max-breakpoint(991) {
+                        font-size: 18px;
+                    }
                 }
             }
             ul.list-book {
+                @include max-breakpoint(425) {
+                    display: none;
+                }
                 li {
                     display: flex;
                     margin-bottom: 20px;
@@ -74,10 +122,12 @@
                         &::first-letter {
                             text-transform: uppercase;
                         }
-                         @include max-breakpoint(425) { 
+                        @include max-breakpoint(425) {
                             font-size: 15px;
                             line-height: 19px;
-
+                        }
+                        @include max-breakpoint(991) {
+                            font-size: 16px;
                         }
                     }
                 }

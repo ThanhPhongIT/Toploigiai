@@ -132,7 +132,13 @@ input[type=checkbox] {
     .w-90 {
       width: 100%; } }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 425px) {
+  .full-screen {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0 15px; } }
+
+@media only screen and (max-width: 425px) {
   .p-mb-0 {
     padding: 0; } }
 
@@ -141,6 +147,10 @@ input[type=checkbox] {
 
 .br {
   border-right: 2px solid #E5E5E5; }
+
+@media only screen and (max-width: 425px) {
+  .bg-blue-mobile {
+    background-color: #1972C5 !important; } }
 
 .banner .owl-banner .owl-dots {
   position: absolute;
@@ -159,19 +169,19 @@ input[type=checkbox] {
 
 .hot__news {
   padding-bottom: 80px; }
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 425px) {
     .hot__news {
       padding-bottom: 50px; } }
   .hot__news h3 {
     padding-top: 70px;
     padding-bottom: 68px; }
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 425px) {
       .hot__news h3 {
         padding-top: 25px;
         padding-bottom: 25px; } }
   .hot__news .carousel-hot-news {
     padding: 0 25px; }
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 425px) {
       .hot__news .carousel-hot-news {
         padding: 0 15px; } }
     .hot__news .carousel-hot-news .owl-hot-news .owl-item .active:nth-child(2) {
@@ -186,7 +196,7 @@ input[type=checkbox] {
         padding-left: 15px;
         height: 70px;
         background-color: #1DBB90; }
-        @media only screen and (max-width: 414px) {
+        @media only screen and (max-width: 425px) {
           .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom {
             padding-left: 10px; } }
         .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom p {
@@ -198,7 +208,7 @@ input[type=checkbox] {
           letter-spacing: 0em;
           text-align: left;
           color: #fff; }
-          @media only screen and (max-width: 414px) {
+          @media only screen and (max-width: 425px) {
             .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom p {
               font-size: 12px; } }
     .hot__news .carousel-hot-news .owl-hot-news .owl-dots {
@@ -213,7 +223,7 @@ input[type=checkbox] {
   background-color: #1972C5;
   padding-bottom: 70px;
   position: relative; }
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 425px) {
     .class-select {
       padding-bottom: 50px; } }
   .class-select::after {
@@ -233,14 +243,14 @@ input[type=checkbox] {
   .class-select h3 {
     padding-top: 70px;
     padding-bottom: 70px; }
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 425px) {
       .class-select h3 {
         padding-top: 30px;
         padding-bottom: 30px; } }
   .class-select .list-class {
     padding-left: 27px;
     padding-right: 27px; }
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 425px) {
       .class-select .list-class {
         padding-left: 15px;
         padding-right: 15px; } }
@@ -253,7 +263,7 @@ input[type=checkbox] {
       text-align: center;
       letter-spacing: 0em;
       background: #1972C5; }
-      @media only screen and (max-width: 414px) {
+      @media only screen and (max-width: 425px) {
         .class-select .list-class .class-item {
           font-size: 15px;
           padding: 5px; } }
@@ -275,7 +285,7 @@ input[type=checkbox] {
         .class-select .list-class .class-item div:hover {
           background-color: #fff;
           color: #000; }
-        @media only screen and (max-width: 414px) {
+        @media only screen and (max-width: 425px) {
           .class-select .list-class .class-item div {
             height: 100%;
             padding: 15px 5px;
@@ -378,7 +388,7 @@ input[type=checkbox] {
           background: #E29000; }
         .about .about-item .about-item-tittle h5.rank {
           background: #0094AE; }
-        @media only screen and (max-width: 414px) {
+        @media only screen and (max-width: 425px) {
           .about .about-item .about-item-tittle h5 {
             font-size: 16px; } }
     @media only screen and (max-width: 767px) {
@@ -421,13 +431,13 @@ input[type=checkbox] {
         display: flex;
         align-items: center;
         margin-bottom: 50px; }
-        @media only screen and (max-width: 414px) {
+        @media only screen and (max-width: 425px) {
           .about .about-item .about-item-content-rank ul.list-rank li {
             margin-bottom: 20px; } }
         .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar {
           position: relative;
           margin-right: 35px; }
-          @media only screen and (max-width: 414px) {
+          @media only screen and (max-width: 425px) {
             .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar {
               margin-right: 15px; } }
           .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar::after {
@@ -460,7 +470,7 @@ input[type=checkbox] {
           -webkit-box-orient: vertical;
           overflow: hidden;
           text-overflow: ellipsis; }
-          @media only screen and (max-width: 414px) {
+          @media only screen and (max-width: 425px) {
             .about .about-item .about-item-content-rank ul.list-rank li h5.rank-name {
               font-size: 15px; } }
           .about .about-item .about-item-content-rank ul.list-rank li h5.rank-name::after {
@@ -476,7 +486,7 @@ input[type=checkbox] {
         .about .about-item .about-item-content-rank ul.list-rank li .rank-point {
           font-size: 20px;
           font-weight: 500; }
-          @media only screen and (max-width: 414px) {
+          @media only screen and (max-width: 425px) {
             .about .about-item .about-item-content-rank ul.list-rank li .rank-point {
               font-size: 13px; } }
       .about .about-item .about-item-content-rank ul.list-rank li:nth-child(1) .rank-avatar::after {
@@ -616,7 +626,7 @@ input[type=checkbox] {
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left; }
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 425px) {
     .title-category {
       font-size: 15px;
       line-height: 19px;
@@ -1185,25 +1195,57 @@ input[type=checkbox] {
 
 .class-page {
   padding-top: 20px; }
+  .class-page .class-select::after {
+    display: block;
+    bottom: -37px;
+    width: 46px;
+    height: 46px; }
   .class-page .subjects {
     padding: 0 10px;
     background: #fff;
     padding-top: 70px; }
     @media only screen and (max-width: 575px) {
-      .class-page .subjects .title-mobile {
-        font-size: 13px;
-        font-weight: 500;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: center;
-        margin-bottom: 40px; } }
+      .class-page .subjects {
+        padding: 0 0px;
+        background: #fff;
+        padding-top: 40px; } }
+    .class-page .subjects .title-mobile {
+      position: relative; }
+      @media only screen and (max-width: 575px) {
+        .class-page .subjects .title-mobile h3 {
+          font-size: 18px;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 0em;
+          text-align: center;
+          margin-bottom: 40px;
+          max-width: 70%;
+          margin: auto;
+          margin-bottom: 30px;
+          text-transform: capitalize; } }
+      .class-page .subjects .title-mobile a {
+        position: absolute;
+        top: 5px;
+        right: -10px;
+        color: #858585;
+        font-size: 14px;
+        text-transform: uppercase; }
     .class-page .subjects .subjects-item {
       margin-bottom: 40px; }
+      .class-page .subjects .subjects-item.active .list-book {
+        display: block; }
+      @media only screen and (max-width: 425px) {
+        .class-page .subjects .subjects-item.active .title-subject {
+          margin-bottom: 40px; } }
       .class-page .subjects .subjects-item .title-subject {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         position: relative;
         margin-bottom: 50px; }
+        @media only screen and (max-width: 425px) {
+          .class-page .subjects .subjects-item .title-subject {
+            margin-bottom: 0px;
+            margin-left: 15px; } }
         .class-page .subjects .subjects-item .title-subject::after {
           display: block;
           content: "";
@@ -1229,10 +1271,18 @@ input[type=checkbox] {
           color: #E29000;
           font-size: 30px;
           text-transform: capitalize;
-          font-weight: 500; }
+          font-weight: 500;
+          line-height: normal;
+          cursor: pointer; }
           @media only screen and (max-width: 425px) {
             .class-page .subjects .subjects-item .title-subject h4 {
               font-size: 16px; } }
+          @media only screen and (max-width: 991px) {
+            .class-page .subjects .subjects-item .title-subject h4 {
+              font-size: 18px; } }
+      @media only screen and (max-width: 425px) {
+        .class-page .subjects .subjects-item ul.list-book {
+          display: none; } }
       .class-page .subjects .subjects-item ul.list-book li {
         display: flex;
         margin-bottom: 20px; }
@@ -1250,6 +1300,9 @@ input[type=checkbox] {
             .class-page .subjects .subjects-item ul.list-book li h5 {
               font-size: 15px;
               line-height: 19px; } }
+          @media only screen and (max-width: 991px) {
+            .class-page .subjects .subjects-item ul.list-book li h5 {
+              font-size: 16px; } }
 
 .library-category .bread-crum {
   display: flex;

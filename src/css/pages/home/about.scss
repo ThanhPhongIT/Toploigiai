@@ -64,7 +64,7 @@
                 font-weight: 400;
                 padding: 10px 25px;
                 font-size: 23px;
-                @include max-breakpoint(414) {
+                @include max-breakpoint(425) {
                     font-size: 16px;
                 }
             }
@@ -125,13 +125,13 @@
                     display: flex;
                     align-items: center;
                     margin-bottom: 50px;
-                    @include max-breakpoint(414) {
+                    @include max-breakpoint(425) {
                         margin-bottom: 20px;
                     }
                     .rank-avatar {
                         position: relative;
                         margin-right: 35px;
-                        @include max-breakpoint(414) {
+                        @include max-breakpoint(425) {
                             margin-right: 15px;
                         }
                         &::after {
@@ -167,7 +167,7 @@
                         -webkit-box-orient: vertical;
                         overflow: hidden;
                         text-overflow: ellipsis;
-                        @include max-breakpoint(414) {
+                        @include max-breakpoint(425) {
                             font-size: 15px;
                         }
                         &::after {
@@ -185,7 +185,7 @@
                     .rank-point {
                         font-size: 20px;
                         font-weight: 500;
-                        @include max-breakpoint(414) {
+                        @include max-breakpoint(425) {
                             font-size: 13px;
                         }
                     }
