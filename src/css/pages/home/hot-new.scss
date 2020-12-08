@@ -15,28 +15,28 @@
     .carousel-hot-news {
         padding: 0 25px;
         @include max-breakpoint(425) {
-            padding: 0 15px;
+            padding: 0px;
         }
         .owl-hot-news {
-            // .owl-item.active {
-            //     background-color: #0094AE;
-            //     &:nth-child(1) {
-            //         background-color: red;
-            //         .hot-news-item-bottom {
-            //             background-color: #0094AE;
-            //         }
-            //     }
-            //     &:nth-child(2) {
-            //         .hot-news-item-bottom {
-            //             background-color: #E29000;
-            //         }
-            //     }
-            //     &:nth-child(3) {
-            //         .hot-news-item-bottom {
-            //             background-color: #1DBB90;
-            //         }
-            //     }
-            // }
+            .owl-item.active {
+                background-color: #0094AE;
+                &:nth-child(1) {
+                    background-color: red;
+                    .hot-news-item-bottom {
+                        background-color: #0094AE;
+                    }
+                }
+                &:nth-child(2) {
+                    .hot-news-item-bottom {
+                        background-color: #E29000;
+                    }
+                }
+                &:nth-child(3) {
+                    .hot-news-item-bottom {
+                        background-color: #1DBB90;
+                    }
+                }
+            }
             .owl-item .active:nth-child(2) {
                 background-color: #1DBB90;
             }

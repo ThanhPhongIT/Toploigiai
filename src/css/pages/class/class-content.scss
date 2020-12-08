@@ -27,6 +27,7 @@
         .title-mobile {
             position: relative;
             h3 {
+<<<<<<< HEAD
                 display: none;
                 @include max-breakpoint(575) {
                     font-size: 18px;
@@ -40,6 +41,20 @@
                     margin-bottom: 30px;
                     text-transform: capitalize;
                     display: block;
+=======
+                font-size: 18px;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0em;
+                text-align: center;
+                margin-bottom: 40px;
+                max-width: 70%;
+                margin: auto;
+                margin-bottom: 30px;
+                text-transform: capitalize;
+                @include max-breakpoint(575) {
+                    font-size: 16px;
+>>>>>>> 0fe4a88588babb5695c25174a49c33739b9536f7
                 }
             }
             a {

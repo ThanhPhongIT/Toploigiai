@@ -2,17 +2,17 @@ extends master.pug
 block header
    include ./layouts/header.pug
 block content
-   .back__grey.mainbody.p-20
+   .back__grey.mainbody.p-xl-20
       .container-fluid.w-90
          .row
-            .col-xl-10.col-12.pr-xl-0.home-left
+            .col-xl-10.col-12.pr-xl-0.order-2.order-xl-1.home-left
                include pages/home/banner.pug
                include pages/home/hot-news.pug
                include pages/home/select-class.pug
                include pages/home/category.pug
                include pages/home/about.pug
                include pages/home/comment.pug
-            .col-xl-2.d-none.d-xl-block
+            .col-xl-2.col-12.order-1.order-xl-2.d-xl-block.pd-0
                include components/advertise.pug
 block footer
    include ./layouts/footer.pug

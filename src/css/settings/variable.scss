@@ -48,7 +48,7 @@ input[type=checkbox] {
     }
 }
 
-.full-screen {
+.full-screen-mobile {
     @include max-breakpoint(425) {
         margin-left: -15px;
         margin-right: -15px;
@@ -73,5 +73,17 @@ input[type=checkbox] {
 .bg-blue-mobile {
     @include max-breakpoint(425) {
         background-color: #1972C5 !important;
+    }
+}
+
+.bg-white-mobile {
+    @include max-breakpoint(425) {
+        background-color: #fff !important;
+    }
+}
+
+.pd-0 {
+    @include max-breakpoint(425) {
+        padding: 0;
     }
 }
