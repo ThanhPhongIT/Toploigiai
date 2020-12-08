@@ -353,12 +353,11 @@ input[type=checkbox] {
         .category .subjects .subjects-item ul.list-book li img {
           display: block;
           margin-right: 5px; }
-        .category .subjects .subjects-item ul.list-book li h5 {
-          cursor: pointer;
+        .category .subjects .subjects-item ul.list-book li a {
           font-size: 18px;
           color: #000;
           font-weight: 500; }
-          .category .subjects .subjects-item ul.list-book li h5::first-letter {
+          .category .subjects .subjects-item ul.list-book li a::first-letter {
             text-transform: uppercase; }
 
 .about {
