@@ -1987,6 +1987,129 @@ input[type=checkbox] {
     line-height: 28px;
     letter-spacing: 0em; }
 
+.page-detail-practice .detail-practice-content .go-back {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #000; }
+  .page-detail-practice .detail-practice-content .go-back img {
+    margin-right: 10px; }
+
+@media only screen and (max-width: 575px) {
+  .page-detail-practice .detail-practice-content .content-submenu2 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-bottom: 30px; } }
+
+@media only screen and (max-width: 575px) {
+  .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li :first-child {
+      padding-top: 0; }
+    .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li div p {
+      font-size: 14px;
+      line-height: 21px; }
+      .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li div p.question {
+        margin-bottom: 15px; }
+      .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li div p.answer {
+        margin-bottom: 15px; }
+      .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li div p span {
+        font-weight: 600;
+        color: #000 !important; } }
+
+@media only screen and (max-width: 575px) {
+  .page-detail-practice .detail-practice-content .content-submenu2 .view div {
+    margin-right: 15px; }
+    .page-detail-practice .detail-practice-content .content-submenu2 .view div:last-child {
+      margin-right: 0; }
+    .page-detail-practice .detail-practice-content .content-submenu2 .view div img {
+      width: 16px; }
+    .page-detail-practice .detail-practice-content .content-submenu2 .view div p {
+      font-size: 12px;
+      line-height: 13px;
+      letter-spacing: 0em; } }
+
+.page-detail-practice .detail-practice-content .seemore-lesson {
+  position: relative;
+  margin-left: 15px;
+  margin-bottom: 55px; }
+  @media only screen and (max-width: 575px) {
+    .page-detail-practice .detail-practice-content .seemore-lesson h6::first-letter {
+      text-transform: uppercase; }
+    .page-detail-practice .detail-practice-content .seemore-lesson ul {
+      padding-left: 0px !important; }
+      .page-detail-practice .detail-practice-content .seemore-lesson ul li div a {
+        text-decoration: underline;
+        font-size: 14px; } }
+  .page-detail-practice .detail-practice-content .seemore-lesson::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    left: -16px;
+    background: #000;
+    height: 100%; }
+  .page-detail-practice .detail-practice-content .seemore-lesson h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #000;
+    margin-bottom: 20px; }
+  .page-detail-practice .detail-practice-content .seemore-lesson ul {
+    padding-left: 25px; }
+    .page-detail-practice .detail-practice-content .seemore-lesson ul li {
+      margin-bottom: 25px; }
+      .page-detail-practice .detail-practice-content .seemore-lesson ul li div {
+        display: flex;
+        align-items: center; }
+        .page-detail-practice .detail-practice-content .seemore-lesson ul li div img {
+          display: block;
+          margin-right: 10px; }
+        .page-detail-practice .detail-practice-content .seemore-lesson ul li div a {
+          font-size: 16px;
+          color: #EE6217;
+          transition: 0.3s ease;
+          line-height: normal; }
+          .page-detail-practice .detail-practice-content .seemore-lesson ul li div a::first-letter {
+            text-transform: uppercase; }
+          .page-detail-practice .detail-practice-content .seemore-lesson ul li div a:hover {
+            color: blue; }
+
+.page-detail-practice .detail-practice-content .refer h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #1972C5;
+  margin-bottom: 30px; }
+
+.page-detail-practice .detail-practice-content .more-subject {
+  margin-bottom: 50px; }
+  .page-detail-practice .detail-practice-content .more-subject .item-more-subject {
+    padding: 0px 5px;
+    color: #EE6217;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    border: 0.5px solid #AAAAAA;
+    height: 100%;
+    border-radius: 11px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
 .header {
   padding: 20px 0;
   background-color: #E5E5E5; }
