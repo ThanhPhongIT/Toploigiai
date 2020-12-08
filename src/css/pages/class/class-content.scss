@@ -1,12 +1,25 @@
 @import './../../common/common.scss';
 .class-page {
     padding-top: 20px;
+    @include breakpoint(1190) {
+        padding-top: 0px;
+    }
     .class-select {
         &::after {
             display: block;
             bottom: -37px;
             width: 46px;
             height: 46px;
+        }
+        .list-class-mobile {
+            @include breakpoint(575) {
+                display: none !important;
+            }
+        }
+        .list-class-pc {
+            @include breakpoint(575) {
+                display: flex !important;
+            }
         }
     }
     .respon {
@@ -45,7 +58,7 @@
             a {
                 position: absolute;
                 top: 5px;
-                right: -10px;
+                right: 5px;
                 color: #858585;
                 font-size: 14px;
                 text-transform: uppercase;
@@ -112,6 +125,7 @@
                 }
             }
             ul.list-book {
+                padding-left: 15px;
                 @include max-breakpoint(425) {
                     display: none;
                 }
