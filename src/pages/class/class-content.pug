@@ -1,81 +1,723 @@
 .class-page.back__grey
     .container-fluid.w-90.back__grey
         .row
-            .col-10.pr-0.bg-white
+            .col-lg-10.col-12.pr-lg-0.bg-white
+                include ./../home/select-class.pug
                 .subjects
-                    .row
-                        .col-4.subjects-item
-                            .title-subject
-                                img(src='./../../images/icons/icon-book.svg' alt='')
-                                h4 ngữ văn 
-                            ul.list-book
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 tiếng việt 1
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Tiếng việt lớp 2
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Văn mẫu lớp 3
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Tiếng việt 1
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Tiếng việt 1
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Tập làm văn lớp 3
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Đề thi Kiểm tra Tiếng việt
-                        .col-4.subjects-item
-                            .title-subject
-                                img(src='./../../images/icons/icon-book.svg' alt='')
-                                h4 Toán học
-                            ul.list-book
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Toán lớp 1
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Toán lớp 2
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Toán lớp 3
-                        .col-4.subjects-item
-                            .title-subject
-                                img(src='./../../images/icons/icon-book.svg' alt='')
-                                h4 Đạo đức
-                            ul.list-book
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 tiếng việt 1
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Tiếng việt lớp 2
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Văn mẫu lớp 3
-                        .col-4.subjects-item
-                            .title-subject
-                                img(src='./../../images/icons/icon-book.svg' alt='')
-                                h4 Tin học
-                            ul.list-book
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Tin học lớp 3
-                        .col-4.subjects-item
-                            .title-subject
-                                img(src='./../../images/icons/icon-book.svg' alt='')
-                                h4 Tự nhiên -xã hội
-                            ul.list-book
-                                li.item-book
-                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
-                                    h5 Giải bài tập tự nhiên - xã hội lớp 3
-                              
-                        
-            .col-2.pl-0
+                    #v-pills-tabContent.tab-content.d-sm-block
+                        #lop1-2-3.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='v-lop123-tab') 
+                            .bg-white
+                                .title-mobile
+                                    h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 1-2-3
+                                    a(href="#") Hỏi đáp -
+                            .subjects-class
+                                .row
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 ngữ văn 
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tập làm văn lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Đề thi Kiểm tra Tiếng việt
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Toán học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Đạo đức
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Tin học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tin học lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                                                .title-subject
+                                                                    img(src='./../../images/icons/icon-book.svg' alt='')
+                                                                    h4 Tự nhiên -xã hội
+                                                                ul.list-book
+                                                                    li.item-book
+                                                                        img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                                        a(href="detail-practice.html") Giải bài tập tự nhiên - xã hội lớp 3
+                        #lop4.tab-pane.fade(role='tabpanel' aria-labelledby='v-lop4-tab')
+                            .bg-white
+                                .title-mobile
+                                    h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 4
+                                    a(href="#") Hỏi đáp -
+                            .subjects-class
+                                .row
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 ngữ văn 
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tập làm văn lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Đề thi Kiểm tra Tiếng việt
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Toán học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Đạo đức
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Tin học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tin học lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                        #lop5.tab-pane.fade(role='tabpanel' aria-labelledby='v-lop5-tab')
+                            .bg-white
+                                .title-mobile
+                                    h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 5
+                                    a(href="#") Hỏi đáp -
+                            .subjects-class
+                                .row
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 ngữ văn 
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tập làm văn lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Đề thi Kiểm tra Tiếng việt
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Toán học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Đạo đức
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Tin học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tin học lớp 3
+                                    
+                        #lop6.tab-pane.fade(role='tabpanel' aria-labelledby='v-lop6-tab')
+                            .bg-white
+                                .title-mobile
+                                    h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 5
+                                    a(href="#") Hỏi đáp -
+                            .subjects-class
+                                .row
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 ngữ văn 
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tập làm văn lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Đề thi Kiểm tra Tiếng việt
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Toán học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Đạo đức
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Tin học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tin học lớp 3
+                        #lop7.tab-pane.fade(role='tabpanel' aria-labelledby='v-lop7-tab') 
+                            .bg-white
+                                .title-mobile
+                                    h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 5
+                                    a(href="#") Hỏi đáp -
+                            .subjects-class
+                                .row
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 ngữ văn 
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tập làm văn lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Đề thi Kiểm tra Tiếng việt
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Toán học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Đạo đức
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Tin học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tin học lớp 3
+                        #lop8.tab-pane.fade(role='tabpanel' aria-labelledby='v-lop8-tab') 
+                            .bg-white
+                                .title-mobile
+                                    h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 5
+                                    a(href="#") Hỏi đáp -
+                            .subjects-class
+                                .row
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 ngữ văn 
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tập làm văn lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Đề thi Kiểm tra Tiếng việt
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Toán học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Đạo đức
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Tin học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tin học lớp 3
+                        #lop9.tab-pane.fade(role='tabpanel' aria-labelledby='v-lop9-tab') 
+                            .bg-white
+                                .title-mobile
+                                    h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 5
+                                    a(href="#") Hỏi đáp -
+                            .subjects-class
+                                .row
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 ngữ văn 
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tập làm văn lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Đề thi Kiểm tra Tiếng việt
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Toán học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Đạo đức
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Tin học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tin học lớp 3
+                        #lop10.tab-pane.fade(role='tabpanel' aria-labelledby='v-lop10-tab') 
+                            .bg-white
+                                .title-mobile
+                                    h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 5
+                                    a(href="#") Hỏi đáp -
+                            .subjects-class
+                                .row
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 ngữ văn 
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tập làm văn lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Đề thi Kiểm tra Tiếng việt
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Toán học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Đạo đức
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Tin học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tin học lớp 3
+                        #lop11.tab-pane.fade(role='tabpanel' aria-labelledby='v-lop11-tab') 
+                            .bg-white
+                                .title-mobile
+                                    h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 5
+                                    a(href="#") Hỏi đáp -
+                            .subjects-class
+                                .row
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 ngữ văn 
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tập làm văn lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Đề thi Kiểm tra Tiếng việt
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Toán học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Đạo đức
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Tin học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tin học lớp 3
+                        #lop12.tab-pane.fade(role='tabpanel' aria-labelledby='v-lop12-tab')
+                            .bg-white
+                                .title-mobile
+                                    h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 5
+                                    a(href="#") Hỏi đáp -
+                            .subjects-class
+                                .row
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 ngữ văn 
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tập làm văn lớp 3
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Đề thi Kiểm tra Tiếng việt
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Toán học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Toán lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Đạo đức
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") tiếng việt 1
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tiếng việt lớp 2
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Văn mẫu lớp 3
+                                    .col-6.col-lg-4.subjects-item
+                                        .title-subject
+                                            img(src='./../../images/icons/icon-book.svg' alt='')
+                                            h4 Tin học
+                                        ul.list-book
+                                            li.item-book
+                                                img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                a(href="detail-practice.html") Tin học lớp 3
+                                                .title-subject
+                                                img(src='./../../images/icons/icon-book.svg' alt='')
+                                                h4 Tự nhiên-xã hội
+                                                ul.list-book
+                                                li.item-book
+                                                    img(src='./../../images/icons/icon-arrow.svg' alt='')
+                                                    a(href="detail-practice.html") Tiếng việt 1
+
+
+                                                        
+                                                        
+                                                                
+                                                            
+            .col-lg-2.col-12.pl-lg-0
                 img.advertise__img(src="../images/components/adv.png", alt="adv")
                 img.advertise__img(src="../images/components/adv.png", alt="adv")

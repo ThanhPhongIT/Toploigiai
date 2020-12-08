@@ -132,7 +132,13 @@ input[type=checkbox] {
     .w-90 {
       width: 100%; } }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 425px) {
+  .full-screen {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0 15px; } }
+
+@media only screen and (max-width: 425px) {
   .p-mb-0 {
     padding: 0; } }
 
@@ -141,6 +147,10 @@ input[type=checkbox] {
 
 .br {
   border-right: 2px solid #E5E5E5; }
+
+@media only screen and (max-width: 425px) {
+  .bg-blue-mobile {
+    background-color: #1972C5 !important; } }
 
 .banner .owl-banner .owl-dots {
   position: absolute;
@@ -159,19 +169,19 @@ input[type=checkbox] {
 
 .hot__news {
   padding-bottom: 80px; }
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 425px) {
     .hot__news {
       padding-bottom: 50px; } }
   .hot__news h3 {
     padding-top: 70px;
     padding-bottom: 68px; }
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 425px) {
       .hot__news h3 {
         padding-top: 25px;
         padding-bottom: 25px; } }
   .hot__news .carousel-hot-news {
     padding: 0 25px; }
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 425px) {
       .hot__news .carousel-hot-news {
         padding: 0 15px; } }
     .hot__news .carousel-hot-news .owl-hot-news .owl-item .active:nth-child(2) {
@@ -186,7 +196,7 @@ input[type=checkbox] {
         padding-left: 15px;
         height: 70px;
         background-color: #1DBB90; }
-        @media only screen and (max-width: 414px) {
+        @media only screen and (max-width: 425px) {
           .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom {
             padding-left: 10px; } }
         .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom p {
@@ -198,7 +208,7 @@ input[type=checkbox] {
           letter-spacing: 0em;
           text-align: left;
           color: #fff; }
-          @media only screen and (max-width: 414px) {
+          @media only screen and (max-width: 425px) {
             .hot__news .carousel-hot-news .owl-hot-news .hot-news-item .hot-news-item-bottom p {
               font-size: 12px; } }
     .hot__news .carousel-hot-news .owl-hot-news .owl-dots {
@@ -213,7 +223,7 @@ input[type=checkbox] {
   background-color: #1972C5;
   padding-bottom: 70px;
   position: relative; }
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 425px) {
     .class-select {
       padding-bottom: 50px; } }
   .class-select::after {
@@ -233,14 +243,14 @@ input[type=checkbox] {
   .class-select h3 {
     padding-top: 70px;
     padding-bottom: 70px; }
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 425px) {
       .class-select h3 {
         padding-top: 30px;
         padding-bottom: 30px; } }
   .class-select .list-class {
     padding-left: 27px;
     padding-right: 27px; }
-    @media only screen and (max-width: 414px) {
+    @media only screen and (max-width: 425px) {
       .class-select .list-class {
         padding-left: 15px;
         padding-right: 15px; } }
@@ -253,7 +263,7 @@ input[type=checkbox] {
       text-align: center;
       letter-spacing: 0em;
       background: #1972C5; }
-      @media only screen and (max-width: 414px) {
+      @media only screen and (max-width: 425px) {
         .class-select .list-class .class-item {
           font-size: 15px;
           padding: 5px; } }
@@ -275,7 +285,7 @@ input[type=checkbox] {
         .class-select .list-class .class-item div:hover {
           background-color: #fff;
           color: #000; }
-        @media only screen and (max-width: 414px) {
+        @media only screen and (max-width: 425px) {
           .class-select .list-class .class-item div {
             height: 100%;
             padding: 15px 5px;
@@ -378,7 +388,7 @@ input[type=checkbox] {
           background: #E29000; }
         .about .about-item .about-item-tittle h5.rank {
           background: #0094AE; }
-        @media only screen and (max-width: 414px) {
+        @media only screen and (max-width: 425px) {
           .about .about-item .about-item-tittle h5 {
             font-size: 16px; } }
     @media only screen and (max-width: 767px) {
@@ -421,13 +431,13 @@ input[type=checkbox] {
         display: flex;
         align-items: center;
         margin-bottom: 50px; }
-        @media only screen and (max-width: 414px) {
+        @media only screen and (max-width: 425px) {
           .about .about-item .about-item-content-rank ul.list-rank li {
             margin-bottom: 20px; } }
         .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar {
           position: relative;
           margin-right: 35px; }
-          @media only screen and (max-width: 414px) {
+          @media only screen and (max-width: 425px) {
             .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar {
               margin-right: 15px; } }
           .about .about-item .about-item-content-rank ul.list-rank li .rank-avatar::after {
@@ -460,7 +470,7 @@ input[type=checkbox] {
           -webkit-box-orient: vertical;
           overflow: hidden;
           text-overflow: ellipsis; }
-          @media only screen and (max-width: 414px) {
+          @media only screen and (max-width: 425px) {
             .about .about-item .about-item-content-rank ul.list-rank li h5.rank-name {
               font-size: 15px; } }
           .about .about-item .about-item-content-rank ul.list-rank li h5.rank-name::after {
@@ -476,7 +486,7 @@ input[type=checkbox] {
         .about .about-item .about-item-content-rank ul.list-rank li .rank-point {
           font-size: 20px;
           font-weight: 500; }
-          @media only screen and (max-width: 414px) {
+          @media only screen and (max-width: 425px) {
             .about .about-item .about-item-content-rank ul.list-rank li .rank-point {
               font-size: 13px; } }
       .about .about-item .about-item-content-rank ul.list-rank li:nth-child(1) .rank-avatar::after {
@@ -616,7 +626,7 @@ input[type=checkbox] {
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left; }
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 425px) {
     .title-category {
       font-size: 15px;
       line-height: 19px;
@@ -1185,17 +1195,57 @@ input[type=checkbox] {
 
 .class-page {
   padding-top: 20px; }
+  .class-page .class-select::after {
+    display: block;
+    bottom: -37px;
+    width: 46px;
+    height: 46px; }
   .class-page .subjects {
     padding: 0 10px;
     background: #fff;
     padding-top: 70px; }
+    @media only screen and (max-width: 575px) {
+      .class-page .subjects {
+        padding: 0 0px;
+        background: #fff;
+        padding-top: 40px; } }
+    .class-page .subjects .title-mobile {
+      position: relative; }
+      @media only screen and (max-width: 575px) {
+        .class-page .subjects .title-mobile h3 {
+          font-size: 18px;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 0em;
+          text-align: center;
+          margin-bottom: 40px;
+          max-width: 70%;
+          margin: auto;
+          margin-bottom: 30px;
+          text-transform: capitalize; } }
+      .class-page .subjects .title-mobile a {
+        position: absolute;
+        top: 5px;
+        right: -10px;
+        color: #858585;
+        font-size: 14px;
+        text-transform: uppercase; }
     .class-page .subjects .subjects-item {
       margin-bottom: 40px; }
+      .class-page .subjects .subjects-item.active .list-book {
+        display: block; }
+      @media only screen and (max-width: 425px) {
+        .class-page .subjects .subjects-item.active .title-subject {
+          margin-bottom: 40px; } }
       .class-page .subjects .subjects-item .title-subject {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         position: relative;
         margin-bottom: 50px; }
+        @media only screen and (max-width: 425px) {
+          .class-page .subjects .subjects-item .title-subject {
+            margin-bottom: 0px;
+            margin-left: 15px; } }
         .class-page .subjects .subjects-item .title-subject::after {
           display: block;
           content: "";
@@ -1206,27 +1256,53 @@ input[type=checkbox] {
           background: #E29000;
           border-radius: 2.5px;
           width: 193px; }
+          @media only screen and (max-width: 425px) {
+            .class-page .subjects .subjects-item .title-subject::after {
+              height: 0.5px;
+              width: 100%; } }
         .class-page .subjects .subjects-item .title-subject img {
           display: block;
           margin-right: 20px; }
+          @media only screen and (max-width: 425px) {
+            .class-page .subjects .subjects-item .title-subject img {
+              weight: 14px;
+              height: 10px; } }
         .class-page .subjects .subjects-item .title-subject h4 {
           color: #E29000;
           font-size: 30px;
           text-transform: capitalize;
-          font-weight: 500; }
+          font-weight: 500;
+          line-height: normal;
+          cursor: pointer; }
+          @media only screen and (max-width: 425px) {
+            .class-page .subjects .subjects-item .title-subject h4 {
+              font-size: 16px; } }
+          @media only screen and (max-width: 991px) {
+            .class-page .subjects .subjects-item .title-subject h4 {
+              font-size: 18px; } }
+      @media only screen and (max-width: 425px) {
+        .class-page .subjects .subjects-item ul.list-book {
+          display: none; } }
       .class-page .subjects .subjects-item ul.list-book li {
         display: flex;
         margin-bottom: 20px; }
         .class-page .subjects .subjects-item ul.list-book li img {
           display: block;
           margin-right: 5px; }
-        .class-page .subjects .subjects-item ul.list-book li h5 {
+        .class-page .subjects .subjects-item ul.list-book li a {
           cursor: pointer;
           font-size: 23px;
           color: #000;
           font-weight: 500; }
-          .class-page .subjects .subjects-item ul.list-book li h5::first-letter {
+          .class-page .subjects .subjects-item ul.list-book li a::first-letter {
             text-transform: uppercase; }
+          @media only screen and (max-width: 425px) {
+            .class-page .subjects .subjects-item ul.list-book li a {
+              font-size: 15px;
+              line-height: 19px; } }
+          @media only screen and (max-width: 991px) {
+            .class-page .subjects .subjects-item ul.list-book li a {
+              font-size: 16px; } }
 
 .library-category .bread-crum {
   display: flex;
@@ -1910,6 +1986,129 @@ input[type=checkbox] {
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0em; }
+
+.page-detail-practice .detail-practice-content .go-back {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #000; }
+  .page-detail-practice .detail-practice-content .go-back img {
+    margin-right: 10px; }
+
+@media only screen and (max-width: 575px) {
+  .page-detail-practice .detail-practice-content .content-submenu2 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-bottom: 30px; } }
+
+@media only screen and (max-width: 575px) {
+  .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li :first-child {
+      padding-top: 0; }
+    .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li div p {
+      font-size: 14px;
+      line-height: 21px; }
+      .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li div p.question {
+        margin-bottom: 15px; }
+      .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li div p.answer {
+        margin-bottom: 15px; }
+      .page-detail-practice .detail-practice-content .content-submenu2 ul.list-question li div p span {
+        font-weight: 600;
+        color: #000 !important; } }
+
+@media only screen and (max-width: 575px) {
+  .page-detail-practice .detail-practice-content .content-submenu2 .view div {
+    margin-right: 15px; }
+    .page-detail-practice .detail-practice-content .content-submenu2 .view div:last-child {
+      margin-right: 0; }
+    .page-detail-practice .detail-practice-content .content-submenu2 .view div img {
+      width: 16px; }
+    .page-detail-practice .detail-practice-content .content-submenu2 .view div p {
+      font-size: 12px;
+      line-height: 13px;
+      letter-spacing: 0em; } }
+
+.page-detail-practice .detail-practice-content .seemore-lesson {
+  position: relative;
+  margin-left: 15px;
+  margin-bottom: 55px; }
+  @media only screen and (max-width: 575px) {
+    .page-detail-practice .detail-practice-content .seemore-lesson h6::first-letter {
+      text-transform: uppercase; }
+    .page-detail-practice .detail-practice-content .seemore-lesson ul {
+      padding-left: 0px !important; }
+      .page-detail-practice .detail-practice-content .seemore-lesson ul li div a {
+        text-decoration: underline;
+        font-size: 14px !important; } }
+  .page-detail-practice .detail-practice-content .seemore-lesson::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    left: -16px;
+    background: #000;
+    height: 100%; }
+  .page-detail-practice .detail-practice-content .seemore-lesson h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #000;
+    margin-bottom: 20px; }
+  .page-detail-practice .detail-practice-content .seemore-lesson ul {
+    padding-left: 25px; }
+    .page-detail-practice .detail-practice-content .seemore-lesson ul li {
+      margin-bottom: 25px; }
+      .page-detail-practice .detail-practice-content .seemore-lesson ul li div {
+        display: flex;
+        align-items: center; }
+        .page-detail-practice .detail-practice-content .seemore-lesson ul li div img {
+          display: block;
+          margin-right: 10px; }
+        .page-detail-practice .detail-practice-content .seemore-lesson ul li div a {
+          font-size: 16px;
+          color: #EE6217;
+          transition: 0.3s ease;
+          line-height: normal; }
+          .page-detail-practice .detail-practice-content .seemore-lesson ul li div a::first-letter {
+            text-transform: uppercase; }
+          .page-detail-practice .detail-practice-content .seemore-lesson ul li div a:hover {
+            color: blue; }
+
+.page-detail-practice .detail-practice-content .refer h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #1972C5;
+  margin-bottom: 30px; }
+
+.page-detail-practice .detail-practice-content .more-subject {
+  margin-bottom: 50px; }
+  .page-detail-practice .detail-practice-content .more-subject .item-more-subject {
+    padding: 5px 5px;
+    color: #EE6217;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    border: 0.5px solid #AAAAAA;
+    height: 100%;
+    border-radius: 11px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 .header {
   padding: 20px 0;

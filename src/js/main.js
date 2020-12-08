@@ -127,6 +127,13 @@ $(document).ready(function() {
             }
         }
     });
+    //page class\
+    var titleSubject = $(".class-page .title-subject h4");
+    console.log(titleSubject);
+    titleSubject.click(function() {
+        $(this).parents(".subjects-item").toggleClass("active")
+        console.log($(this).parent());
+    })
 })
 
 function hide() {
