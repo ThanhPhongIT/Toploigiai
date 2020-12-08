@@ -17,7 +17,7 @@
                         div {
                             a {
                                 text-decoration: underline;
-                                font-size: 14px;
+                                font-size: 14px !important;
                             }
                         }
                     }
@@ -82,7 +82,7 @@
         .more-subject {
             margin-bottom: 50px;
             .item-more-subject {
-                padding: 0px 5px;
+                padding: 5px 5px;
                 color: #EE6217;
                 font-size: 14px;
                 font-weight: 400;

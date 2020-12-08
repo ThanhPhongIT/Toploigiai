@@ -1289,19 +1289,19 @@ input[type=checkbox] {
         .class-page .subjects .subjects-item ul.list-book li img {
           display: block;
           margin-right: 5px; }
-        .class-page .subjects .subjects-item ul.list-book li h5 {
+        .class-page .subjects .subjects-item ul.list-book li a {
           cursor: pointer;
           font-size: 23px;
           color: #000;
           font-weight: 500; }
-          .class-page .subjects .subjects-item ul.list-book li h5::first-letter {
+          .class-page .subjects .subjects-item ul.list-book li a::first-letter {
             text-transform: uppercase; }
           @media only screen and (max-width: 425px) {
-            .class-page .subjects .subjects-item ul.list-book li h5 {
+            .class-page .subjects .subjects-item ul.list-book li a {
               font-size: 15px;
               line-height: 19px; } }
           @media only screen and (max-width: 991px) {
-            .class-page .subjects .subjects-item ul.list-book li h5 {
+            .class-page .subjects .subjects-item ul.list-book li a {
               font-size: 16px; } }
 
 .library-category .bread-crum {
@@ -2047,7 +2047,7 @@ input[type=checkbox] {
       padding-left: 0px !important; }
       .page-detail-practice .detail-practice-content .seemore-lesson ul li div a {
         text-decoration: underline;
-        font-size: 14px; } }
+        font-size: 14px !important; } }
   .page-detail-practice .detail-practice-content .seemore-lesson::before {
     display: block;
     content: '';
@@ -2096,7 +2096,7 @@ input[type=checkbox] {
 .page-detail-practice .detail-practice-content .more-subject {
   margin-bottom: 50px; }
   .page-detail-practice .detail-practice-content .more-subject .item-more-subject {
-    padding: 0px 5px;
+    padding: 5px 5px;
     color: #EE6217;
     font-size: 14px;
     font-weight: 400;
