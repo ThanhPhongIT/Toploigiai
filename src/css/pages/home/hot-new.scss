@@ -14,6 +14,9 @@
     }
     .carousel-hot-news {
         padding: 0 25px;
+        @include max-breakpoint(414) {
+            padding: 0 15px;
+        }
         .owl-hot-news {
             // .owl-item.active {
             //     background-color: #0094AE;
