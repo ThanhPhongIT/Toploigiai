@@ -2434,7 +2434,7 @@ input[type=checkbox] {
       justify-content: center; }
       @media only screen and (max-width: 769px) {
         .footer .footer__right .classes {
-          display: none; } }
+          display: none !important; } }
       .footer .footer__right .classes a {
         font-style: normal;
         font-weight: 500;

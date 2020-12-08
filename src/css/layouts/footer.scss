@@ -103,7 +103,7 @@
             align-items: flex-end;
             justify-content: center;
             @include breakpoint(769) {
-                display: none;
+                display: none !important;
             }
             a {
                 font-style: normal;
