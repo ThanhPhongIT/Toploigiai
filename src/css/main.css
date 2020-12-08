@@ -1728,22 +1728,21 @@ input[type=checkbox] {
 }
 
 .class-page .subjects .title-mobile h3 {
-    display: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-transform: capitalize;
 }
 
 @media only screen and (max-width: 575px) {
     .class-page .subjects .title-mobile h3 {
-        font-size: 18px;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0em;
-        text-align: center;
-        margin-bottom: 40px;
-        max-width: 70%;
-        margin: auto;
-        margin-bottom: 30px;
-        text-transform: capitalize;
-        display: block;
+        font-size: 16px;
     }
 }
 
