@@ -2097,6 +2097,7 @@ input[type=checkbox] {
   margin-bottom: 50px; }
   .page-detail-practice .detail-practice-content .more-subject .item-more-subject {
     padding: 5px 5px;
+    text-align: center;
     color: #EE6217;
     font-size: 14px;
     font-weight: 400;
