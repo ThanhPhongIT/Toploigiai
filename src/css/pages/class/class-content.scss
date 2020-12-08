@@ -9,6 +9,12 @@
             height: 46px;
         }
     }
+    .respon {
+        display: none;
+        @include breakpoint(575) {
+            display: block;
+        }
+    }
     .subjects {
         padding: 0 10px;
         background: #fff;
@@ -21,6 +27,7 @@
         .title-mobile {
             position: relative;
             h3 {
+                display: none;
                 @include max-breakpoint(575) {
                     font-size: 18px;
                     font-weight: 500;
@@ -32,6 +39,7 @@
                     margin: auto;
                     margin-bottom: 30px;
                     text-transform: capitalize;
+                    display: block;
                 }
             }
             a {

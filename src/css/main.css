@@ -1200,6 +1200,11 @@ input[type=checkbox] {
     bottom: -37px;
     width: 46px;
     height: 46px; }
+  .class-page .respon {
+    display: none; }
+    @media only screen and (max-width: 575px) {
+      .class-page .respon {
+        display: block; } }
   .class-page .subjects {
     padding: 0 10px;
     background: #fff;
@@ -1211,18 +1216,21 @@ input[type=checkbox] {
         padding-top: 40px; } }
     .class-page .subjects .title-mobile {
       position: relative; }
-      @media only screen and (max-width: 575px) {
-        .class-page .subjects .title-mobile h3 {
-          font-size: 18px;
-          font-weight: 500;
-          line-height: normal;
-          letter-spacing: 0em;
-          text-align: center;
-          margin-bottom: 40px;
-          max-width: 70%;
-          margin: auto;
-          margin-bottom: 30px;
-          text-transform: capitalize; } }
+      .class-page .subjects .title-mobile h3 {
+        display: none; }
+        @media only screen and (max-width: 575px) {
+          .class-page .subjects .title-mobile h3 {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-bottom: 40px;
+            max-width: 70%;
+            margin: auto;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+            display: block; } }
       .class-page .subjects .title-mobile a {
         position: absolute;
         top: 5px;
@@ -2394,7 +2402,7 @@ input[type=checkbox] {
           height: 29px;
           margin-bottom: 20px; } }
     .footer .footer__right .classes {
-      display: flex;
+      display: flex !important;
       flex-wrap: wrap;
       align-items: flex-end;
       justify-content: center; }
@@ -2407,7 +2415,8 @@ input[type=checkbox] {
         font-size: 25px;
         line-height: 40px;
         color: #0C0B0B;
-        margin-bottom: 30px; }
+        margin-bottom: 30px;
+        display: block; }
     .footer .footer__right .classes-two {
       display: none; }
       @media only screen and (max-width: 769px) {

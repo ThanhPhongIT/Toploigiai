@@ -98,11 +98,11 @@
             }
         }
         .classes {
-            display: flex;
+            display: flex !important;
             flex-wrap: wrap;
             align-items: flex-end;
             justify-content: center;
-            @include max-breakpoint(769) {
+            @include breakpoint(769) {
                 display: none;
             }
             a {
@@ -112,6 +112,7 @@
                 line-height: 40px;
                 color: #0C0B0B;
                 margin-bottom: 30px;
+                display: block;
             }
         }
         .classes-two {
