@@ -1189,6 +1189,14 @@ input[type=checkbox] {
     padding: 0 10px;
     background: #fff;
     padding-top: 70px; }
+    @media only screen and (max-width: 575px) {
+      .class-page .subjects .title-mobile {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 40px; } }
     .class-page .subjects .subjects-item {
       margin-bottom: 40px; }
       .class-page .subjects .subjects-item .title-subject {
@@ -1206,14 +1214,25 @@ input[type=checkbox] {
           background: #E29000;
           border-radius: 2.5px;
           width: 193px; }
+          @media only screen and (max-width: 425px) {
+            .class-page .subjects .subjects-item .title-subject::after {
+              height: 0.5px;
+              width: 100%; } }
         .class-page .subjects .subjects-item .title-subject img {
           display: block;
           margin-right: 20px; }
+          @media only screen and (max-width: 425px) {
+            .class-page .subjects .subjects-item .title-subject img {
+              weight: 14px;
+              height: 10px; } }
         .class-page .subjects .subjects-item .title-subject h4 {
           color: #E29000;
           font-size: 30px;
           text-transform: capitalize;
           font-weight: 500; }
+          @media only screen and (max-width: 425px) {
+            .class-page .subjects .subjects-item .title-subject h4 {
+              font-size: 16px; } }
       .class-page .subjects .subjects-item ul.list-book li {
         display: flex;
         margin-bottom: 20px; }
@@ -1227,6 +1246,10 @@ input[type=checkbox] {
           font-weight: 500; }
           .class-page .subjects .subjects-item ul.list-book li h5::first-letter {
             text-transform: uppercase; }
+          @media only screen and (max-width: 425px) {
+            .class-page .subjects .subjects-item ul.list-book li h5 {
+              font-size: 15px;
+              line-height: 19px; } }
 
 .library-category .bread-crum {
   display: flex;

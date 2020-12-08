@@ -1,9 +1,21 @@
+@import './../../common/common.scss';
+
 .class-page {
     padding-top: 20px;
     .subjects {
         padding: 0 10px;
         background: #fff;
         padding-top: 70px;
+        .title-mobile{
+            @include max-breakpoint(575) { 
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-bottom:40px;
+            }
+        }
         .subjects-item {
             margin-bottom: 40px;
             .title-subject {
@@ -21,16 +33,29 @@
                     background: #E29000;
                     border-radius: 2.5px;
                     width: 193px;
+                    @include max-breakpoint(425) { 
+                        height:0.5px;
+                        width:100%;
+                        }
                 }
                 img {
                     display: block;
                     margin-right: 20px;
+                    @include max-breakpoint(425) { 
+                        weight:14px;
+                        height:10px;;
+                        
+                        }
                 }
                 h4 {
                     color: #E29000;
                     font-size: 30px;
                     text-transform: capitalize;
                     font-weight: 500;
+                    @include max-breakpoint(425) { 
+                        font-size: 16px;
+                        
+                        }
                 }
             }
             ul.list-book {
@@ -48,6 +73,11 @@
                         font-weight: 500;
                         &::first-letter {
                             text-transform: uppercase;
+                        }
+                         @include max-breakpoint(425) { 
+                            font-size: 15px;
+                            line-height: 19px;
+
                         }
                     }
                 }
