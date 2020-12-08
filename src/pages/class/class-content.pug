@@ -1,10 +1,10 @@
 .class-page.back__grey
     .container-fluid.w-90.back__grey
         .row
-            .col-lg-10.col-12.pr-lg-0.bg-white
+            .col-xl-10.col-12.order-2.order-xl-1
                 .respon
                     include ./../home/select-class.pug
-                .subjects
+                .subjects.full-screen-mobile.bg-white-mobile
                     #v-pills-tabContent.tab-content.d-sm-block
                         #lop1-2-3.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='v-lop123-tab') 
                             .bg-white
@@ -713,6 +713,5 @@
                                                 li.item-book
                                                     img(src='./images/icons/icon-arrow.svg' alt='')
                                                     a(href="detail-practice.html") Tiếng việt 1                                        
-            .col-lg-2.col-12.pl-lg-0
-                img.advertise__img(src="../images/components/adv.png", alt="adv")
-                img.advertise__img(src="../images/components/adv.png", alt="adv")
+            .col-xl-2.col-12.order-1.order-xl-2.d-xl-block.pd-0
+               include ./../..//components/advertise.pug 
