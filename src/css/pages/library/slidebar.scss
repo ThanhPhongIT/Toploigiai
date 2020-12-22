@@ -2,13 +2,47 @@
     border-right: 1px solid #E5E5E5;
     min-height: 120vh;
     height: 100%;
+    flex-direction: column;
+    @include max-breakpoint(575) {
+        flex-direction: row;
+        width: 100%;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        min-height: 100px;
+    }
     .nav-link {
         display: flex;
+        width: 200px !important;
+        @include max-breakpoint(575) {
+            font-family: Livvic;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+            color: #8D8D8D;
+        }
+        p {
+            @include max-breakpoint(575) {
+                display: inline-block;
+                width: 100px;
+            }
+        }
+        img {
+            @include max-breakpoint(575) {
+                display: none;
+            }
+        }
     }
     .head {
         width: 100%;
+        @include max-breakpoint(575) {
+            width: 50px;
+        }
         p {
             color: #FFFFFF !important;
+            @include max-breakpoint(575) {
+                color: #000000 !important;
+            }
         }
         background: #EE6217 !important;
         font-style: normal;
@@ -16,6 +50,14 @@
         font-size: 20px;
         line-height: 25px;
         padding: 20px 0 20px 60px;
+        @include max-breakpoint(575) {
+            background: transparent !important;
+            font-style: normal;
+            font-weight: 500 !important;
+            font-size: 16px;
+            line-height: 18px;
+            padding-left: 10px;
+        }
     }
     .active {
         font-style: normal;
@@ -24,5 +66,26 @@
         line-height: 25px;
         /* identical to box height */
         color: #EE6217 !important;
+        @include max-breakpoint(575) {
+            font-family: Livvic;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+            color: #000000 !important;
+            position: relative;
+            &::after {
+                .nav-question .active::after {
+                    content: '';
+                    width: 70%;
+                    height: 2px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-25%);
+                    background-color: #EE6217;
+                }
+            }
+        }
     }
 }
