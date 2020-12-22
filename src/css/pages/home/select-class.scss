@@ -25,7 +25,7 @@
         background-color: #1972C5;
         transform: rotate(45deg) translateX(-50%);
         clear: both;
-        z-index: 99999;
+        z-index: 99;
         @include max-breakpoint(576) {
             display: none;
         }

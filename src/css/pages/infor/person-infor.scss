@@ -1,50 +1,76 @@
 .person-infor {
-    min-height: 120vh;
-    border-left: 0.5px solid #A7A7A7;
-    margin-bottom: 100px;
-    .person-heading {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 30px;
-        line-height: 38px;
-        /* identical to box height */
-        color: #32312F;
-        padding-top: 50px;
-        padding-left: 20px;
-        padding-bottom: 10px;
-    }
-    .infor-edit {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 25px;
-        line-height: 40px;
-        a {
-            span {
-                color: #1972C5;
-                padding-right: 10px;
-            }
-        }
-    }
-    .list-infor {
-        .infor-item {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 20px 0px 20px 40px;
-            border-top: 0.5px solid #A7A7A7;
-            p {
-                font-style: normal;
-                font-weight: normal;
-                font-size: 25px;
-                line-height: 40px;
-                /* or 160% */
-                display: flex;
-                align-items: center;
-                color: #0C0B0B;
-            }
-        }
-    }
+	min-height: 120vh;
+	border-left: 0.5px solid #a7a7a7;
+	margin-bottom: 100px;
+
+	@include max-breakpoint(576) {
+		min-height: 80vh;
+		margin-bottom: 0;
+	}
+
+	.person-heading {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		line-height: 38px;
+		/* identical to box height */
+		color: #32312f;
+		padding-top: 50px;
+		padding-left: 20px;
+		padding-bottom: 10px;
+
+		@include max-breakpoint(576) {
+			padding: 10px;
+			font-size: 20px;
+			font-weight: 500;
+		}
+	}
+	.infor-edit {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		line-height: 40px;
+
+		@include max-breakpoint(576) {
+			font-size: 20px;
+		}
+
+		a {
+			span {
+				color: #1972c5;
+				padding-right: 10px;
+			}
+		}
+	}
+	.list-infor {
+		.infor-item {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 20px 0px 20px 40px;
+			border-top: 0.5px solid #a7a7a7;
+
+			@include max-breakpoint(576) {
+				padding: 10px;
+			}
+
+			p {
+				font-style: normal;
+				font-weight: normal;
+				font-size: 25px;
+				line-height: 40px;
+				/* or 160% */
+				display: flex;
+				align-items: center;
+				color: #0c0b0b;
+
+				@include max-breakpoint(576) {
+					font-size: 20px;
+				}
+			}
+		}
+	}
 }
