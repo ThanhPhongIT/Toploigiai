@@ -29,6 +29,7 @@
         }
     }
     .subjects {
+        display: block;
         padding: 0 10px;
         background: #fff;
         padding-top: 70px;
@@ -36,6 +37,9 @@
             padding: 0 0px;
             background: #fff;
             padding-top: 40px;
+        }
+        .tab-content {
+            display: block;
         }
         .title-mobile {
             position: relative;

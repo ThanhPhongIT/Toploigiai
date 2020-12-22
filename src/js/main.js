@@ -66,7 +66,17 @@ $(document).ready(function() {
 
             console.log($(this).parent())
         })
-        //carousel banner
+        //active class selected home
+    var listClass = $('.list-class a');
+    console.log(listClass);
+    listClass.click(() => {
+        $('.class-select').addClass('active')
+        $('.tab-content').addClass('active')
+    })
+    if ($(window).width() < 576) {
+        listClass.removeClass('active')
+    }
+    //carousel banner
     $('.owl-carousel.owl-banner').owlCarousel({
             loop: true,
             margin: 10,

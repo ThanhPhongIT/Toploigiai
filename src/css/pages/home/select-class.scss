@@ -6,6 +6,15 @@
     @include max-breakpoint(425) {
         padding-bottom: 50px;
     }
+    &.active {
+        background-color: #1972C5 !important;
+        &::after {
+            display: block;
+            bottom: -37px;
+            width: 46px;
+            height: 46px;
+        }
+    }
     &::after {
         content: '';
         position: absolute;
