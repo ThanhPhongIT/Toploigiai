@@ -1,5 +1,9 @@
+@import './../../common/common.scss';
 .category-page {
     padding-top: 20px;
+    .tab-content {
+        display: block;
+    }
     .panagation {
         display: flex;
         justify-content: center;
@@ -59,6 +63,9 @@
             border-radius: 20px;
             border: 1px solid #E5E5E5;
             padding: 30px;
+            @include max-breakpoint(991) {
+                border: none;
+            }
             h4.title-book {
                 font-style: normal;
                 font-weight: 500;

@@ -40,13 +40,13 @@
             padding-top: 40px;
         }
         .tab-content {
-            display: block;
+            display: block !important;
         }
         .title-mobile {
             position: relative;
             h3 {
                 display: none;
-                @include max-breakpoint(575) {
+                @include max-breakpoint(991) {
                     font-size: 18px;
                     font-weight: 500;
                     line-height: normal;
@@ -82,7 +82,7 @@
                 }
             }
             .title-subject {
-                display: flex;
+                display: inline-flex;
                 align-items: center;
                 position: relative;
                 margin-bottom: 50px;
@@ -100,7 +100,7 @@
                     background: #E29000;
                     border-radius: 2.5px;
                     width: 193px;
-                    @include max-breakpoint(425) {
+                    @include max-breakpoint(575) {
                         height: 0.5px;
                         width: 100%;
                     }

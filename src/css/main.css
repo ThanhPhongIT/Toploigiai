@@ -1435,12 +1435,12 @@ input[type=checkbox] {
         background: #fff;
         padding-top: 40px; } }
     .class-page .subjects .tab-content {
-      display: block; }
+      display: block !important; }
     .class-page .subjects .title-mobile {
       position: relative; }
       .class-page .subjects .title-mobile h3 {
         display: none; }
-        @media only screen and (max-width: 575px) {
+        @media only screen and (max-width: 991px) {
           .class-page .subjects .title-mobile h3 {
             font-size: 18px;
             font-weight: 500;
@@ -1468,7 +1468,7 @@ input[type=checkbox] {
         .class-page .subjects .subjects-item.active .title-subject {
           margin-bottom: 40px; } }
       .class-page .subjects .subjects-item .title-subject {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         position: relative;
         margin-bottom: 50px; }
@@ -1486,7 +1486,7 @@ input[type=checkbox] {
           background: #E29000;
           border-radius: 2.5px;
           width: 193px; }
-          @media only screen and (max-width: 425px) {
+          @media only screen and (max-width: 575px) {
             .class-page .subjects .subjects-item .title-subject::after {
               height: 0.5px;
               width: 100%; } }
@@ -1900,6 +1900,8 @@ input[type=checkbox] {
 
 .category-page {
   padding-top: 20px; }
+  .category-page .tab-content {
+    display: block; }
   .category-page .panagation {
     display: flex;
     justify-content: center;
@@ -1945,6 +1947,9 @@ input[type=checkbox] {
       border-radius: 20px;
       border: 1px solid #E5E5E5;
       padding: 30px; }
+      @media only screen and (max-width: 991px) {
+        .category-page .category-centter .category-centter-content {
+          border: none; } }
       .category-page .category-centter .category-centter-content h4.title-book {
         font-style: normal;
         font-weight: 500;
