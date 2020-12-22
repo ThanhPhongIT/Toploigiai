@@ -30,7 +30,10 @@
                     margin: 0 10px;
                     order: 2;
                     &:first-child {
-                        margin-bottom: 20px;
+                        margin-bottom: 20px !important;
+                    }
+                    div {
+                        width: 100%;
                     }
                 }
                 select {
