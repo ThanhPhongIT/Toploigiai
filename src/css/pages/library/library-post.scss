@@ -24,6 +24,12 @@
             display: flex;
             align-items: center;
             color: #000000;
+            @include max-breakpoint(575) {
+                font-size: 16px;
+            }
+        }
+        .img-post {
+            width: 100%;
         }
         p {
             font-style: normal;
@@ -75,6 +81,9 @@
         }
         .list-goiy {
             display: flex;
+            @include max-breakpoint(575) {
+                overflow-x: auto;
+            }
             .goiy-item {
                 margin-right: 40px;
                 display: flex;

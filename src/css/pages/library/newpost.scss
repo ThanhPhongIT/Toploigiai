@@ -8,8 +8,16 @@
         align-items: center;
         color: #0C0B0B;
         margin: 30px 0 30px 20px;
+        @include max-breakpoint(575) {
+            justify-content: center;
+            margin-left: 0;
+        }
     }
     .list-newpost {
+        @include max-breakpoint(575) {
+            width: 95%;
+            margin-left: 10px;
+        }
         .item-post {
             display: flex;
             align-items: flex-start;

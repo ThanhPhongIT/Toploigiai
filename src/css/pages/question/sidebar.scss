@@ -2,6 +2,7 @@
     flex-direction: column;
     @include max-breakpoint(575) {
         flex-direction: row;
+        overflow-x: auto;
     }
     .nav-link {
         font-family: Livvic;
