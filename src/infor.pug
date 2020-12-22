@@ -1,15 +1,15 @@
 extends master.pug
 block header
-   include ./layouts/header-login.pug
+  include ./layouts/header-login.pug
 block content
-     .back__grey.mainbody.p-20
-      .container-fluid.back-white.w-90.p-0
-        .row
-            .col-md-2.col-sm-12
-                include ./pages/infor/side-bar.pug
-            .col-md-8.col-sm-12
-                include ./pages/infor/infor-content.pug
-            .col-md-2.col-sm-12
-                img(style="width:100%; display: block !important" src="./images/components/adv.png", alt="")
+  .back__grey.mainbody.p-20
+    .container-fluid.back-white.w-90.p-0
+      .row
+        .col-md-2.col-sm-12
+          include ./pages/infor/side-bar.pug
+        .col-md-8.col-sm-12
+          include ./pages/infor/infor-content.pug
+        .col-md-2.col-sm-12
+          img(style="width:100%; display: block !important" src="./images/components/adv.png" alt="")
 block footer
-      include ./layouts/footer.pug
+  include ./layouts/footer.pug
