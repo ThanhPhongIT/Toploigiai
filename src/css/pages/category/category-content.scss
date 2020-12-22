@@ -1,9 +1,16 @@
+@import './../../common/common.scss';
 .category-page {
     padding-top: 20px;
+    .tab-content {
+        display: block;
+    }
     .panagation {
         display: flex;
         justify-content: center;
         margin-bottom: 80px;
+        @include max-breakpoint(991) {
+            display: none;
+        }
         .btn {
             width: 168px;
             height: 47px;
@@ -59,6 +66,10 @@
             border-radius: 20px;
             border: 1px solid #E5E5E5;
             padding: 30px;
+            @include max-breakpoint(991) {
+                border: none;
+                padding: 10px;
+            }
             h4.title-book {
                 font-style: normal;
                 font-weight: 500;
@@ -104,6 +115,9 @@
             }
         }
         .content-submenu {
+            @include max-breakpoint(991) {
+                padding: 10px;
+            }
             h4 {
                 font-family: Livvic;
                 font-size: 25px;

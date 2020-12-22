@@ -323,43 +323,43 @@ input[type=checkbox] {
             padding: 15px 5px;
             border-radius: 10px; } }
 
-.tab-content.active {
+.page-home .tab-content.active {
   display: block !important; }
 
 @media only screen and (max-width: 575px) {
-  .tab-content {
+  .page-home .tab-content {
     display: none; } }
 
-.tab-content .category {
+.page-home .tab-content .category {
   padding-top: 70px; }
   @media only screen and (max-width: 575px) {
-    .tab-content .category {
+    .page-home .tab-content .category {
       padding-top: 40px; } }
-  .tab-content .category h3 {
+  .page-home .tab-content .category h3 {
     margin-bottom: 70px; }
     @media only screen and (max-width: 575px) {
-      .tab-content .category h3 {
+      .page-home .tab-content .category h3 {
         margin-bottom: 40px; } }
-  .tab-content .category .subjects {
+  .page-home .tab-content .category .subjects {
     padding: 0 25px; }
     @media only screen and (max-width: 425px) {
-      .tab-content .category .subjects {
+      .page-home .tab-content .category .subjects {
         padding: 0 15px; } }
     @media only screen and (max-width: 575px) {
-      .tab-content .category .subjects .subjects-item:nth-child(even) {
+      .page-home .tab-content .category .subjects .subjects-item:nth-child(even) {
         text-align: right; } }
-    .tab-content .category .subjects .subjects-item {
+    .page-home .tab-content .category .subjects .subjects-item {
       margin-bottom: 40px; }
-      .tab-content .category .subjects .subjects-item .title-subject {
+      .page-home .tab-content .category .subjects .subjects-item .title-subject {
         display: inline-flex;
         align-items: flex-end;
         position: relative;
         margin-bottom: 30px; }
         @media only screen and (max-width: 575px) {
-          .tab-content .category .subjects .subjects-item .title-subject {
+          .page-home .tab-content .category .subjects .subjects-item .title-subject {
             align-items: center;
             display: inline-flex; } }
-        .tab-content .category .subjects .subjects-item .title-subject::after {
+        .page-home .tab-content .category .subjects .subjects-item .title-subject::after {
           display: block;
           content: "";
           position: absolute;
@@ -370,39 +370,39 @@ input[type=checkbox] {
           border-radius: 2.5px;
           width: 100%; }
           @media only screen and (max-width: 575px) {
-            .tab-content .category .subjects .subjects-item .title-subject::after {
+            .page-home .tab-content .category .subjects .subjects-item .title-subject::after {
               height: 1px;
               width: 100%; } }
-        .tab-content .category .subjects .subjects-item .title-subject img {
+        .page-home .tab-content .category .subjects .subjects-item .title-subject img {
           display: block;
           margin-right: 20px; }
           @media only screen and (max-width: 425px) {
-            .tab-content .category .subjects .subjects-item .title-subject img {
+            .page-home .tab-content .category .subjects .subjects-item .title-subject img {
               width: 15px;
               margin-right: 10px; } }
-        .tab-content .category .subjects .subjects-item .title-subject h4 a {
+        .page-home .tab-content .category .subjects .subjects-item .title-subject h4 a {
           color: #E29000;
           font-size: 20px;
           text-transform: capitalize;
           font-weight: 500; }
           @media only screen and (max-width: 575px) {
-            .tab-content .category .subjects .subjects-item .title-subject h4 a {
+            .page-home .tab-content .category .subjects .subjects-item .title-subject h4 a {
               font-size: 16px;
               line-height: 20px; } }
       @media only screen and (max-width: 575px) {
-        .tab-content .category .subjects .subjects-item ul.list-book {
+        .page-home .tab-content .category .subjects .subjects-item ul.list-book {
           display: none; } }
-      .tab-content .category .subjects .subjects-item ul.list-book li {
+      .page-home .tab-content .category .subjects .subjects-item ul.list-book li {
         display: flex;
         margin-bottom: 20px; }
-        .tab-content .category .subjects .subjects-item ul.list-book li img {
+        .page-home .tab-content .category .subjects .subjects-item ul.list-book li img {
           display: block;
           margin-right: 5px; }
-        .tab-content .category .subjects .subjects-item ul.list-book li a {
+        .page-home .tab-content .category .subjects .subjects-item ul.list-book li a {
           font-size: 18px;
           color: #000;
           font-weight: 500; }
-          .tab-content .category .subjects .subjects-item ul.list-book li a::first-letter {
+          .page-home .tab-content .category .subjects .subjects-item ul.list-book li a::first-letter {
             text-transform: uppercase; }
 
 .about {
@@ -1475,7 +1475,7 @@ input[type=checkbox] {
       position: relative; }
       .class-page .subjects .title-mobile h3 {
         display: none; }
-        @media only screen and (max-width: 575px) {
+        @media only screen and (max-width: 991px) {
           .class-page .subjects .title-mobile h3 {
             font-size: 18px;
             font-weight: 500;
@@ -1503,7 +1503,7 @@ input[type=checkbox] {
         .class-page .subjects .subjects-item.active .title-subject {
           margin-bottom: 40px; } }
       .class-page .subjects .subjects-item .title-subject {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         position: relative;
         margin-bottom: 50px; }
@@ -1521,7 +1521,7 @@ input[type=checkbox] {
           background: #E29000;
           border-radius: 2.5px;
           width: 193px; }
-          @media only screen and (max-width: 425px) {
+          @media only screen and (max-width: 575px) {
             .class-page .subjects .subjects-item .title-subject::after {
               height: 0.5px;
               width: 100%; } }
@@ -1935,10 +1935,15 @@ input[type=checkbox] {
 
 .category-page {
   padding-top: 20px; }
+  .category-page .tab-content {
+    display: block; }
   .category-page .panagation {
     display: flex;
     justify-content: center;
     margin-bottom: 80px; }
+    @media only screen and (max-width: 991px) {
+      .category-page .panagation {
+        display: none; } }
     .category-page .panagation .btn {
       width: 168px;
       height: 47px;
@@ -1980,6 +1985,10 @@ input[type=checkbox] {
       border-radius: 20px;
       border: 1px solid #E5E5E5;
       padding: 30px; }
+      @media only screen and (max-width: 991px) {
+        .category-page .category-centter .category-centter-content {
+          border: none;
+          padding: 10px; } }
       .category-page .category-centter .category-centter-content h4.title-book {
         font-style: normal;
         font-weight: 500;
@@ -2010,6 +2019,9 @@ input[type=checkbox] {
             cursor: pointer; }
             .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div h6:hover {
               color: #EE6217; }
+    @media only screen and (max-width: 991px) {
+      .category-page .category-centter .content-submenu {
+        padding: 10px; } }
     .category-page .category-centter .content-submenu h4 {
       font-family: Livvic;
       font-size: 25px;
