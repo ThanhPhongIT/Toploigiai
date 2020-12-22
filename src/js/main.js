@@ -68,7 +68,6 @@ $(document).ready(function() {
         })
         //active class selected home
     var listClass = $('.list-class a');
-    console.log(listClass);
     listClass.click(() => {
         $('.class-select').addClass('active')
         $('.tab-content').addClass('active')

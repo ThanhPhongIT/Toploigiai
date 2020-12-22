@@ -1427,7 +1427,8 @@ input[type=checkbox] {
     display: block;
     padding: 0 10px;
     background: #fff;
-    padding-top: 70px; }
+    padding-top: 70px;
+    padding-bottom: 70px; }
     @media only screen and (max-width: 575px) {
       .class-page .subjects {
         padding: 0 0px;
