@@ -3,26 +3,28 @@
   .content-top
     .filter
       .filter-class
-        label(for='class') Lọc câu hỏi theo lớp:
-        select#class(name='class')
-          option(value='1') Lớp 1
-          option(value='2') Lớp 2
-          option(value='3') Lớp 3
-          option(value='4') Lớp 4
-          option(value='5') Lớp 5
-          option(value='6') Lớp 6
-          option(value='7') Lớp 7
-          option(value='8') Lớp 8
-          option(value='9') Lớp 9
-          option(value='10') Lớp 10
-          option(value='11') Lớp 12
-          option(value='12') Lớp 12
-        lable(for="status") Trạng thái: 
-        select#class(name='status')
-          option(value='1') Tất cả
-          option(value='2') Đã trả lời
-          option(value='3') Chưa trả lời
-          option(value='4') Lần đầu hỏi
+        div.d-flex.mb-4.align-items-center.justify-content-between
+          label(for='class') Lọc câu hỏi theo lớp:
+          select#class(name='class')
+            option(value='1') Lớp 1
+            option(value='2') Lớp 2
+            option(value='3') Lớp 3
+            option(value='4') Lớp 4
+            option(value='5') Lớp 5
+            option(value='6') Lớp 6
+            option(value='7') Lớp 7
+            option(value='8') Lớp 8
+            option(value='9') Lớp 9
+            option(value='10') Lớp 10
+            option(value='11') Lớp 11
+            option(value='12') Lớp 12
+        div.d-flex.align-items-center.justify-content-between
+          lable(for="status") Trạng thái: 
+          select#class(name='status')
+            option(value='1') Tất cả
+            option(value='2') Đã trả lời
+            option(value='3') Chưa trả lời
+            option(value='4') Lần đầu hỏi
       button( data-toggle="modal" data-target="#create-question").create-question
         span Tạo câu hỏi
     .care-most
@@ -32,12 +34,12 @@
           .card
             .card-body
               .row
-                .col-2 
+                .col-md-2.col-sm-12 
                   .profile
                     img(src="./images/question/avatar1.png", alt="")
                     p.point 100 điểm
                     p.name Nguyễn Trần Hùng
-                .col-8
+                .col-md-8.col-sm-12 
                   .heading
                     p Ngữ Văn
                     p Lớp 12
@@ -47,18 +49,18 @@
                       p Anh em nào phải người xa
                       p Cùng chung bác mẹ,một nhà cùng thân
                       p ....
-                .col-2.d-flex.align-items-end
+                .col-md-2.d-flex.align-items-end.col-sm-12.justify-content-end
                   button( data-toggle="modal" data-target="#answer-question") Trả lời
         li.item-q
           .card
             .card-body
               .row
-                .col-2 
+                .col-md-2.col-sm-12 
                   .profile
                     img(src="./images/question/avatar1.png", alt="")
                     p.point 100 điểm
                     p.name Nguyễn Trần Hùng
-                .col-8
+                .col-md-8.col-sm-12 
                   .heading
                     p Ngữ Văn
                     p Lớp 12
@@ -68,18 +70,18 @@
                       p Anh em nào phải người xa
                       p Cùng chung bác mẹ,một nhà cùng thân
                       p ....
-                .col-2.d-flex.align-items-end
+                .col-md-2.d-flex.align-items-end.col-sm-12.justify-content-end
                   button( data-toggle="modal" data-target="#answer-question") Trả lời
         li.item-q
           .card
             .card-body
               .row
-                .col-2 
+                .col-md-2.col-sm-12 
                   .profile
                     img(src="./images/question/avatar1.png", alt="")
                     p.point 100 điểm
                     p.name Nguyễn Trần Hùng
-                .col-8
+                .col-md-8.col-sm-12 
                   .heading
                     p Ngữ Văn
                     p Lớp 12
@@ -89,18 +91,18 @@
                       p Anh em nào phải người xa
                       p Cùng chung bác mẹ,một nhà cùng thân
                       p ....
-                .col-2.d-flex.align-items-end
+                .col-md-2.d-flex.align-items-end.col-sm-12.justify-content-end
                   button( data-toggle="modal" data-target="#answer-question") Trả lời
         li.item-q
           .card
             .card-body
               .row
-                .col-2 
+                .col-md-2.col-sm-12 
                   .profile
                     img(src="./images/question/avatar1.png", alt="")
                     p.point 100 điểm
                     p.name Nguyễn Trần Hùng
-                .col-8
+                .col-md-8.col-sm-12 
                   .heading
                     p Ngữ Văn
                     p Lớp 12
@@ -110,18 +112,18 @@
                       p Anh em nào phải người xa
                       p Cùng chung bác mẹ,một nhà cùng thân
                       p ....
-                .col-2.d-flex.align-items-end
+                .col-md-2.d-flex.align-items-end.col-sm-12.justify-content-end
                   button( data-toggle="modal" data-target="#answer-question") Trả lời
         li.item-q
           .card
             .card-body
               .row
-                .col-2 
+                .col-md-2.col-sm-12 
                   .profile
                     img(src="./images/question/avatar1.png", alt="")
                     p.point 100 điểm
                     p.name Nguyễn Trần Hùng
-                .col-8
+                .col-md-8.col-sm-12 
                   .heading
                     p Ngữ Văn
                     p Lớp 12
@@ -131,8 +133,9 @@
                       p Anh em nào phải người xa
                       p Cùng chung bác mẹ,một nhà cùng thân
                       p ....
-                .col-2.d-flex.align-items-end
+                .col-md-2.d-flex.align-items-end.col-sm-12.justify-content-end
                   button( data-toggle="modal" data-target="#answer-question") Trả lời
+        
   .content-bottom
     .new-question
       p.title Câu hỏi mới nhất
@@ -141,12 +144,12 @@
           .card
             .card-body
               .row
-                .col-2 
+                .col-md-2.col-sm-12 
                   .profile
                     img(src="./images/question/avatar1.png", alt="")
                     p.point 100 điểm
                     p.name Nguyễn Trần Hùng
-                .col-8
+                .col-md-8.col-sm-12 
                   .heading
                     p Ngữ Văn
                     p Lớp 12
@@ -156,18 +159,18 @@
                       p Anh em nào phải người xa
                       p Cùng chung bác mẹ,một nhà cùng thân
                       p ....
-                .col-2.d-flex.align-items-end
+                .col-md-2.d-flex.align-items-end.col-sm-12.justify-content-end
                   button( data-toggle="modal" data-target="#answer-question") Trả lời
         li.item-q
           .card
             .card-body
               .row
-                .col-2 
+                .col-md-2.col-sm-12 
                   .profile
                     img(src="./images/question/avatar1.png", alt="")
                     p.point 100 điểm
                     p.name Nguyễn Trần Hùng
-                .col-8
+                .col-md-8.col-sm-12 
                   .heading
                     p Ngữ Văn
                     p Lớp 12
@@ -177,18 +180,18 @@
                       p Anh em nào phải người xa
                       p Cùng chung bác mẹ,một nhà cùng thân
                       p ....
-                .col-2.d-flex.align-items-end
+                .col-md-2.d-flex.align-items-end.col-sm-12.justify-content-end
                   button( data-toggle="modal" data-target="#answer-question") Trả lời
         li.item-q
           .card
             .card-body
               .row
-                .col-2 
+                .col-md-2.col-sm-12 
                   .profile
                     img(src="./images/question/avatar1.png", alt="")
                     p.point 100 điểm
                     p.name Nguyễn Trần Hùng
-                .col-8
+                .col-md-8.col-sm-12 
                   .heading
                     p Ngữ Văn
                     p Lớp 12
@@ -198,18 +201,18 @@
                       p Anh em nào phải người xa
                       p Cùng chung bác mẹ,một nhà cùng thân
                       p ....
-                .col-2.d-flex.align-items-end
+                .col-md-2.d-flex.align-items-end.col-sm-12.justify-content-end
                   button( data-toggle="modal" data-target="#answer-question") Trả lời
         li.item-q
           .card
             .card-body
               .row
-                .col-2 
+                .col-md-2.col-sm-12 
                   .profile
                     img(src="./images/question/avatar1.png", alt="")
                     p.point 100 điểm
                     p.name Nguyễn Trần Hùng
-                .col-8
+                .col-md-8.col-sm-12 
                   .heading
                     p Ngữ Văn
                     p Lớp 12
@@ -219,18 +222,18 @@
                       p Anh em nào phải người xa
                       p Cùng chung bác mẹ,một nhà cùng thân
                       p ....
-                .col-2.d-flex.align-items-end
+                .col-md-2.d-flex.align-items-end.col-sm-12.justify-content-end
                   button( data-toggle="modal" data-target="#answer-question") Trả lời
         li.item-q
           .card
             .card-body
               .row
-                .col-2 
+                .col-md-2.col-sm-12 
                   .profile
                     img(src="./images/question/avatar1.png", alt="")
                     p.point 100 điểm
                     p.name Nguyễn Trần Hùng
-                .col-8
+                .col-md-8.col-sm-12 
                   .heading
                     p Ngữ Văn
                     p Lớp 12
@@ -240,8 +243,9 @@
                       p Anh em nào phải người xa
                       p Cùng chung bác mẹ,một nhà cùng thân
                       p ....
-                .col-2.d-flex.align-items-end
+                .col-md-2.d-flex.align-items-end.col-sm-12.justify-content-end
                   button( data-toggle="modal" data-target="#answer-question") Trả lời
+        
     a(href="#" )#loadmore Xem thêm
 include ../../components/modal-question.pug
 include ../../components/modal-answer.pug

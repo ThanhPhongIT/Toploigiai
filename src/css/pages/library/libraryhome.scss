@@ -18,18 +18,6 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 100px;
-        .col-4 {
-            &:nth-child(2) {
-                .card-body {
-                    background: #E29000 !important;
-                }
-            }
-            &:nth-child(3) {
-                .card-body {
-                    background: #1DBB90 !important;
-                }
-            }
-        }
         .item-post {
             width: 100%;
             margin-bottom: 20px;
@@ -53,6 +41,12 @@
                 justify-content: center;
                 color: #FFFFFF !important;
                 cursor: pointer;
+            }
+            .back-orange {
+                background: #E29000 !important;
+            }
+            .back-green {
+                background: #1DBB90 !important;
             }
         }
     }

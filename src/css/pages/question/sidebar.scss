@@ -1,4 +1,8 @@
 .nav-question {
+    flex-direction: column;
+    @include max-breakpoint(575) {
+        flex-direction: row;
+    }
     .nav-link {
         font-family: Livvic;
         font-style: normal;
@@ -9,6 +13,13 @@
         align-items: center;
         color: #000000;
         padding: 10px 0 10px 20px;
+        @include max-breakpoint(575) {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+            color: #8D8D8D;
+        }
     }
     .active {
         background: #EE6217 !important;
@@ -20,5 +31,24 @@
         align-items: center;
         color: #FFFFFF;
         border-radius: 0 !important;
+        @include max-breakpoint(575) {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+            color: #000000 !important;
+            background: transparent !important;
+            position: relative;
+            &::after {
+                content: '';
+                width: 70%;
+                height: 2px;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-25%);
+                background-color: #000000;
+            }
+        }
     }
 }
