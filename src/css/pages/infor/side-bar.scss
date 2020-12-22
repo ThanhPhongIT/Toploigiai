@@ -16,15 +16,14 @@
         background-color: transparent;
         padding: 0;
     }
-}
-
-.active {
-    background-color: transparent !important;
-    span {
-        color: #EE6217;
-    }
-    .ar {
-        filter: invert(43%) sepia(61%) saturate(2502%) hue-rotate(354deg) brightness(98%) contrast(91%);
+    .active {
+        background-color: transparent !important;
+        span {
+            color: #EE6217;
+        }
+        .ar {
+            filter: invert(43%) sepia(61%) saturate(2502%) hue-rotate(354deg) brightness(98%) contrast(91%);
+        }
     }
 }
 
