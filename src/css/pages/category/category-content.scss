@@ -1,6 +1,17 @@
 @import './../../common/common.scss';
 .category-page {
     padding-top: 20px;
+    .go-back-mb {
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        color: #000;
+        display: inline-block;
+        i {
+            margin-right: 10px;
+        }
+    }
     .tab-content {
         display: block;
     }
@@ -45,6 +56,11 @@
                 padding-top: 45px;
                 margin-bottom: 45px;
                 padding-left: 0px;
+                @include max-breakpoint(425) {
+                    margin-bottom: 25px;
+                    padding-top: 0px;
+                    padding-bottom: 0;
+                }
                 .breadcrumb-item {
                     color: #000;
                     font-size: 15px;
@@ -77,7 +93,10 @@
                 line-height: 23px;
                 margin-bottom: 35px;
                 color: #1972C5;
-                ;
+                @include max-breakpoint(425) {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
             }
             .secction-book {
                 h5 {
@@ -89,8 +108,16 @@
                     &:hover {
                         color: #EE6217;
                     }
+                    @include max-breakpoint(425) {
+                        font-size: 14px;
+                        line-height: 17.5px;
+                        margin-bottom: 20px;
+                    }
                 }
                 ul.list-lesson {
+                    @include max-breakpoint(425) {
+                        display: none;
+                    }
                     li {
                         margin-bottom: 35px;
                         div {
@@ -113,6 +140,9 @@
                     }
                 }
             }
+            .seemore-lesson {
+                margin-top: 50px;
+            }
         }
         .content-submenu {
             @include max-breakpoint(991) {
@@ -126,6 +156,10 @@
                 line-height: 18px;
                 letter-spacing: 0em;
                 margin-bottom: 30px;
+                @include max-breakpoint(425) {
+                    font-size: 14px;
+                    line-height: 17.57px;
+                }
             }
             ul.list-lesson {
                 margin-bottom: 90px;
@@ -134,6 +168,11 @@
                     margin-bottom: 30px;
                     font-size: 18px;
                     font-weight: 500;
+                    @include max-breakpoint(425) {
+                        font-size: 13px;
+                        line-height: 25px;
+                        margin-bottom: 20px;
+                    }
                     div {
                         &::before {
                             content: '';
@@ -220,9 +259,16 @@
             letter-spacing: 0em;
             color: #000;
             margin-bottom: 20px;
+            @include max-breakpoint(425) {
+                font-size: 13px;
+                line-height: 16.32px;
+            }
         }
         ul {
             padding-left: 25px;
+            @include max-breakpoint(425) {
+                padding-left: 0px;
+            }
             li {
                 margin-bottom: 25px;
                 div {
@@ -242,6 +288,10 @@
                         font-size: 16px;
                         color: #EE6217;
                         transition: 0.3s ease;
+                        @include max-breakpoint(425) {
+                            font-size: 12px;
+                            line-height: 15.06px;
+                        }
                     }
                 }
             }
