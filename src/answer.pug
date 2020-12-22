@@ -8,15 +8,7 @@ block content
             .col-md-2.col-sm-0.br
                 img(src="./images/component/adv.png", alt="ảnh")
             .col-md-7.col-sm-12.br
-                #v-pills-tabContent.tab-content
-                    #v-pills-all.tab-pane.fade.show.active(role='tabpanel' aria-labelledby='v-pills-home-tab')
-                        include ./pages/question/question-content.pug
-                    #v-pills-toan.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-profile-tab')
-                        include ./pages/question/question-content.pug
-                    #v-pills-ly.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-messages-tab')
-                        include ./pages/question/question-content.pug
-                    #v-pills-hoa.tab-pane.fade(role='tabpanel' aria-labelledby='v-pills-settings-tab')
-                        include ./pages/question/question-content.pug
+                include ./pages/answer/answer-content.pug
             .col-md-3.col-sm-12
                 include ./pages/question/top-user.pug
 block footer
