@@ -17,6 +17,12 @@
           option(value='10') Lớp 10
           option(value='11') Lớp 12
           option(value='12') Lớp 12
+        lable(for="status") Trạng thái: 
+        select#class(name='status')
+          option(value='1') Tất cả
+          option(value='2') Đã trả lời
+          option(value='3') Chưa trả lời
+          option(value='4') Lần đầu hỏi
       button( data-toggle="modal" data-target="#create-question").create-question
         span Tạo câu hỏi
     .care-most

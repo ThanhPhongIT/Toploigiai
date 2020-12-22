@@ -1,5 +1,8 @@
 .header
     .container-fluid.d-flex.justify-content-end.align-items-center.w-90
+        .header__logo-full
+                a(href="./index.html")
+                    img(src="./images/home/header-logo.svg", alt="logo")
         .header__search.d-flex.align-items-center
             .search__input
                 input(type="text")
@@ -7,6 +10,36 @@
                     button
                         img(src="./images/icons/search.svg", alt="")
             .login.d-flex.align-items-center
+                button(data-toggle="modal" data-target="#dangnhap") Đăng nhập
+                button(data-toggle="modal" data-target="#dangnhap") Đăng kí
+            .toggle-menu-icon
+                img(src="./images/home/toggle-menu.svg", alt="")
+        .toggle-menu
+            a(href="./class.html")
+                .each__class Lớp 1 - 2 - 3
+            a(href="./class.html")
+                .each__class Lớp 4
+            a(href="./class.html")
+                .each__class Lớp 5
+            a(href="./class.html")
+                .each__class Lớp 6
+            a(href="./class.html")
+                .each__class Lớp 7
+            a(href="./class.html")
+                .each__class Lớp 8
+            a(href="./class.html")
+                .each__class Lớp 9
+            a(href="./class.html")
+                .each__class Lớp 10
+            a(href="./class.html")
+                .each__class Lớp 11
+            a(href="./class.html")
+                .each__class Lớp 12
+            a(href="./question.html")
+                .header__question Hỏi đáp
+            a(href="./library.html")
+                .header__library Thư viện
+            .login-out
                 button(data-toggle="modal" data-target="#dangnhap") Đăng nhập
                 button(data-toggle="modal" data-target="#dangnhap") Đăng kí
 .header__class

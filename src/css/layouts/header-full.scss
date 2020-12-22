@@ -1,3 +1,15 @@
+.header {
+    .header__logo-full {
+        display: none;
+        @include max-breakpoint(575) {
+            display: block;
+        }
+        img {
+            width: 75%;
+        }
+    }
+}
+
 .header__class {
     .menu {
         .header__logo {
