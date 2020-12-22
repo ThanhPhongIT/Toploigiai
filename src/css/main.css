@@ -723,6 +723,7 @@ input[type=checkbox] {
         flex-direction: column; } }
     .question-content .content-top .filter .filter-class {
       display: flex;
+      align-items: center;
       width: 70%;
       background: #E9E9E9;
       border: 0.5px solid #BFBFBF;
@@ -737,12 +738,15 @@ input[type=checkbox] {
         .question-content .content-top .filter .filter-class {
           width: 95%;
           flex-direction: column;
+          align-items: flex-start;
           font-style: normal;
           font-weight: 500;
           font-size: 15px;
           line-height: 20px;
           margin: 0 10px;
-          order: 2; } }
+          order: 2; }
+          .question-content .content-top .filter .filter-class:first-child {
+            margin-bottom: 20px; } }
       .question-content .content-top .filter .filter-class select {
         width: 146px;
         height: 42px;
@@ -910,7 +914,7 @@ input[type=checkbox] {
             font-weight: normal;
             font-size: 12px;
             line-height: 20px; } }
-      .question-content .content-top .care-most .list-questions .item-q button {
+      .question-content .content-top .care-most .list-questions .item-q a {
         background: #1DBB90;
         border-radius: 7px;
         font-style: normal;
@@ -924,7 +928,7 @@ input[type=checkbox] {
         width: 148px;
         height: 47px; }
         @media only screen and (max-width: 575px) {
-          .question-content .content-top .care-most .list-questions .item-q button {
+          .question-content .content-top .care-most .list-questions .item-q a {
             width: 93px;
             height: 33px;
             font-style: normal;
