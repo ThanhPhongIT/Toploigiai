@@ -1130,7 +1130,7 @@ input[type=checkbox] {
       color: #000000; }
 
 .bl {
-  border-left: 0.5px solid #A7A7A7; }
+  border-left: 0.5px solid #a7a7a7; }
 
 .noti {
   min-height: 120vh; }
@@ -1139,10 +1139,18 @@ input[type=checkbox] {
     font-size: 30px;
     line-height: 38px;
     /* identical to box height */
-    color: #32312F;
+    color: #32312f;
     padding: 50px 20px; }
+    @media only screen and (max-width: 576px) {
+      .noti .noti-heading {
+        padding: 20px 10px;
+        font-size: 20px;
+        font-weight: 500; } }
   .noti .noti-list .noti-item {
     padding: 20px 0 20px 20px; }
+    @media only screen and (max-width: 576px) {
+      .noti .noti-list .noti-item {
+        padding: 10px 0 10px 10px; } }
     .noti .noti-list .noti-item .center {
       display: flex;
       align-items: center;
@@ -1156,7 +1164,10 @@ input[type=checkbox] {
       /* or 200% */
       display: flex;
       align-items: center;
-      color: #0C0B0B; }
+      color: #0c0b0b; }
+      @media only screen and (max-width: 576px) {
+        .noti .noti-list .noti-item .noti-content {
+          margin-top: 10px; } }
     .noti .noti-list .noti-item .noti-date {
       font-family: Arial;
       font-style: italic;
@@ -1166,24 +1177,33 @@ input[type=checkbox] {
       /* or 167% */
       display: flex;
       align-items: center;
-      color: #0C0B0B; }
+      color: #0c0b0b; }
   .noti .noti-list .active {
-    background: #E7E7E7 !important; }
+    background: #e7e7e7 !important; }
 
 .person-infor {
   min-height: 120vh;
-  border-left: 0.5px solid #A7A7A7;
+  border-left: 0.5px solid #a7a7a7;
   margin-bottom: 100px; }
+  @media only screen and (max-width: 576px) {
+    .person-infor {
+      min-height: 80vh;
+      margin-bottom: 0; } }
   .person-infor .person-heading {
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
     line-height: 38px;
     /* identical to box height */
-    color: #32312F;
+    color: #32312f;
     padding-top: 50px;
     padding-left: 20px;
     padding-bottom: 10px; }
+    @media only screen and (max-width: 576px) {
+      .person-infor .person-heading {
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 500; } }
   .person-infor .infor-edit {
     display: flex;
     justify-content: flex-end;
@@ -1192,15 +1212,21 @@ input[type=checkbox] {
     font-weight: normal;
     font-size: 25px;
     line-height: 40px; }
+    @media only screen and (max-width: 576px) {
+      .person-infor .infor-edit {
+        font-size: 20px; } }
     .person-infor .infor-edit a span {
-      color: #1972C5;
+      color: #1972c5;
       padding-right: 10px; }
   .person-infor .list-infor .infor-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0px 20px 40px;
-    border-top: 0.5px solid #A7A7A7; }
+    border-top: 0.5px solid #a7a7a7; }
+    @media only screen and (max-width: 576px) {
+      .person-infor .list-infor .infor-item {
+        padding: 10px; } }
     .person-infor .list-infor .infor-item p {
       font-style: normal;
       font-weight: normal;
@@ -1209,7 +1235,10 @@ input[type=checkbox] {
       /* or 160% */
       display: flex;
       align-items: center;
-      color: #0C0B0B; }
+      color: #0c0b0b; }
+      @media only screen and (max-width: 576px) {
+        .person-infor .list-infor .infor-item p {
+          font-size: 20px; } }
 
 .user-question {
   min-height: 150vh; }
