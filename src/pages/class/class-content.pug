@@ -1,13 +1,41 @@
 .class-page.back__grey
     .container-fluid.w-90.back__grey
+        include ./../..//components/advertise-mobile.pug 
         .row
             .col-xl-10.col-12.order-2.order-xl-1.bg-white-mobile
                 .subjects
                     .title-mobile
                         h3 GIẢI BÀI TẬP SÁCH GIÁO KHOA ,SÁCH BÀI TẬP LỚP 1-2-3
                     .subjects-class
-                        .row
-                            .col-6.col-sm-4.subjects-item
+                        ul.nav.nav-tabs.tab-mobile(role='tablist')
+                            li.nav-item
+                                div.active(data-toggle='tab' href='#tabs-1' role='tab') 
+                                    .title-subject
+                                        img(src='./images/icons/icon-book.svg' alt='')
+                                        h4 ngữ văn
+                            li.nav-item
+                                div(data-toggle='tab' href='#tabs-2' role='tab') 
+                                    .title-subject
+                                        img(src='./images/icons/icon-book.svg' alt='')
+                                        h4 toán học
+                            li.nav-item
+                                div(data-toggle='tab' href='#tabs-3' role='tab') 
+                                    .title-subject
+                                        img(src='./images/icons/icon-book.svg' alt='')
+                                        h4 đạo đức
+                            li.nav-item
+                                div(data-toggle='tab' href='#tabs-4' role='tab') 
+                                    .title-subject
+                                        img(src='./images/icons/icon-book.svg' alt='')
+                                        h4  tin học
+                            li.nav-item
+                                div(data-toggle='tab' href='#tabs-5' role='tab') 
+                                    .title-subject
+                                        img(src='./images/icons/icon-book.svg' alt='')
+                                        h4 Tự nhiên - xã hội
+                        
+                        .row#tab-content-page-class
+                            .col-12.col-sm-4.subjects-item#tabs-1.tab-pane.active(role='tabpanel')
                                 .title-subject
                                     img(src='./images/icons/icon-book.svg' alt='')
                                     h4 ngữ văn 
@@ -33,7 +61,7 @@
                                     li.item-book
                                         img(src='./images/icons/icon-arrow.svg' alt='')
                                         a(href="category.html") Đề thi Kiểm tra Tiếng việt
-                            .col-6.col-sm-4.subjects-item
+                            .col-12.col-sm-4.subjects-item#tabs-2.tab-pane(role='tabpanel')
                                 .title-subject
                                     img(src='./images/icons/icon-book.svg' alt='')
                                     h4 Toán học
@@ -47,7 +75,7 @@
                                     li.item-book
                                         img(src='./images/icons/icon-arrow.svg' alt='')
                                         a(href="category.html") Toán lớp 3
-                            .col-6.col-sm-4.subjects-item
+                            .col-12.col-sm-4.subjects-item#tabs-3.tab-pane(role='tabpanel')
                                 .title-subject
                                     img(src='./images/icons/icon-book.svg' alt='')
                                     h4 Đạo đức
@@ -61,7 +89,7 @@
                                     li.item-book
                                         img(src='./images/icons/icon-arrow.svg' alt='')
                                         a(href="category.html") Văn mẫu lớp 3
-                            .col-6.col-sm-4.subjects-item
+                            .col-12.col-sm-4.subjects-item#tabs-4.tab-pane(role='tabpanel')
                                 .title-subject
                                     img(src='./images/icons/icon-book.svg' alt='')
                                     h4 Tin học
@@ -69,7 +97,7 @@
                                     li.item-book
                                         img(src='./images/icons/icon-arrow.svg' alt='')
                                         a(href="category.html") Tin học lớp 3
-                            .col-6.col-sm-4.subjects-item
+                            .col-12.col-sm-4.subjects-item#tabs-5.tab-pane(role='tabpanel')
                                                         .title-subject
                                                             img(src='./images/icons/icon-book.svg' alt='')
                                                             h4 Tự nhiên -xã hội

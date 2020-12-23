@@ -68,13 +68,18 @@ $(document).ready(function() {
         })
         //active class selected home
     var listClass = $('.list-class a');
+    var tabClass = $('#tab-content-page-class')
+
     listClass.click(() => {
         $('.class-select').addClass('active')
         $('.tab-content').addClass('active')
     })
     if ($(window).width() < 576) {
         listClass.removeClass('active')
+        tabClass.addClass('tab-content')
     }
+    //tab class mobile
+
     //carousel banner
     $('.owl-carousel.owl-banner').owlCarousel({
             loop: true,
@@ -137,12 +142,12 @@ $(document).ready(function() {
         }
     });
     //page class\
-    var titleSubject = $(".class-page .title-subject h4");
-    console.log(titleSubject);
-    titleSubject.click(function() {
-        $(this).parents(".subjects-item").toggleClass("active")
-        console.log($(this).parent());
-    })
+    // var titleSubject = $(".class-page .title-subject h4");
+    // console.log(titleSubject);
+    // titleSubject.click(function() {
+    //     $(this).parents(".subjects-item").toggleClass("active")
+    //     console.log($(this).parent());
+    // })
 })
 
 function hide() {

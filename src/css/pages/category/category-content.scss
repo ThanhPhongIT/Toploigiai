@@ -1,6 +1,9 @@
 @import './../../common/common.scss';
 .category-page {
     padding-top: 20px;
+    @include max-breakpoint(991) {
+        padding-top: 0px;
+    }
     .go-back-mb {
         font-size: 15px;
         line-height: 23px;

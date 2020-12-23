@@ -1,0 +1,11 @@
+@import './../common/common.scss';
+.advertise-mobile {
+    margin: 0 -15px;
+    .advertise__img {
+        width: 100vw;
+        height: 60px;
+        @include min-breakpoint(768) {
+            height: 150px;
+        }
+    }
+}

@@ -43,13 +43,13 @@ input[type=checkbox] {
 
 .w-90 {
     width: 90%;
-    @include max-breakpoint(767) {
+    @include max-breakpoint(991) {
         width: 100%;
     }
 }
 
 .full-screen-mobile {
-    @include max-breakpoint(425) {
+    @include max-breakpoint(991) {
         margin-left: -15px;
         margin-right: -15px;
         padding: 0 15px;
@@ -57,7 +57,7 @@ input[type=checkbox] {
 }
 
 .p-mb-0 {
-    @include max-breakpoint(425) {
+    @include max-breakpoint(575) {
         padding: 0;
     }
 }
@@ -71,19 +71,19 @@ input[type=checkbox] {
 }
 
 .bg-blue-mobile {
-    @include max-breakpoint(425) {
+    @include max-breakpoint(575) {
         background-color: #1972C5 !important;
     }
 }
 
 .bg-white-mobile {
-    @include max-breakpoint(425) {
+    @include max-breakpoint(991) {
         background-color: #fff !important;
     }
 }
 
 .pd-0 {
-    @include max-breakpoint(425) {
+    @include max-breakpoint(575) {
         padding: 0;
     }
 }
