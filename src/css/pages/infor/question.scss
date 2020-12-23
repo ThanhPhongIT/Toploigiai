@@ -101,6 +101,9 @@
                     align-items: center;
                     img {
                         margin-right: 10px;
+                        @include max-breakpoint(576) {
+                            width: 100%;
+                        }
                     }
                 }
             }

@@ -66,6 +66,7 @@
         line-height: 25px;
         /* identical to box height */
         color: #EE6217 !important;
+        background-color: transparent !important;
         @include max-breakpoint(575) {
             font-family: Livvic;
             font-style: normal;

@@ -1,0 +1,84 @@
+
+.answer-content
+  .content-top
+    .create-question
+      button( data-toggle="modal" data-target="#create-question")
+        span Tạo câu hỏi
+    .card.detail-question
+      .card-body
+        .row
+          .col-md-2.col-sm-12 
+            .profile
+              img(src="./images/question/avatar1.png", alt="")
+              p.point 100 điểm
+              p.name Nguyễn Trần Hùng
+          .col-md-8.col-sm-12 
+            .heading
+              p Ngữ Văn
+              p Lớp 12
+              span 2 tháng trước
+            .noidung-cauhoi
+               p Trình bày cảm nhận của con về bài ca dao sau bằng 1 đoạn văn khoảng 8 câu
+               p Anh em nào phải người xa
+               p Cùng chung bác mẹ,một nhà cùng thân 
+               p Yêu nhau như thể tay chân,
+               p Anh em hoà thuận, hai thân vui vầy
+
+               p Các bác giúp e với ạ ^^
+    .answer-input
+      .input-title Trả lời
+      .text-area
+        textarea(placeholder="Nhập đáp án")
+        .icons
+          a(href="")
+              img(src="./images/icons/pi.svg", alt="")
+          a(href="")
+              img(src="./images/icons/om.svg", alt="")
+          a(href="")
+              img(src="./images/icons/ghim.svg", alt="")
+      .button-send
+        button(type="submit") Gửi trả lời
+    .together-answer
+      .together-title Tổng hợp câu trả lời (02)
+      .list-answer
+        .item-answer
+          .item-heading
+              img(src="./images/question/avatar1.png", alt="")
+              .infor
+                p.name Nguyễn Trần Hùng
+                p.time 01/12/2020
+          .item-content
+            p Bạn có thể tham khảo bài sau: 
+            p Ca dao Việt Nam thật vô vàn ý nghĩa, nó thể hiện kinh nghiệm của cha ông trong mọi mặt của đời sống mà còn thể hiện tình cảm giữa cha mẹ và con cái, giữa con cháu với cha ông, giữa vợ với chồng… mà còn dành nhiều lời thơ cho tình cảm anh em. Bài ca dao sau tiêu biểu cho đề tài đó:
+
+            p "Anh em nào phải người xa
+
+            p Cùng chung bác mẹ, một nhà cùng thân
+
+            p Yêu nhau như thể tay chân
+
+            p Rách làm đùm bọc dở hay đỡ đần."
+
+            p Mở đầu bài ca dao đã đưa ra nhận định: “Anh em nào phải người xa”, bài ca dao ngầm khẳng định: anh em với nhau là một mối quan hệ rất gần gũi, gắn bó. Gần gũi, gắn bó với anh em tuy hai nhưng cũng là một. Điều này thể hiện tình cảm anh em không gì có thể thay thế được. Anh em là những người “Cùng chung bác mẹ, một nhà cùng thân”- cùng một cha mẹ sinh ra, đã cùng chung sống “một nhà”, đã cùng chung buồn vui, sướng khổ. Chính bởi đã “cùng”, đã chung nhau những yếu tố thiêng liêng về quan hệ nguồn gốc, môi trường sống, tác giả dân gian đưa ra lời khuyên về cách sống, cách đối xử của anh em trong gia đình:
+
+            p Yêu nhau như thể tay chân
+
+            p Rách làm đùm bọc dở hay đỡ đần.
+
+            p Bài ca dao như một lời khuyên, lời răn dạy của cha ông cho những người làm anh em trên cuộc đời này, cần phải biết yêu thương lẫn nhau, đùm bọc nhau những lúc dở hay bất thường. Quan hệ anh em còn được ví với hình ảnh chân – tay, đó là những bộ phận gắn bó khăng khít trên một cơ thể thống nhất, cùng được nuôi chung bởi một dòng máu huyết thống của gia đình. Hình ảnh đó nói lên tình nghĩa và sự gắn bó thiêng liêng của anh em.
+
+            p Ngày nay khi xã hội phát triển tình cảm anh em có những ảnh hưởng của xã hội. ngày càng nhiều những vụ án, những vụ xung đột của anh em ruột với nhau. Không ít vụ án anh em vi tranh chấp tài sản mà sát hại nhau, thậm chí chỉ vì mâu thuẫn nhỏ cũng có thể hại cả gia đình người anh em của mình. Phải chăng đạo đức xã hội đã xuống cấp, hay giá trị đạo đức đã thay đổi? Đó chỉ là một bộ phận những người có nhận thức kém trong xã hội, vì lợi ích trước mắt mà hành động nông nổi, để lại hậu quả đáng tiếc cho người thân của mình.
+
+            p Bài ca dao là lời khuyên lời nhắn nhủ tới thế hệ chúng ta, đã là anh em một nhà, cùng do cha mẹ sinh ra chúng ta phải hòa thuận, phải biết nương tựa lẫn nhau thì gia đình mới ấm êm, cha mẹ mới vui lòng. Có như vậy chúng ta mới báo hiếu được cha mẹ, xã hội mới yên bình và phát triển được.
+          .item-comment
+            p Hãy giúp mọi người biết câu trả lời này thế nào?
+            .rate-star
+              img(src="./images/infor/star.svg", alt="")
+              img(src="./images/infor/star.svg", alt="")
+              img(src="./images/infor/star.svg", alt="")
+              img(src="./images/infor/star.svg", alt="")
+              img(src="./images/infor/star.svg", alt="")
+              p 3 votes
+
+
+include ../../components/modal-question.pug
