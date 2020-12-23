@@ -3792,10 +3792,12 @@ input[type=checkbox] {
         font-size: 25px;
         line-height: 40px;
         color: #000000; }
-    .menu__second .second__content .active p {
-      color: #EE6217 !important; }
-    .menu__second .second__content .active .ar {
-      filter: invert(43%) sepia(61%) saturate(2502%) hue-rotate(354deg) brightness(98%) contrast(91%); }
+    .menu__second .second__content .active {
+      background-color: transparent !important; }
+      .menu__second .second__content .active p {
+        color: #EE6217 !important; }
+      .menu__second .second__content .active .ar {
+        filter: invert(43%) sepia(61%) saturate(2502%) hue-rotate(354deg) brightness(98%) contrast(91%); }
     .menu__second .second__content .chuyenmuc__con .list-menu .item-menu {
       display: flex;
       align-items: center;
