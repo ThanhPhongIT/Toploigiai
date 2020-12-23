@@ -199,16 +199,14 @@ input[type=checkbox] {
     @media only screen and (max-width: 425px) {
       .hot__news .carousel-hot-news {
         padding: 0px; } }
-    .hot__news .carousel-hot-news .owl-hot-news .owl-item.active {
-      background-color: #0094AE; }
-      .hot__news .carousel-hot-news .owl-hot-news .owl-item.active:nth-child(1) {
-        background-color: red; }
-        .hot__news .carousel-hot-news .owl-hot-news .owl-item.active:nth-child(1) .hot-news-item-bottom {
-          background-color: #0094AE; }
-      .hot__news .carousel-hot-news .owl-hot-news .owl-item.active:nth-child(2) .hot-news-item-bottom {
-        background-color: #E29000; }
-      .hot__news .carousel-hot-news .owl-hot-news .owl-item.active:nth-child(3) .hot-news-item-bottom {
-        background-color: #1DBB90; }
+    .hot__news .carousel-hot-news .owl-hot-news .owl-item.active:nth-child(1) {
+      background-color: red; }
+      .hot__news .carousel-hot-news .owl-hot-news .owl-item.active:nth-child(1) .hot-news-item-bottom {
+        background-color: #0094AE; }
+    .hot__news .carousel-hot-news .owl-hot-news .owl-item.active:nth-child(2) .hot-news-item-bottom {
+      background-color: #E29000; }
+    .hot__news .carousel-hot-news .owl-hot-news .owl-item.active:nth-child(3) .hot-news-item-bottom {
+      background-color: #1DBB90; }
     .hot__news .carousel-hot-news .owl-hot-news .owl-item .active:nth-child(2) {
       background-color: #1DBB90; }
     .hot__news .carousel-hot-news .owl-hot-news .hot-news-item {
@@ -1099,7 +1097,7 @@ input[type=checkbox] {
             font-weight: normal;
             font-size: 12px;
             line-height: 20px; } }
-      .question-content .content-bottom .new-question .list-questions .item-q button {
+      .question-content .content-bottom .new-question .list-questions .item-q a {
         background: #1DBB90;
         border-radius: 7px;
         font-style: normal;
@@ -1114,7 +1112,7 @@ input[type=checkbox] {
         width: 148px;
         height: 47px; }
         @media only screen and (max-width: 575px) {
-          .question-content .content-bottom .new-question .list-questions .item-q button {
+          .question-content .content-bottom .new-question .list-questions .item-q a {
             width: 93px;
             height: 33px;
             font-style: normal;
@@ -1800,7 +1798,8 @@ input[type=checkbox] {
     font-size: 20px;
     line-height: 25px;
     /* identical to box height */
-    color: #EE6217 !important; }
+    color: #EE6217 !important;
+    background-color: transparent !important; }
     @media only screen and (max-width: 575px) {
       .nav-library .active {
         font-family: Livvic;
