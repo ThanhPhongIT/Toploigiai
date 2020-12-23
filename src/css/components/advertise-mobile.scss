@@ -1,10 +1,12 @@
 @import './../common/common.scss';
 .advertise-mobile {
-    margin: 0 -15px;
+    @include max-breakpoint(991) {
+        margin: 0 -15px;
+    }
     .advertise__img {
         width: 100vw;
         height: 60px;
-        @include min-breakpoint(768) {
+        @include min-breakpoint(991) {
             height: 150px;
         }
     }
