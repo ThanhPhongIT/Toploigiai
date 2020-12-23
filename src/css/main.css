@@ -1994,58 +1994,59 @@ input[type=checkbox] {
     .category-page .category-centter .breadcrumb-category .breadcrumb-item + .breadcrumb-item::before {
       content: ">";
       color: #000; }
-    .category-page .category-centter .category-centter-content {
-      border-radius: 20px;
+    .category-page .category-centter .category-centter-content .content-main {
+      border-top-left-radius: 20px;
+      border-top-left-radius: 20px;
       border: 1px solid #E5E5E5;
       padding: 30px; }
       @media only screen and (max-width: 991px) {
-        .category-page .category-centter .category-centter-content {
+        .category-page .category-centter .category-centter-content .content-main {
           border: none;
           padding: 10px; } }
-      .category-page .category-centter .category-centter-content h4.title-book {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 35px;
-        color: #1972C5; }
-        @media only screen and (max-width: 425px) {
-          .category-page .category-centter .category-centter-content h4.title-book {
-            font-size: 16px;
-            line-height: 20px; } }
-      .category-page .category-centter .category-centter-content .secction-book h5 {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 30px;
-        cursor: pointer; }
-        .category-page .category-centter .category-centter-content .secction-book h5:hover {
-          color: #EE6217; }
-        @media only screen and (max-width: 425px) {
-          .category-page .category-centter .category-centter-content .secction-book h5 {
-            font-size: 14px;
-            line-height: 17.5px;
-            margin-bottom: 20px; } }
+    .category-page .category-centter .category-centter-content h4.title-book {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 23px;
+      margin-bottom: 35px;
+      color: #1972C5; }
       @media only screen and (max-width: 425px) {
-        .category-page .category-centter .category-centter-content .secction-book ul.list-lesson {
-          display: none; } }
-      .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li {
-        margin-bottom: 35px; }
-        .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div {
-          display: flex;
-          align-items: center; }
-          .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div img {
-            display: block;
-            margin-right: 15px; }
-          .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div h6 {
-            font-weight: 500;
-            font-size: 15px;
-            line-height: 28px;
-            cursor: pointer; }
-            .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div h6:hover {
-              color: #EE6217; }
-      .category-page .category-centter .category-centter-content .seemore-lesson {
-        margin-top: 50px; }
+        .category-page .category-centter .category-centter-content h4.title-book {
+          font-size: 16px;
+          line-height: 20px; } }
+    .category-page .category-centter .category-centter-content .secction-book h5 {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 23px;
+      margin-bottom: 30px;
+      cursor: pointer; }
+      .category-page .category-centter .category-centter-content .secction-book h5:hover {
+        color: #EE6217; }
+      @media only screen and (max-width: 425px) {
+        .category-page .category-centter .category-centter-content .secction-book h5 {
+          font-size: 14px;
+          line-height: 17.5px;
+          margin-bottom: 20px; } }
+    @media only screen and (max-width: 425px) {
+      .category-page .category-centter .category-centter-content .secction-book ul.list-lesson {
+        display: none; } }
+    .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li {
+      margin-bottom: 35px; }
+      .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div {
+        display: flex;
+        align-items: center; }
+        .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div img {
+          display: block;
+          margin-right: 15px; }
+        .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div h6 {
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 28px;
+          cursor: pointer; }
+          .category-page .category-centter .category-centter-content .secction-book ul.list-lesson li div h6:hover {
+            color: #EE6217; }
+    .category-page .category-centter .category-centter-content .seemore-lesson {
+      margin-top: 50px; }
     @media only screen and (max-width: 991px) {
       .category-page .category-centter .content-submenu {
         padding: 10px; } }

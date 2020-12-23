@@ -79,12 +79,15 @@
             }
         }
         .category-centter-content {
-            border-radius: 20px;
-            border: 1px solid #E5E5E5;
-            padding: 30px;
-            @include max-breakpoint(991) {
-                border: none;
-                padding: 10px;
+            .content-main {
+                border-top-left-radius: 20px;
+                border-top-left-radius: 20px;
+                border: 1px solid #E5E5E5;
+                padding: 30px;
+                @include max-breakpoint(991) {
+                    border: none;
+                    padding: 10px;
+                }
             }
             h4.title-book {
                 font-style: normal;
