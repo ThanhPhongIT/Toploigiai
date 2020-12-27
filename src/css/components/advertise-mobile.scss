@@ -6,7 +6,7 @@
     .advertise__img {
         width: 100vw;
         height: 60px;
-        @include min-breakpoint(991) {
+        @include min-breakpoint(768) {
             height: 150px;
         }
     }

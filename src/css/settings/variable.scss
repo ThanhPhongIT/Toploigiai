@@ -41,8 +41,8 @@ input[type=checkbox] {
     border-top: 3px solid #E5E5E5;
 }
 
-.w-90 {
-    width: 90%;
+.w-95 {
+    width: 95%;
     @include max-breakpoint(991) {
         width: 100%;
     }
